@@ -1,14 +1,14 @@
 <?xml version="1.0" standalone="yes"?>
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
-        <title>ExtraDock</title>
+        <title>extraDock</title>
         <item>
-            <title>3.1</title>
-            <pubDate>Fri, 12 Sep 2025 23:47:24 +0300</pubDate>
+            <title>3.2</title>
+            <pubDate>Sat, 13 Sep 2025 00:19:51 +0300</pubDate>
             <sparkle:version>1</sparkle:version>
-            <sparkle:shortVersionString>3.1</sparkle:shortVersionString>
+            <sparkle:shortVersionString>3.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>11.5</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/AppitStudio/extra-dock-updates/releases/download/prod/extraDock.dmg" length="1849795" type="application/octet-stream" sparkle:edSignature="IHuXvvaxvuBtBJmZmLStGUUctsHbHYiCXd/kFxUuQGhdV5cGm2rV+qfBbrJrS+UM6/N+SsZm3lPRpJEzR0/6BA=="/>
+            <enclosure url="https://github.com/AppitStudio/extra-dock-updates/releases/download/prod/extraDock.dmg" length="1851402" type="application/octet-stream" sparkle:edSignature="PboL0qWB+goGHw+W+L2HRNLmWOjIQ59hnyF/7y5bc4BUIYrgdY5dj58/e6p2llveCfwK7PkHmfG8br4+mja2DA=="/>
         </item>
     </channel>
 </rss>
