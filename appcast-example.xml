@@ -1,0 +1,40 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>DockFlow</title>
+        <item>
+            <title>1.12</title>
+            <pubDate>Fri, 18 Apr 2025 16:14:02 +0300</pubDate>
+            <sparkle:version>1.12</sparkle:version>
+            <sparkle:shortVersionString>1.12</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>11.5</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>
+                https://appitstudio.github.io/dock-flow-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <description><![CDATA[
+                <h2>What's New in DockFlow 1.12</h2>
+                <h3>Major Improvements</h3>
+                <ul>
+                    <li><strong>DockUtil Integration</strong>
+                        <ul>
+                            <li>Added support for the powerful dockutil command line tool</li>
+                            <li>Improved stability and reliability of dock modifications</li>
+                            <li>Better handling of app icon updates when applying presets</li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <h3>Bug Fixes</h3>
+                <ul>
+                    <li>Fixed app list disappearing after applying presets from the edit list screen</li>
+                    <li>Improved overall stability and performance</li>
+                </ul>
+
+                <p><em>Special thanks to the dockutil project for their excellent command line tool. Check out their work at <a href="https://github.com/kcrawford/dockutil">github.com/kcrawford/dockutil</a></em></p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/AppitStudio/extra-dock-updates/releases/download/prod/extraDock.dmg"
+                length="6805472" type="application/octet-stream"
+                sparkle:edSignature="NstfXQhjQDdASQDHXIB4iD9UqHpB6XahnF3RNKC81Yh907QjYyx7zCzqIu+OUXDU3uv3BvZ049mfhdYvHl3tBA==" />
+        </item>
+    </channel>
+</rss>

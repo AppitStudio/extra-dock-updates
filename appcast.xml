@@ -1,14 +1,40 @@
 <?xml version="1.0" standalone="yes"?>
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
-        <title>extraDock</title>
+        <title>ExtraDock</title>
         <item>
-            <title>3.2</title>
-            <pubDate>Sat, 13 Sep 2025 00:19:51 +0300</pubDate>
-            <sparkle:version>1</sparkle:version>
-            <sparkle:shortVersionString>3.2</sparkle:shortVersionString>
+            <title>1.33</title>
+            <pubDate>Sun, 14 Sep 2025 00:22:05 +0300</pubDate>
+            <sparkle:version>1.33</sparkle:version>
+            <sparkle:shortVersionString>1.33</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>11.5</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/AppitStudio/extra-dock-updates/releases/download/prod/extraDock.dmg" length="1851402" type="application/octet-stream" sparkle:edSignature="PboL0qWB+goGHw+W+L2HRNLmWOjIQ59hnyF/7y5bc4BUIYrgdY5dj58/e6p2llveCfwK7PkHmfG8br4+mja2DA=="/>
+            <sparkle:fullReleaseNotesLink>
+                https://appitstudio.github.io/extra-dock-updates/release-notes.html
+            </sparkle:fullReleaseNotesLink>
+            <description><![CDATA[
+                <h2>Welcome to ExtraDock 1.33</h2>
+                <h3>New Ownership & Vision</h3>
+                <ul>
+                    <li><strong>AppitStudio</strong> is now the proud owner of ExtraDock, the team behind DockFlow.</li>
+                    <li>We are committed to supporting and improving ExtraDock as it grows.</li>
+                    <li>Thank you for joining us on this new journey!</li>
+                </ul>
+                <h3>What's New in 1.33</h3>
+                <ul>
+                    <li><strong>Automatic Update Process</strong>
+                        <ul>
+                            <li>Seamless updates to keep your app current and secure.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Keyper System Migration</strong>
+                        <ul>
+                            <li>License validation now uses our own secure keyper system.</li>
+                        </ul>
+                    </li>
+                </ul>
+                    <p style="margin-top:32px;font-size:16px;color:#484848;"><strong>Need help or have questions?</strong> Contact us anytime at <a href="mailto:appitstudio@gmail.com">appitstudio@gmail.com</a>.</p>
+            ]]></description>
+            <enclosure url="https://github.com/AppitStudio/extra-dock-updates/releases/download/prod/extraDock.dmg" length="2156897" type="application/octet-stream" sparkle:edSignature="cKGZDLfqWrGHZX3dqnVDV3GBZXOblcg297QSi9p+mV4RCGJNMsl8Qdp/zDqxHoDA6RMjKko8+VOYlSrnkBJsBg=="/>
         </item>
     </channel>
 </rss>
