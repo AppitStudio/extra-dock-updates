@@ -1,25 +1,25 @@
 <?xml version="1.0" standalone="yes"?>
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
-        <title>ExtraDock</title>
+        <title>extraDock</title>
         <item>
-            <title>1.33</title>
-            <pubDate>Sun, 14 Sep 2025 00:22:05 +0300</pubDate>
-            <sparkle:version>1.33</sparkle:version>
-            <sparkle:shortVersionString>1.33</sparkle:shortVersionString>
+            <title>3.4</title>
+            <pubDate>Mon, 15 Sep 2025 21:41:27 +0300</pubDate>
+            <sparkle:version>340</sparkle:version>
+            <sparkle:shortVersionString>3.4</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>11.5</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
                 https://appitstudio.github.io/extra-dock-updates/release-notes.html
             </sparkle:fullReleaseNotesLink>
             <description><![CDATA[
-                <h2>Welcome to ExtraDock 1.33</h2>
+                <h2>Welcome to ExtraDock 1.34</h2>
                 <h3>New Ownership & Vision</h3>
                 <ul>
                     <li><strong>AppitStudio</strong> is now the proud owner of ExtraDock, the team behind DockFlow.</li>
                     <li>We are committed to supporting and improving ExtraDock as it grows.</li>
                     <li>Thank you for joining us on this new journey!</li>
                 </ul>
-                <h3>What's New in 1.33</h3>
+                <h3>What's New in 1.34</h3>
                 <ul>
                     <li><strong>Automatic Update Process</strong>
                         <ul>
@@ -34,7 +34,7 @@
                 </ul>
                     <p style="margin-top:32px;font-size:16px;color:#484848;"><strong>Need help or have questions?</strong> Contact us anytime at <a href="mailto:appitstudio@gmail.com">appitstudio@gmail.com</a>.</p>
             ]]></description>
-            <enclosure url="https://github.com/AppitStudio/extra-dock-updates/releases/download/prod/extraDock.dmg" length="2156897" type="application/octet-stream" sparkle:edSignature="cKGZDLfqWrGHZX3dqnVDV3GBZXOblcg297QSi9p+mV4RCGJNMsl8Qdp/zDqxHoDA6RMjKko8+VOYlSrnkBJsBg=="/>
+            <enclosure url="https://github.com/AppitStudio/extra-dock-updates/releases/download/prod/extraDock.dmg" length="2160240" type="application/octet-stream" sparkle:edSignature="x+jHbPYFMDlNmXY6153WfZFjpwow6/l0dAPkzkUqWlfYjZYLqL4YyasOGZrloofZ5uHdjxjzvEu0WHfxpAdcBw=="/>
         </item>
     </channel>
 </rss>
