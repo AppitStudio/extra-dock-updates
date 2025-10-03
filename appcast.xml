@@ -1,30 +1,40 @@
 <?xml version="1.0" standalone="yes"?>
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
-        <title>extraDock</title>
+        <title>ExtraDock</title>
         <item>
-            <title>3.7</title>
-            <pubDate>Sun, 28 Sep 2025 11:52:15 +0300</pubDate>
-            <sparkle:version>370</sparkle:version>
-            <sparkle:shortVersionString>3.7</sparkle:shortVersionString>
+            <title>3.8</title>
+            <pubDate>Fri, 03 Oct 2025 16:09:27 +0300</pubDate>
+            <sparkle:version>380</sparkle:version>
+            <sparkle:shortVersionString>3.8</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>11.5</sparkle:minimumSystemVersion>
-             <sparkle:fullReleaseNotesLink>
+            <sparkle:fullReleaseNotesLink>
                 https://appitstudio.github.io/extra-dock-updates/release-notes.html
             </sparkle:fullReleaseNotesLink>
             <description><![CDATA[
-                <h2>ExtraDock 1.37 – Refined & Reliable</h2>
-                <p>This focused update brings important stability improvements and bug fixes to make your ExtraDock experience even smoother.</p>
 
-                <h3>What's Fixed & Improved</h3>
-                <ul>
-                    <li><strong>Collapse/Expand Fix:</strong> Resolved an issue where dock collapse and expand actions weren't working consistently. Your docks will now respond reliably every time.</li>
-                    <li><strong>App Menu Improvements:</strong> Fixed menu bar functionality and made menu interactions more responsive and intuitive.</li>
-                    <li><strong>Enhanced Stability:</strong> Under-the-hood improvements that make ExtraDock more stable and reliable during daily use.</li>
-                </ul>
+        <h2>ExtraDock 3.8 – Redesigned UI and Enhanced Features! 🎉</h2>
+        <h3>✨ What's New & Improved</h3>
+        <ul>
+            <li><strong>Complete UI Redesign:</strong> Experience ExtraDock like never before with our fresh, modern interface that's both beautiful and functional.</li>
+            <li><strong>Redesigned Menu Bar Items:</strong> Clean, intuitive menu bar interactions that make accessing ExtraDock features effortless.</li>
+            <li><strong>Cleaner Dock Experience:</strong> We've removed dock names from the display to create a minimalist, distraction-free workspace that fits seamlessly on any Mac.</li>
+            <li><strong>Rock-Solid Stability:</strong> Extensive bug fixes and performance improvements ensure ExtraDock runs smoother and more reliably than ever.</li>
+            <li><strong>Under-the-Hood Magic:</strong> Significant technical improvements that enhance speed, responsiveness, and overall app performance.</li>
+        </ul>
 
-                <p>We're continuously working to refine ExtraDock and appreciate your feedback as we build the best dock management experience for Mac users.</p>
+        <h3>💭 We Value Your Feedback</h3>
+        <p><em>Missing the dock names feature?</em> We'd love to hear from you! If you found dock names helpful and would like us to bring them back as an option, please reach out. Your feedback directly influences our development roadmap.</p>
+
+        <h3>🚀 What's Next?</h3>
+        <p>We're already hard at work on the next version, which will bring even more powerful dock controls and customization options. Stay tuned for more exciting updates coming your way!</p>
+
+        <p>Thank you for being part of the ExtraDock journey. This is just the beginning of what we have planned for you.</p>
             ]]></description>
-            <enclosure url="https://github.com/AppitStudio/extra-dock-updates/releases/download/prod/extraDock.dmg" length="2629828" type="application/octet-stream" sparkle:edSignature="zfc5vaaPWKV80Ldl6N72wxXZNGgIJ8drG6CPf1pHyVSv3EMjGSFsh/IpXFtYXa+aBxupl05XfpIaLsN2Dh/IAg=="/>
+            <enclosure
+                url="https://github.com/AppitStudio/extra-dock-updates/releases/download/prod/extraDock.dmg"
+                length="2743422" type="application/octet-stream"
+                sparkle:edSignature="siL4j2R82rThZfrajxlIvZ9CunspNH0P/5pPks/TWK73DZBVkP4R03jhYBkfvdgJx7IylggQnzbqt9kpSHcgBQ==" />
         </item>
     </channel>
 </rss>
