@@ -3,38 +3,38 @@
     <channel>
         <title>ExtraDock</title>
         <item>
-            <title>3.8</title>
-            <pubDate>Fri, 03 Oct 2025 16:09:27 +0300</pubDate>
-            <sparkle:version>380</sparkle:version>
-            <sparkle:shortVersionString>3.8</sparkle:shortVersionString>
+            <title>3.9</title>
+            <pubDate>Mon, 13 Jan 2025 10:00:00 +0300</pubDate>
+            <sparkle:version>390</sparkle:version>
+            <sparkle:shortVersionString>3.9</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>11.5</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
                 https://appitstudio.github.io/extra-dock-updates/release-notes.html
             </sparkle:fullReleaseNotesLink>
             <description><![CDATA[
 
-        <h2>ExtraDock 3.8 – Redesigned UI and Enhanced Features! 🎉</h2>
+        <h2>ExtraDock 3.9 – Advanced Customization & Enhanced Control! 🎨</h2>
         <h3>✨ What's New & Improved</h3>
         <ul>
-            <li><strong>Complete UI Redesign:</strong> Experience ExtraDock like never before with our fresh, modern interface that's both beautiful and functional.</li>
-            <li><strong>Redesigned Menu Bar Items:</strong> Clean, intuitive menu bar interactions that make accessing ExtraDock features effortless.</li>
-            <li><strong>Cleaner Dock Experience:</strong> We've removed dock names from the display to create a minimalist, distraction-free workspace that fits seamlessly on any Mac.</li>
-            <li><strong>Rock-Solid Stability:</strong> Extensive bug fixes and performance improvements ensure ExtraDock runs smoother and more reliably than ever.</li>
-            <li><strong>Under-the-Hood Magic:</strong> Significant technical improvements that enhance speed, responsiveness, and overall app performance.</li>
+            <li><strong>Advanced Dock Customization:</strong> Take control of your dock's appearance with new opacity, blur, and background color options. Create the perfect dock that matches your style and workflow.</li>
+            <li><strong>Copy-Paste Dock Settings:</strong> Easily apply the same settings across all your docks with our new copy-paste functionality. No more manually configuring each dock individually!</li>
+            <li><strong>Manual Collapsible Direction Control:</strong> We've removed the buggy auto-direction feature and given you full control over how your docks collapse and expand. Set the direction that works best for your setup.</li>
+            <li><strong>Improved Full-Screen Behavior:</strong> More consistent and reliable dock behavior when working in full-screen modes across all your applications.</li>
+            <li><strong>Fixed App Reordering Bug:</strong> Resolved issues with reordering applications in the dock, ensuring smooth and reliable app management.</li>
         </ul>
 
-        <h3>💭 We Value Your Feedback</h3>
-        <p><em>Missing the dock names feature?</em> We'd love to hear from you! If you found dock names helpful and would like us to bring them back as an option, please reach out. Your feedback directly influences our development roadmap.</p>
+        <h3>🔧 Technical Improvements</h3>
+        <p>This update includes numerous under-the-hood enhancements that improve stability, performance, and overall user experience. We've listened to your feedback and made ExtraDock more powerful and customizable than ever.</p>
 
         <h3>🚀 What's Next?</h3>
-        <p>We're already hard at work on the next version, which will bring even more powerful dock controls and customization options. Stay tuned for more exciting updates coming your way!</p>
+        <p>We're continuing to work on exciting new features and improvements. Your feedback helps us prioritize what to build next, so keep those suggestions coming!</p>
 
-        <p>Thank you for being part of the ExtraDock journey. This is just the beginning of what we have planned for you.</p>
+        <p>Thank you for being part of the ExtraDock community. We're committed to making your dock management experience better with every update.</p>
             ]]></description>
             <enclosure
                 url="https://github.com/AppitStudio/extra-dock-updates/releases/download/prod/extraDock.dmg"
-                length="2743422" type="application/octet-stream"
-                sparkle:edSignature="siL4j2R82rThZfrajxlIvZ9CunspNH0P/5pPks/TWK73DZBVkP4R03jhYBkfvdgJx7IylggQnzbqt9kpSHcgBQ==" />
+                length="2836373" type="application/octet-stream"
+                sparkle:edSignature="/2rFYAs72JjF4t4AGTfpOpencvGXMHSqGnq3uO1Mx47LlQkMssmMzxPgsx/5h8w6HMRCqL+VAXgGaoPU3XPuCg==" />
         </item>
     </channel>
 </rss>
