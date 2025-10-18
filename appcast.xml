@@ -3,38 +3,40 @@
     <channel>
         <title>ExtraDock</title>
         <item>
-            <title>3.9</title>
-            <pubDate>Mon, 13 Jan 2025 10:00:00 +0300</pubDate>
-            <sparkle:version>390</sparkle:version>
-            <sparkle:shortVersionString>3.9</sparkle:shortVersionString>
+            <title>3.9.1</title>
+            <pubDate>Sat, 18 Oct 2025 14:42:20 +0300</pubDate>
+            <sparkle:version>391</sparkle:version>
+            <sparkle:shortVersionString>3.9.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>11.5</sparkle:minimumSystemVersion>
-            <sparkle:fullReleaseNotesLink>
+             <sparkle:fullReleaseNotesLink>
                 https://appitstudio.github.io/extra-dock-updates/release-notes.html
             </sparkle:fullReleaseNotesLink>
             <description><![CDATA[
 
-        <h2>ExtraDock 3.9 – Advanced Customization & Enhanced Control! 🎨</h2>
+        <h2>ExtraDock 3.9.1 – Major Refactor & Enhanced Features! 🚀</h2>
         <h3>✨ What's New & Improved</h3>
         <ul>
-            <li><strong>Advanced Dock Customization:</strong> Take control of your dock's appearance with new opacity, blur, and background color options. Create the perfect dock that matches your style and workflow.</li>
-            <li><strong>Copy-Paste Dock Settings:</strong> Easily apply the same settings across all your docks with our new copy-paste functionality. No more manually configuring each dock individually!</li>
-            <li><strong>Manual Collapsible Direction Control:</strong> We've removed the buggy auto-direction feature and given you full control over how your docks collapse and expand. Set the direction that works best for your setup.</li>
-            <li><strong>Improved Full-Screen Behavior:</strong> More consistent and reliable dock behavior when working in full-screen modes across all your applications.</li>
-            <li><strong>Fixed App Reordering Bug:</strong> Resolved issues with reordering applications in the dock, ensuring smooth and reliable app management.</li>
+            <li><strong>Complete Code Refactor:</strong> Fully refactored codebase enables faster development and eliminates inconsistent app behavior for a more reliable experience.</li>
+            <li><strong>Optimized Resource Usage:</strong> Breaking down large components into smaller, lightweight ones dramatically improves app performance and responsiveness.</li>
+            <li><strong>Enhanced Full-Screen Recognition:</strong> "Hide on Fullscreen" now works better with improved full-screen detection across all applications.</li>
+            <li><strong>Full macOS Tahoe Support:</strong> Complete compatibility with macOS Tahoe, including all ExtraDock functions and features.</li>
+            <li><strong>Fixed Light Mode UI:</strong> Resolved invisible button issues in Light Mode for better accessibility and user experience.</li>
+            <li><strong>Global Settings Hub:</strong> New centralized settings panel for global preferences, license management, and launch options.</li>
+            <li><strong>Dock Renaming:</strong> Added option to rename "Dock" to "User Interface" to match your preferred terminology.</li>
+            <li><strong>Dock Border Customization:</strong> New border customization options to personalize your dock's appearance even further.</li>
+            <li><strong>Copy/Paste Settings:</strong> Easily transfer settings from one ExtraDock to another with our enhanced copy/paste functionality.</li>
+            <li><strong>Improved Versioning:</strong> Moved to better versioning format (v1.38 → v3.9.1) for clearer tracking of major and minor releases.</li>
         </ul>
 
         <h3>🔧 Technical Improvements</h3>
-        <p>This update includes numerous under-the-hood enhancements that improve stability, performance, and overall user experience. We've listened to your feedback and made ExtraDock more powerful and customizable than ever.</p>
+        <p>This major update represents our most comprehensive refactor yet, focusing on performance, stability, and future-proofing ExtraDock. The enhanced architecture delivers faster responses and more consistent behavior across all features.</p>
 
         <h3>🚀 What's Next?</h3>
-        <p>We're continuing to work on exciting new features and improvements. Your feedback helps us prioritize what to build next, so keep those suggestions coming!</p>
+        <p>With our new foundation in place, we're accelerating development on exciting new features. Your feedback continues to shape our roadmap!</p>
 
-        <p>Thank you for being part of the ExtraDock community. We're committed to making your dock management experience better with every update.</p>
+        <p>Thank you for being part of the ExtraDock community. This release sets the stage for even bigger improvements ahead.</p>
             ]]></description>
-            <enclosure
-                url="https://github.com/AppitStudio/extra-dock-updates/releases/download/prod/extraDock.dmg"
-                length="2836373" type="application/octet-stream"
-                sparkle:edSignature="/2rFYAs72JjF4t4AGTfpOpencvGXMHSqGnq3uO1Mx47LlQkMssmMzxPgsx/5h8w6HMRCqL+VAXgGaoPU3XPuCg==" />
+            <enclosure url="https://github.com/AppitStudio/extra-dock-updates/releases/download/prod/extraDock.dmg" length="3082151" type="application/octet-stream" sparkle:edSignature="xsZZqSabCN4pAXbHY+2+cM5mcScip/B7i02f1vBrJjENWxDycrzeE2GeyZ8Oy+SFDMf6bbDxYbMU8YJCdpWFCw=="/>
         </item>
     </channel>
 </rss>
