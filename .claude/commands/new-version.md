@@ -16,11 +16,13 @@ This file is generated from the build process and contains the new version with 
 From the current `appcast.xml`, extract:
 1. The `<sparkle:fullReleaseNotesLink>` section (including the full element)
 2. The `<description>` section (including the full CDATA content)
+3. The `enclosure url` value from the `<enclosure>` tag
 
 ## Step 4: Update the new appcast file
 Add the extracted content to the new appcast file:
 1. Add the `<sparkle:fullReleaseNotesLink>` section after `<sparkle:minimumSystemVersion>`
 2. Add the `<description>` section after the `</sparkle:fullReleaseNotesLink>` closing tag
+3. Update the `url` attribute in the `<enclosure>` tag to use the correct GitHub releases URL from the source appcast.xml (https://github.com/AppitStudio/extra-dock-updates/releases/download/prod/extraDock.dmg instead of the appitstudio.github.io URL)
 
 ## Step 5: Generate release notes
 Using the DETAILS from version.md, generate enthusiastic release notes following this format:
