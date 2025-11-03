@@ -1,9 +1,10 @@
-VERSION: 3.9.2
+VERSION: 3.9.3
 DETAILS:
-Big feature added: Widgets support!
-We have added a new widget system to our docks that will allow us to add widgets to our docks.
-We started with a spacer widget that will allow you to set custom spacing between docks items,
-With this feature we opened a new door to create custom widgets for your docks so stay tuned for more widgets to come!
-Also in this version we added some design fixes and improvements to the app,
-You can add a default few cm space from the edges of the screen from the dock to get more macOS like experience.
-Also you can edit borders, backgroudns, opacity, blur, and more to make your docks look even more beautiful and unique.
+2 more widgets added: Stripe and IP Address widget
+The Stripe widget allows you to add a stripe restricted key to ExtraDock, that is safely stored in the keychain.
+Then it can show you the your gross and net sales volumes for selected period of time.
+All configurable from the widget settings.
+The IP Address widget allows you to show your public IP address in your dock.
+When clicking on the IP it will copy it to the clipboard.
+All the widgets have configurable settings to change the color, font, size, and changing the on click action.
+Also we improve the Overall UI and performance of the app, we made the widgets layout more consistent and and fit better in the dock.

@@ -3,39 +3,38 @@
     <channel>
         <title>ExtraDock</title>
         <item>
-            <title>3.9.2</title>
-            <pubDate>Mon, 27 Oct 2025 19:23:38 +0200</pubDate>
-            <sparkle:version>392</sparkle:version>
-            <sparkle:shortVersionString>3.9.2</sparkle:shortVersionString>
+            <title>3.9.3</title>
+            <pubDate>Mon, 03 Nov 2025 18:54:39 +0200</pubDate>
+            <sparkle:version>393</sparkle:version>
+            <sparkle:shortVersionString>3.9.3</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>11.5</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
                 https://appitstudio.github.io/extra-dock-updates/release-notes.html
             </sparkle:fullReleaseNotesLink>
             <description><![CDATA[
 
-        <h2>ExtraDock 3.9.2 – Widgets Revolution! 🎨</h2>
+        <h2>ExtraDock 3.9.3 – Smart Widgets Expansion! 📊</h2>
         <h3>✨ What's New & Improved</h3>
         <ul>
-            <li><strong>Widgets Support:</strong> Introducing a revolutionary new widget system that transforms how you customize your docks! This game-changing feature opens up endless possibilities for personalization.</li>
-            <li><strong>Clock Widget:</strong> The latest addition to our widget collection! A fully customizable clock that supports themes, sizes, timezone settings, and much more. This powerful widget showcases just how far we can take this feature – it's the perfect example of what's possible with ExtraDock's widget system.</li>
-            <li><strong>Spacer Widget:</strong> Add custom spacing between dock items to create the perfect layout that matches your workflow and aesthetic preferences.</li>
-            <li><strong>Enhanced Visual Customization:</strong> Take your dock aesthetics to the next level with powerful new options for borders, backgrounds, opacity, and blur effects – make your docks truly unique and beautiful.</li>
-            <li><strong>macOS-Style Edge Spacing:</strong> New option to add default spacing from the edges of the screen, giving your docks that authentic macOS look and feel.</li>
-            <li><strong>Design Refinements:</strong> Multiple design fixes and improvements throughout the app for a more polished, professional experience.</li>
+            <li><strong>Stripe Widget:</strong> The perfect companion for business owners and entrepreneurs! Add your Stripe restricted API key (safely stored in your macOS Keychain) and monitor your gross and net sales volumes directly from your dock. Choose your preferred time period and watch your business metrics at a glance – all fully configurable from the widget settings!</li>
+            <li><strong>IP Address Widget:</strong> Stay connected with your network information! This handy widget displays your public IP address right in your dock. Need to share it? Just click to instantly copy it to your clipboard – it's that simple!</li>
+            <li><strong>Universal Widget Customization:</strong> Every widget now comes with powerful customization options! Change colors, adjust fonts, modify sizes, and even configure custom click actions. Make your widgets truly yours and perfectly integrated into your workflow.</li>
+            <li><strong>Refined Widget Layout:</strong> We've enhanced the overall UI and performance of the app, making widget layouts more consistent and ensuring they fit beautifully in your dock alongside your other items.</li>
+            <li><strong>Performance Boost:</strong> Experience smoother interactions and faster responsiveness across all widgets and app features.</li>
         </ul>
 
         <h3>🔧 Technical Improvements</h3>
-        <p>The new widget architecture is built for extensibility and performance, ensuring smooth operation while leaving room for exciting future enhancements. Every widget integrates seamlessly with ExtraDock's existing features.</p>
+        <p>Behind the scenes, we've optimized the widget rendering system and improved the overall architecture for better performance and stability. The Stripe integration uses industry-standard security practices, with all API keys stored securely in your system Keychain.</p>
 
         <h3>🚀 What's Next?</h3>
-        <p>The widget system is just the beginning! With the Clock widget now available, you can see firsthand how powerful and versatile our widget system can be. We're already working on bringing you even more exciting widgets in the near future – the possibilities are endless!</p>
+        <p>The widget revolution continues! With Clock, Spacer, Stripe, and IP Address widgets now available, you have incredible power to customize your dock experience. We're already exploring new widget ideas based on your feedback – the possibilities keep growing!</p>
 
-        <p>Thank you for being part of the ExtraDock community. We can't wait to see how you use widgets to create your perfect dock setup!</p>
+        <p>Thank you for being part of the ExtraDock community. Whether you're tracking your business metrics or just keeping an eye on your IP address, we're thrilled to see how you use these new widgets in your daily workflow!</p>
             ]]></description>
             <enclosure
                 url="https://github.com/AppitStudio/extra-dock-updates/releases/download/prod/extraDock.dmg"
-                length="3609806" type="application/octet-stream"
-                sparkle:edSignature="uWR+XvBEna85AWZzWxuB7ZxPQSpoSBHMUnw8X0JTY6atADsX/7gMMuVzJxxtW75sFUnbWOdU5tzp+Hf+vy6wCw==" />
+                length="4132355" type="application/octet-stream"
+                sparkle:edSignature="qEKJoj85sUZwsT8pi+bM+MLyJ3bS8RX34qzHpKUhY7nLIJwRW5U9PLBrTVHaewY/mFmJ8LQnC7KBUb6wcx3dAg==" />
         </item>
     </channel>
 </rss>
