@@ -3,38 +3,57 @@
     <channel>
         <title>ExtraDock</title>
         <item>
-            <title>3.9.3</title>
-            <pubDate>Mon, 03 Nov 2025 18:54:39 +0200</pubDate>
-            <sparkle:version>393</sparkle:version>
-            <sparkle:shortVersionString>3.9.3</sparkle:shortVersionString>
+            <title>4.0.0</title>
+            <pubDate>Wed, 12 Nov 2025 16:53:22 +0200</pubDate>
+            <sparkle:version>400</sparkle:version>
+            <sparkle:shortVersionString>4.0.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>11.5</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
                 https://appitstudio.github.io/extra-dock-updates/release-notes.html
             </sparkle:fullReleaseNotesLink>
             <description><![CDATA[
 
-        <h2>ExtraDock 3.9.3 – Smart Widgets Expansion! 📊</h2>
+        <h2>ExtraDock 4.0.0 – The Complete Widget Revolution! 🎉</h2>
         <h3>✨ What's New & Improved</h3>
         <ul>
-            <li><strong>Stripe Widget:</strong> The perfect companion for business owners and entrepreneurs! Add your Stripe restricted API key (safely stored in your macOS Keychain) and monitor your gross and net sales volumes directly from your dock. Choose your preferred time period and watch your business metrics at a glance – all fully configurable from the widget settings!</li>
-            <li><strong>IP Address Widget:</strong> Stay connected with your network information! This handy widget displays your public IP address right in your dock. Need to share it? Just click to instantly copy it to your clipboard – it's that simple!</li>
-            <li><strong>Universal Widget Customization:</strong> Every widget now comes with powerful customization options! Change colors, adjust fonts, modify sizes, and even configure custom click actions. Make your widgets truly yours and perfectly integrated into your workflow.</li>
-            <li><strong>Refined Widget Layout:</strong> We've enhanced the overall UI and performance of the app, making widget layouts more consistent and ensuring they fit beautifully in your dock alongside your other items.</li>
-            <li><strong>Performance Boost:</strong> Experience smoother interactions and faster responsiveness across all widgets and app features.</li>
+            <li><strong>Complete Widget System:</strong> We're thrilled to introduce the full widget ecosystem! ExtraDock 4.0 brings you a comprehensive collection of powerful widgets that transform your dock into a dynamic, information-rich workspace. This is what we've been building toward – and it's finally here!</li>
+            <li><strong>Clock Widget:</strong> A fully customizable clock that supports multiple themes, flexible sizing options, timezone settings, and so much more. Whether you're tracking time across continents or just want a beautiful clock in your dock, this widget delivers!</li>
+            <li><strong>IP Address Widget:</strong> Stay connected with your network! This handy widget displays your public IP address right in your dock – perfect for remote workers, developers, and anyone who needs quick access to their network information.</li>
+            <li><strong>Stripe Widget:</strong> Game-changing for business owners and entrepreneurs! Add your Stripe restricted API key (safely stored in your macOS Keychain) and monitor your gross and net sales volumes directly from your dock. Choose your preferred time period and watch your business metrics at a glance – all fully configurable from the widget settings!</li>
+            <li><strong>Spacer Widget:</strong> Create the perfect layout with custom spacing between dock items. Fine-tune your dock's appearance to match your workflow and aesthetic preferences exactly how you want it.</li>
+            <li><strong>Finder Widget:</strong> Quick access to Finder right from your extra dock – because sometimes the classics are the best!</li>
+            <li><strong>Divider Widget:</strong> Add professional-looking dividers between dock items to create visual organization and a more polished appearance.</li>
+            <li><strong>Trash Widget:</strong> Finally, you can have a trash can right in your extra dock! Convenient access to your trash, right where you need it.</li>
         </ul>
 
-        <h3>🔧 Technical Improvements</h3>
-        <p>Behind the scenes, we've optimized the widget rendering system and improved the overall architecture for better performance and stability. The Stripe integration uses industry-standard security practices, with all API keys stored securely in your system Keychain.</p>
+        <h3>🚀 DockFlow Integration – The Perfect Pairing!</h3>
+        <ul>
+            <li><strong>Seamless DockFlow Connection:</strong> Huge news for power users! ExtraDock now integrates beautifully with <a href="https://dockflow.appitstudio.com/">DockFlow</a>, our dock preset management tool. This integration brings unprecedented control over your workspace!</li>
+            <li><strong>Preset-Based Dock Visibility:</strong> Set specific extra docks to appear automatically with different DockFlow presets. Switch between work, creative, gaming, or any custom preset – and watch your extra docks adapt automatically. It's like having multiple workspace personalities that change at the click of a button!</li>
+            <li><strong>AppIt Studio Ecosystem:</strong> Experience the power of our integrated productivity tools working together seamlessly. DockFlow + ExtraDock = The ultimate workspace customization duo!</li>
+        </ul>
+
+        <h3>🎨 Enhanced Experience</h3>
+        <ul>
+            <li><strong>New Onboarding:</strong> First-time users will love our redesigned onboarding experience that makes getting started with ExtraDock easier and more intuitive than ever.</li>
+            <li><strong>UI Improvements:</strong> We've refined the interface throughout the app for a more polished, professional look that matches macOS design standards.</li>
+            <li><strong>Performance Boost:</strong> Under-the-hood optimizations ensure everything runs smoother and faster, even with multiple widgets active.</li>
+        </ul>
+
+        <h3>🔧 Technical Excellence</h3>
+        <p>Version 4.0 represents our most ambitious release yet. The complete widget architecture is built for extensibility, performance, and reliability. Every widget integrates seamlessly with ExtraDock's core features, and the DockFlow integration uses efficient APIs to ensure smooth preset switching without any lag.</p>
 
         <h3>🚀 What's Next?</h3>
-        <p>The widget revolution continues! With Clock, Spacer, Stripe, and IP Address widgets now available, you have incredible power to customize your dock experience. We're already exploring new widget ideas based on your feedback – the possibilities keep growing!</p>
+        <p>With the complete widget system now available and DockFlow integration live, ExtraDock 4.0 marks a major milestone in our journey. But we're not stopping here! We're already exploring new widget ideas and ways to make the DockFlow integration even more powerful. Your feedback drives our roadmap, so keep those suggestions coming!</p>
 
-        <p>Thank you for being part of the ExtraDock community. Whether you're tracking your business metrics or just keeping an eye on your IP address, we're thrilled to see how you use these new widgets in your daily workflow!</p>
+        <p>Thank you for being part of the ExtraDock community! Whether you're tracking business metrics with Stripe, organizing your workspace with dividers and spacers, or switching contexts with DockFlow presets – we're excited to see how you use these new features to create your perfect dock setup!</p>
+
+        <p><em>Ready to take your productivity to the next level? Check out <a href="https://dockflow.appitstudio.com/">DockFlow</a> and experience the full power of the AppIt Studio ecosystem!</em></p>
             ]]></description>
             <enclosure
                 url="https://github.com/AppitStudio/extra-dock-updates/releases/download/prod/extraDock.dmg"
-                length="4132355" type="application/octet-stream"
-                sparkle:edSignature="qEKJoj85sUZwsT8pi+bM+MLyJ3bS8RX34qzHpKUhY7nLIJwRW5U9PLBrTVHaewY/mFmJ8LQnC7KBUb6wcx3dAg==" />
+                length="5115621" type="application/octet-stream"
+                sparkle:edSignature="DvsF0tIcVpz1jVntZZBt9RTZAZz2F4oZWAABbWv7/lzSaiSG3ByaJzPS0ttTRXs8Azwh5LIVX3430CoZEFwiDQ==" />
         </item>
     </channel>
 </rss>
