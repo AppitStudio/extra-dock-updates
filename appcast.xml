@@ -3,57 +3,45 @@
     <channel>
         <title>ExtraDock</title>
         <item>
-            <title>4.0.0</title>
-            <pubDate>Wed, 12 Nov 2025 16:53:22 +0200</pubDate>
-            <sparkle:version>400</sparkle:version>
-            <sparkle:shortVersionString>4.0.0</sparkle:shortVersionString>
+            <title>4.0.1</title>
+            <pubDate>Sun, 23 Nov 2025 20:43:43 +0200</pubDate>
+            <sparkle:version>401</sparkle:version>
+            <sparkle:shortVersionString>4.0.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>11.5</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
                 https://appitstudio.github.io/extra-dock-updates/release-notes.html
             </sparkle:fullReleaseNotesLink>
             <description><![CDATA[
 
-        <h2>ExtraDock 4.0.0 – The Complete Widget Revolution! 🎉</h2>
+        <h2>ExtraDock 4.0.1 – Your Dock, Your Way! 🎨</h2>
         <h3>✨ What's New & Improved</h3>
         <ul>
-            <li><strong>Complete Widget System:</strong> We're thrilled to introduce the full widget ecosystem! ExtraDock 4.0 brings you a comprehensive collection of powerful widgets that transform your dock into a dynamic, information-rich workspace. This is what we've been building toward – and it's finally here!</li>
-            <li><strong>Clock Widget:</strong> A fully customizable clock that supports multiple themes, flexible sizing options, timezone settings, and so much more. Whether you're tracking time across continents or just want a beautiful clock in your dock, this widget delivers!</li>
-            <li><strong>IP Address Widget:</strong> Stay connected with your network! This handy widget displays your public IP address right in your dock – perfect for remote workers, developers, and anyone who needs quick access to their network information.</li>
-            <li><strong>Stripe Widget:</strong> Game-changing for business owners and entrepreneurs! Add your Stripe restricted API key (safely stored in your macOS Keychain) and monitor your gross and net sales volumes directly from your dock. Choose your preferred time period and watch your business metrics at a glance – all fully configurable from the widget settings!</li>
-            <li><strong>Spacer Widget:</strong> Create the perfect layout with custom spacing between dock items. Fine-tune your dock's appearance to match your workflow and aesthetic preferences exactly how you want it.</li>
-            <li><strong>Finder Widget:</strong> Quick access to Finder right from your extra dock – because sometimes the classics are the best!</li>
-            <li><strong>Divider Widget:</strong> Add professional-looking dividers between dock items to create visual organization and a more polished appearance.</li>
-            <li><strong>Trash Widget:</strong> Finally, you can have a trash can right in your extra dock! Convenient access to your trash, right where you need it.</li>
+            <li><strong>Customizable Collapse Button:</strong> Make your dock truly yours! You can now personalize the collapse button with custom text, icons, or symbols – and choose any color you want! Whether you prefer a minimalist symbol or a bold colorful icon, ExtraDock now adapts to your aesthetic perfectly.</li>
+            <li><strong>Colorful Folder Icons:</strong> Bring vibrant personality to your workspace! Customize the color of your folder icons in the dock. Choose from any color to match your setup, mood, or organizational system. Finally, your folders can be as expressive as you are!</li>
+            <li><strong>Dock Visibility Hotkeys:</strong> Lightning-fast control at your fingertips! Set custom hotkeys to show and hide your dock instantly. No more reaching for the mouse – just press your chosen keyboard shortcut and toggle dock visibility like a pro. Perfect for presentations, focus sessions, or quick workspace changes!</li>
         </ul>
 
-        <h3>🚀 DockFlow Integration – The Perfect Pairing!</h3>
+        <h3>🎯 Built from Your Feedback</h3>
+        <p>This release is extra special because it's packed with features you asked for! We've been listening closely to the ExtraDock community, and version 4.0.1 delivers three of your most-requested customization options. Your input shapes ExtraDock's future, and we couldn't be more excited to bring these community-driven improvements to life!</p>
+
+        <h3>🔧 Technical Improvements</h3>
         <ul>
-            <li><strong>Seamless DockFlow Connection:</strong> Huge news for power users! ExtraDock now integrates beautifully with <a href="https://dockflow.appitstudio.com/">DockFlow</a>, our dock preset management tool. This integration brings unprecedented control over your workspace!</li>
-            <li><strong>Preset-Based Dock Visibility:</strong> Set specific extra docks to appear automatically with different DockFlow presets. Switch between work, creative, gaming, or any custom preset – and watch your extra docks adapt automatically. It's like having multiple workspace personalities that change at the click of a button!</li>
-            <li><strong>AppIt Studio Ecosystem:</strong> Experience the power of our integrated productivity tools working together seamlessly. DockFlow + ExtraDock = The ultimate workspace customization duo!</li>
+            <li><strong>Enhanced Color Picker:</strong> Beautiful, intuitive color selection for both collapse buttons and folder icons</li>
+            <li><strong>Hotkey Engine:</strong> Reliable, system-wide keyboard shortcut handling with conflict detection</li>
+            <li><strong>Icon Customization System:</strong> Flexible icon selection supporting SF Symbols, emojis, and custom text</li>
         </ul>
-
-        <h3>🎨 Enhanced Experience</h3>
-        <ul>
-            <li><strong>New Onboarding:</strong> First-time users will love our redesigned onboarding experience that makes getting started with ExtraDock easier and more intuitive than ever.</li>
-            <li><strong>UI Improvements:</strong> We've refined the interface throughout the app for a more polished, professional look that matches macOS design standards.</li>
-            <li><strong>Performance Boost:</strong> Under-the-hood optimizations ensure everything runs smoother and faster, even with multiple widgets active.</li>
-        </ul>
-
-        <h3>🔧 Technical Excellence</h3>
-        <p>Version 4.0 represents our most ambitious release yet. The complete widget architecture is built for extensibility, performance, and reliability. Every widget integrates seamlessly with ExtraDock's core features, and the DockFlow integration uses efficient APIs to ensure smooth preset switching without any lag.</p>
 
         <h3>🚀 What's Next?</h3>
-        <p>With the complete widget system now available and DockFlow integration live, ExtraDock 4.0 marks a major milestone in our journey. But we're not stopping here! We're already exploring new widget ideas and ways to make the DockFlow integration even more powerful. Your feedback drives our roadmap, so keep those suggestions coming!</p>
+        <p>With these powerful customization options now available, ExtraDock is more flexible than ever! But we're not done yet – we're already working on more ways to personalize your dock experience. Keep sharing your ideas and feedback – together, we're building the ultimate dock customization tool!</p>
 
-        <p>Thank you for being part of the ExtraDock community! Whether you're tracking business metrics with Stripe, organizing your workspace with dividers and spacers, or switching contexts with DockFlow presets – we're excited to see how you use these new features to create your perfect dock setup!</p>
+        <p>Thank you to everyone in the ExtraDock community who suggested these features and helped shape this release. Your creativity and feedback inspire us every day!</p>
 
-        <p><em>Ready to take your productivity to the next level? Check out <a href="https://dockflow.appitstudio.com/">DockFlow</a> and experience the full power of the AppIt Studio ecosystem!</em></p>
+        <p><em>Want even more control over your workspace? Check out <a href="https://dockflow.appitstudio.com/">DockFlow</a> to manage dock presets and create the perfect setup for every task!</em></p>
             ]]></description>
             <enclosure
                 url="https://github.com/AppitStudio/extra-dock-updates/releases/download/prod/extraDock.dmg"
-                length="5115621" type="application/octet-stream"
-                sparkle:edSignature="DvsF0tIcVpz1jVntZZBt9RTZAZz2F4oZWAABbWv7/lzSaiSG3ByaJzPS0ttTRXs8Azwh5LIVX3430CoZEFwiDQ==" />
+                length="5901544" type="application/octet-stream"
+                sparkle:edSignature="77H+SAsidf1fahJTkEHpic71pMnZCx8Rg2wesGqezH+nmflFjqx15hZs64x5d1gcPcCrWzv5z9zR8OoIba+tBA==" />
         </item>
     </channel>
 </rss>
