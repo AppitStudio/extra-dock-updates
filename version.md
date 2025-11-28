@@ -1,7 +1,8 @@
-VERSION: 4.0.1
+VERSION: 4.0.2
 DETAILS:
-This version is full of customization options for ExtraDock based on the users feedback.
+This version is adding morecustomization options for ExtraDock based on the users feedback.
 The three main features are:
-1. Cutomizable collapse button - users can now set a diffrent icon for the collapse button, using text, icon, or symbol. controling the color also.
-2. Customizable folders icons - user can now set a diffrent color for the folders icons.
-3. Add hotkeys for dock to control the dock visibility - users can now set hotkeys to control the dock visibility.
+1. Cutomize app/folders icons! this one is huge, users can upload any icon they want to the app and use it as their app/folder icon, and also import icons from the URL, and the users have in the setting of the app an Icon Library to manage their icons
+All the icons are searchable, and when uploaded to an app it will attached to the app so the user can search by app name or icon file name.
+2. Improved dock position after restart - fixed a bug that the dock position was not saved after restart sometimes, and now the dock will remember its position and state after app/macOS restart.
+3. Improved folder color change - fix issues with the folder icon color feature.

@@ -3,45 +3,42 @@
     <channel>
         <title>ExtraDock</title>
         <item>
-            <title>4.0.1</title>
-            <pubDate>Sun, 23 Nov 2025 20:43:43 +0200</pubDate>
-            <sparkle:version>401</sparkle:version>
-            <sparkle:shortVersionString>4.0.1</sparkle:shortVersionString>
+            <title>4.0.2</title>
+            <pubDate>Thu, 27 Nov 2025 21:43:16 +0200</pubDate>
+            <sparkle:version>402</sparkle:version>
+            <sparkle:shortVersionString>4.0.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>11.5</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
                 https://appitstudio.github.io/extra-dock-updates/release-notes.html
             </sparkle:fullReleaseNotesLink>
             <description><![CDATA[
 
-        <h2>ExtraDock 4.0.1 – Your Dock, Your Way! 🎨</h2>
+        <h2>ExtraDock 4.0.2 – Make It Yours! 🎨</h2>
         <h3>✨ What's New & Improved</h3>
         <ul>
-            <li><strong>Customizable Collapse Button:</strong> Make your dock truly yours! You can now personalize the collapse button with custom text, icons, or symbols – and choose any color you want! Whether you prefer a minimalist symbol or a bold colorful icon, ExtraDock now adapts to your aesthetic perfectly.</li>
-            <li><strong>Colorful Folder Icons:</strong> Bring vibrant personality to your workspace! Customize the color of your folder icons in the dock. Choose from any color to match your setup, mood, or organizational system. Finally, your folders can be as expressive as you are!</li>
-            <li><strong>Dock Visibility Hotkeys:</strong> Lightning-fast control at your fingertips! Set custom hotkeys to show and hide your dock instantly. No more reaching for the mouse – just press your chosen keyboard shortcut and toggle dock visibility like a pro. Perfect for presentations, focus sessions, or quick workspace changes!</li>
+            <li><strong>Custom App & Folder Icons:</strong> This is huge! Upload any icon you want and use it for your apps or folders. Import icons from URLs, and manage your entire icon collection in the new Icon Library in settings. All icons are fully searchable – find them by app name or icon file name. Your dock, your style!</li>
+        </ul>
+
+        <h3>🐛 Bug Fixes</h3>
+        <ul>
+            <li><strong>Improved Dock Position Persistence:</strong> Fixed an issue where dock position wasn't always saved after restart. Your dock will now reliably remember its position and state after app or macOS restarts.</li>
+            <li><strong>Folder Color Fix:</strong> Resolved issues with the folder icon color feature for smoother customization.</li>
         </ul>
 
         <h3>🎯 Built from Your Feedback</h3>
-        <p>This release is extra special because it's packed with features you asked for! We've been listening closely to the ExtraDock community, and version 4.0.1 delivers three of your most-requested customization options. Your input shapes ExtraDock's future, and we couldn't be more excited to bring these community-driven improvements to life!</p>
-
-        <h3>🔧 Technical Improvements</h3>
-        <ul>
-            <li><strong>Enhanced Color Picker:</strong> Beautiful, intuitive color selection for both collapse buttons and folder icons</li>
-            <li><strong>Hotkey Engine:</strong> Reliable, system-wide keyboard shortcut handling with conflict detection</li>
-            <li><strong>Icon Customization System:</strong> Flexible icon selection supporting SF Symbols, emojis, and custom text</li>
-        </ul>
+        <p>You asked, we delivered! Version 4.0.2 brings the most-requested customization feature – custom icons! The ExtraDock community continues to shape the future of this app, and we're thrilled to make your personalization dreams a reality.</p>
 
         <h3>🚀 What's Next?</h3>
-        <p>With these powerful customization options now available, ExtraDock is more flexible than ever! But we're not done yet – we're already working on more ways to personalize your dock experience. Keep sharing your ideas and feedback – together, we're building the ultimate dock customization tool!</p>
+        <p>With custom icons now available, ExtraDock is more personal than ever! We're continuing to listen to your feedback and work on even more ways to make your dock uniquely yours. Keep those suggestions coming!</p>
 
-        <p>Thank you to everyone in the ExtraDock community who suggested these features and helped shape this release. Your creativity and feedback inspire us every day!</p>
+        <p>Thank you to everyone in the ExtraDock community for your incredible feedback and support. You inspire us to keep making ExtraDock better every day!</p>
 
         <p><em>Want even more control over your workspace? Check out <a href="https://dockflow.appitstudio.com/">DockFlow</a> to manage dock presets and create the perfect setup for every task!</em></p>
             ]]></description>
             <enclosure
                 url="https://github.com/AppitStudio/extra-dock-updates/releases/download/prod/extraDock.dmg"
-                length="5901544" type="application/octet-stream"
-                sparkle:edSignature="77H+SAsidf1fahJTkEHpic71pMnZCx8Rg2wesGqezH+nmflFjqx15hZs64x5d1gcPcCrWzv5z9zR8OoIba+tBA==" />
+                length="6113838" type="application/octet-stream"
+                sparkle:edSignature="e5pty9uSnsl65+n+WVy/HdoirTRy6GeWwHSeU/Eu4ShESBYTasrPKOeZkro/33iY6j6R6D5PK2RtkUZyufJbBA==" />
         </item>
     </channel>
 </rss>
