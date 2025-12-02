@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>ExtraDock</title>
+        <item>
+            <title>4.0.4</title>
+            <pubDate>Tue, 02 Dec 2025 18:35:00 +0200</pubDate>
+            <sparkle:version>404</sparkle:version>
+            <sparkle:shortVersionString>4.0.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>11.5</sparkle:minimumSystemVersion>
+            <enclosure url="https://appitstudio.github.io/extra-dock-updates/extraDock.dmg" length="6541748" type="application/octet-stream" sparkle:edSignature="9ZIAfdChyJd5EnndojBgt3ddDPvrjJ+V6cPI0W0F3zenvfAQgj3JS95WljK+WEQ4hJXC3WXBygc4x66K8JdMDQ=="/>
+        </item>
+    </channel>
+</rss>

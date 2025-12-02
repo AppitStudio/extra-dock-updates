@@ -3,42 +3,41 @@
     <channel>
         <title>ExtraDock</title>
         <item>
-            <title>4.0.2</title>
-            <pubDate>Thu, 27 Nov 2025 21:43:16 +0200</pubDate>
-            <sparkle:version>402</sparkle:version>
-            <sparkle:shortVersionString>4.0.2</sparkle:shortVersionString>
+            <title>4.0.3</title>
+            <pubDate>Sun, 30 Nov 2025 01:11:51 +0200</pubDate>
+            <sparkle:version>403</sparkle:version>
+            <sparkle:shortVersionString>4.0.3</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>11.5</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
                 https://appitstudio.github.io/extra-dock-updates/release-notes.html
             </sparkle:fullReleaseNotesLink>
             <description><![CDATA[
 
-        <h2>ExtraDock 4.0.2 – Make It Yours! 🎨</h2>
+        <h2>ExtraDock 4.0.3 – Winter Magic & Live Dock! ❄️</h2>
         <h3>✨ What's New & Improved</h3>
         <ul>
-            <li><strong>Custom App & Folder Icons:</strong> This is huge! Upload any icon you want and use it for your apps or folders. Import icons from URLs, and manage your entire icon collection in the new Icon Library in settings. All icons are fully searchable – find them by app name or icon file name. Your dock, your style!</li>
+            <li><strong>Live Dock Widget:</strong> Introducing the most requested widget ever! The Live Dock widget mirrors your real macOS dock in your extra dock – perfect for multi-monitor setups where you want your dock visible on every screen. Watch as it automatically syncs with any changes you make to your macOS dock in real-time!</li>
+            <li><strong>Theme System:</strong> ExtraDock now supports themes! We're kicking off with a magical Snow Theme that adds a beautiful falling snow effect to your dock – perfect for the winter season. More themes are coming soon, along with customizable theme settings!</li>
+            <li><strong>Enhanced Icon Library:</strong> We've completely revamped the icon library and icon change process! The new experience is more intuitive and user-friendly, making it easier than ever to personalize your dock items with custom icons.</li>
         </ul>
 
-        <h3>🐛 Bug Fixes</h3>
-        <ul>
-            <li><strong>Improved Dock Position Persistence:</strong> Fixed an issue where dock position wasn't always saved after restart. Your dock will now reliably remember its position and state after app or macOS restarts.</li>
-            <li><strong>Folder Color Fix:</strong> Resolved issues with the folder icon color feature for smoother customization.</li>
-        </ul>
+        <h3>🔐 A Note About Permissions</h3>
+        <p>To enable real-time syncing for the Live Dock widget, ExtraDock may request Accessibility permission. This is <strong>completely optional</strong> and only needed for the Live Dock widget's real-time features. All other ExtraDock features work perfectly without this permission – you're always in control!</p>
 
         <h3>🎯 Built from Your Feedback</h3>
-        <p>You asked, we delivered! Version 4.0.2 brings the most-requested customization feature – custom icons! The ExtraDock community continues to shape the future of this app, and we're thrilled to make your personalization dreams a reality.</p>
+        <p>The Live Dock widget has been one of the most requested features from our community! We listened, and now you can have your macOS dock visible across all your displays. Combined with the new theme system and improved icon experience, version 4.0.3 brings your dock customization dreams to life!</p>
 
         <h3>🚀 What's Next?</h3>
-        <p>With custom icons now available, ExtraDock is more personal than ever! We're continuing to listen to your feedback and work on even more ways to make your dock uniquely yours. Keep those suggestions coming!</p>
+        <p>With the theme system now in place, we're excited to bring you even more visual customization options! More themes, more effects, and more ways to make your dock uniquely yours. Keep sharing your ideas – you're helping shape the future of ExtraDock!</p>
 
-        <p>Thank you to everyone in the ExtraDock community for your incredible feedback and support. You inspire us to keep making ExtraDock better every day!</p>
+        <p>Thank you to the amazing ExtraDock community for your continued support and fantastic feature suggestions. You inspire us to keep pushing the boundaries of what a dock can do!</p>
 
         <p><em>Want even more control over your workspace? Check out <a href="https://dockflow.appitstudio.com/">DockFlow</a> to manage dock presets and create the perfect setup for every task!</em></p>
             ]]></description>
             <enclosure
                 url="https://github.com/AppitStudio/extra-dock-updates/releases/download/prod/extraDock.dmg"
-                length="6113838" type="application/octet-stream"
-                sparkle:edSignature="e5pty9uSnsl65+n+WVy/HdoirTRy6GeWwHSeU/Eu4ShESBYTasrPKOeZkro/33iY6j6R6D5PK2RtkUZyufJbBA==" />
+                length="6291415" type="application/octet-stream"
+                sparkle:edSignature="Y1oIZGOopkRXUa9rELmrfYFdoNPv/A2eisg1hUVhfOtTWxq/vS1PvDgNHnGxriGK7XGLyNF7OZULrd0zzsfoAg==" />
         </item>
     </channel>
 </rss>
