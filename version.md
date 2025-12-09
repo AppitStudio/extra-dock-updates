@@ -1,4 +1,5 @@
-VERSION: 4.0.5
+VERSION: 4.0.6
 DETAILS:
-Bug fixes and improvements:
-1. Fixed bugs and unconsist behavior when using multiple screens with ExtraDock.
+Improved key validation process to be more smooth and reliable.
+Added URL widget to allow you to add custom links icon to your dock.
+Control icon, background color and title visibility for URL widget.

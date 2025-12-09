@@ -3,36 +3,42 @@
     <channel>
         <title>ExtraDock</title>
         <item>
-            <title>4.0.5</title>
-            <pubDate>Sun, 07 Dec 2025 23:13:21 +0200</pubDate>
-            <sparkle:version>405</sparkle:version>
-            <sparkle:shortVersionString>4.0.5</sparkle:shortVersionString>
+            <title>4.0.6</title>
+            <pubDate>Wed, 10 Dec 2025 01:11:42 +0200</pubDate>
+            <sparkle:version>406</sparkle:version>
+            <sparkle:shortVersionString>4.0.6</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>11.5</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
                 https://appitstudio.github.io/extra-dock-updates/release-notes.html
             </sparkle:fullReleaseNotesLink>
             <description><![CDATA[
 
-        <h2>ExtraDock 4.0.5 – Multi-Screen Mastery! 🖥️</h2>
-        <h3>🐛 Bug Fixes & Improvements</h3>
+        <h2>ExtraDock 4.0.6 – Link Up Your Dock! 🔗</h2>
+        <h3>✨ What's New & Improved</h3>
         <ul>
-            <li><strong>Multi-Screen Stability:</strong> Fixed bugs and inconsistent behavior when using ExtraDock across multiple screens. Your extra docks will now behave reliably and consistently on all your displays – whether you're rocking a dual monitor setup or commanding a multi-display workstation!</li>
+            <li><strong>URL Widget:</strong> Introducing the brand new URL widget! Add custom links directly to your dock – your favorite websites, web apps, or any URL you need quick access to. One click and you're there!</li>
+            <li><strong>Full URL Widget Customization:</strong> Make your URL widgets truly yours! Customize the icon, background color, and control title visibility. Whether you want a sleek icon-only look or a fully labeled link, you're in control!</li>
+        </ul>
+
+        <h3>🔧 Technical Improvements</h3>
+        <ul>
+            <li><strong>Smoother Key Validation:</strong> We've refined the key validation process to be more reliable and seamless. Activating your license is now faster and more consistent than ever!</li>
         </ul>
 
         <h3>🎯 Built from Your Feedback</h3>
-        <p>We heard you! Multi-monitor users reported some quirky behavior, and we've squashed those bugs to ensure ExtraDock works flawlessly across all your screens. Your feedback helps us make ExtraDock better every day!</p>
+        <p>The URL widget is another community-requested feature! You asked for a way to add quick-access links to your dock, and now it's here. Your ideas continue to shape ExtraDock's evolution!</p>
 
         <h3>🚀 What's Next?</h3>
-        <p>We're continuing to polish and perfect the ExtraDock experience. More features, more widgets, and more ways to customize your dock are on the way. Keep sharing your ideas – you're helping shape the future of ExtraDock!</p>
+        <p>We're constantly working on new ways to make your dock more powerful and personal. More widgets, more customization options, and more ways to supercharge your workflow are on the way. Keep sharing your ideas!</p>
 
-        <p>Thank you to the amazing ExtraDock community for your continued support and bug reports. Together, we're building the ultimate dock customization tool!</p>
+        <p>Thank you to the amazing ExtraDock community for your continued support and fantastic feature suggestions. You make ExtraDock better every day!</p>
 
         <p><em>Want even more control over your workspace? Check out <a href="https://dockflow.appitstudio.com/">DockFlow</a> to manage dock presets and create the perfect setup for every task!</em></p>
             ]]></description>
             <enclosure
                 url="https://github.com/AppitStudio/extra-dock-updates/releases/download/prod/extraDock.dmg"
-                length="6562102" type="application/octet-stream"
-                sparkle:edSignature="Tu19nHt2wszJgzzONOrX3v4Sgqr94+4Ic2m6McaZhB958LzQ7HFbrU+McuMUruPjwfVtAUG+F8K4iOosDq+/Cg==" />
+                length="6695448" type="application/octet-stream"
+                sparkle:edSignature="yKSVilbuE3daUurQ88fl1Dx4RgIhPlgneraBANH6cfQ/UBkeoF9hdSyt8dSx41qvJ7fVdk+PNE+fNRhpNGSMDg==" />
         </item>
     </channel>
 </rss>
