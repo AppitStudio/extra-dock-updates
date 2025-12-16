@@ -3,42 +3,42 @@
     <channel>
         <title>ExtraDock</title>
         <item>
-            <title>4.0.6</title>
-            <pubDate>Wed, 10 Dec 2025 01:11:42 +0200</pubDate>
-            <sparkle:version>406</sparkle:version>
-            <sparkle:shortVersionString>4.0.6</sparkle:shortVersionString>
+            <title>4.0.7</title>
+            <pubDate>Sat, 13 Dec 2025 23:53:26 +0200</pubDate>
+            <sparkle:version>407</sparkle:version>
+            <sparkle:shortVersionString>4.0.7</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>11.5</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
                 https://appitstudio.github.io/extra-dock-updates/release-notes.html
             </sparkle:fullReleaseNotesLink>
             <description><![CDATA[
 
-        <h2>ExtraDock 4.0.6 – Link Up Your Dock! 🔗</h2>
+        <h2>ExtraDock 4.0.7 – Tahoe Ready & Shelf Power! 🏔️</h2>
         <h3>✨ What's New & Improved</h3>
         <ul>
-            <li><strong>URL Widget:</strong> Introducing the brand new URL widget! Add custom links directly to your dock – your favorite websites, web apps, or any URL you need quick access to. One click and you're there!</li>
-            <li><strong>Full URL Widget Customization:</strong> Make your URL widgets truly yours! Customize the icon, background color, and control title visibility. Whether you want a sleek icon-only look or a fully labeled link, you're in control!</li>
+            <li><strong>Enhanced macOS Tahoe Support:</strong> We've fine-tuned ExtraDock for macOS Tahoe! Fixed collapse animations and the dock covering area when collapsed – everything now works beautifully on the latest macOS!</li>
+            <li><strong>Improved Folder Icon Customizations:</strong> More control over your folder icons! We've enhanced the customization options so you can make your folders look exactly how you want them.</li>
+            <li><strong>URL Widget Icon Improvements:</strong> The URL widget just got better! Enhanced icon handling for a cleaner, more polished look in your dock.</li>
+            <li><strong>🧪 Shelf Widget (Super Beta!):</strong> Introducing an exciting new experimental feature – the Shelf widget! Drag a file or folder onto your shelf, and drop it later whenever you need it. It's like a temporary holding spot right in your dock! This is a super beta feature, so use it with caution and let us know what you think!</li>
         </ul>
 
-        <h3>🔧 Technical Improvements</h3>
-        <ul>
-            <li><strong>Smoother Key Validation:</strong> We've refined the key validation process to be more reliable and seamless. Activating your license is now faster and more consistent than ever!</li>
-        </ul>
+        <h3>⚠️ Beta Feature Notice</h3>
+        <p>The Shelf widget is in early beta testing. While we're excited to share it with you, please use it carefully and report any issues you encounter. Your feedback helps us make it better!</p>
 
         <h3>🎯 Built from Your Feedback</h3>
-        <p>The URL widget is another community-requested feature! You asked for a way to add quick-access links to your dock, and now it's here. Your ideas continue to shape ExtraDock's evolution!</p>
+        <p>macOS Tahoe compatibility improvements came directly from your reports! Thank you for helping us ensure ExtraDock works flawlessly on every macOS version. The Shelf widget is another step toward making your dock the ultimate productivity hub!</p>
 
         <h3>🚀 What's Next?</h3>
-        <p>We're constantly working on new ways to make your dock more powerful and personal. More widgets, more customization options, and more ways to supercharge your workflow are on the way. Keep sharing your ideas!</p>
+        <p>We're continuing to refine the Shelf widget based on your feedback and working on even more ways to enhance your dock experience. Keep sharing your ideas – you're helping shape the future of ExtraDock!</p>
 
-        <p>Thank you to the amazing ExtraDock community for your continued support and fantastic feature suggestions. You make ExtraDock better every day!</p>
+        <p>Thank you to the amazing ExtraDock community for your continued support and beta testing. Together, we're building something incredible!</p>
 
         <p><em>Want even more control over your workspace? Check out <a href="https://dockflow.appitstudio.com/">DockFlow</a> to manage dock presets and create the perfect setup for every task!</em></p>
             ]]></description>
             <enclosure
                 url="https://github.com/AppitStudio/extra-dock-updates/releases/download/prod/extraDock.dmg"
-                length="6695448" type="application/octet-stream"
-                sparkle:edSignature="yKSVilbuE3daUurQ88fl1Dx4RgIhPlgneraBANH6cfQ/UBkeoF9hdSyt8dSx41qvJ7fVdk+PNE+fNRhpNGSMDg==" />
+                length="6885324" type="application/octet-stream"
+                sparkle:edSignature="GyTITaV0Lv+TMOsDHvbaz7AZ6HVOWszKfqh3mOdAIrJWRV/GltW20jk926/4qsnABZjM9GnkhQRqvfaZC78RCw==" />
         </item>
     </channel>
 </rss>
