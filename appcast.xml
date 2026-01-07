@@ -3,44 +3,35 @@
     <channel>
         <title>ExtraDock</title>
         <item>
-            <title>4.0.8</title>
-            <pubDate>Sat, 27 Dec 2025 17:34:48 +0200</pubDate>
-            <sparkle:version>408</sparkle:version>
-            <sparkle:shortVersionString>4.0.8</sparkle:shortVersionString>
+            <title>4.0.9</title>
+            <pubDate>Tue, 06 Jan 2026 23:21:30 +0200</pubDate>
+            <sparkle:version>409</sparkle:version>
+            <sparkle:shortVersionString>4.0.9</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>11.5</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
                 https://appitstudio.github.io/extra-dock-updates/release-notes.html
             </sparkle:fullReleaseNotesLink>
             <description><![CDATA[
 
-        <h2>ExtraDock 4.0.8 – Tahoe Polished & Rock Solid! 🏔️</h2>
+        <h2>ExtraDock 4.0.9 – Live Dock Perfected & Lock It Down! 🔒</h2>
         <h3>✨ What's New & Improved</h3>
         <ul>
-            <li><strong>Enhanced macOS Tahoe Support:</strong> We've continued refining ExtraDock for macOS Tahoe! More compatibility improvements ensure everything works seamlessly on Apple's latest and greatest.</li>
-            <li><strong>Redesigned Dock Settings Panel:</strong> The settings panel for your docks has been improved for a cleaner, more intuitive experience. Customize your docks with ease!</li>
-            <li><strong>Smarter Screen Recognition:</strong> ExtraDock now recognizes your screens more reliably, ensuring your docks always appear exactly where they should – especially great for multi-monitor setups!</li>
-            <li><strong>More Stable Hide/Show Behavior:</strong> We've enhanced the dock visibility system for smoother, more consistent show and hide functionality. Your docks now respond more reliably to your commands!</li>
-        </ul>
-
-        <h3>🐛 Bug Fixes</h3>
-        <ul>
-            <li><strong>Item Relocation Fix:</strong> Fixed an issue where items moved from their original source location weren't being found properly. ExtraDock now smartly relocates these items, keeping your dock organized even when files move around!</li>
+            <li><strong>Enhanced Live Dock Widget:</strong> The Live Dock widget just got a major upgrade! We've significantly improved stability and reliability, and refined the animations to feel more natural and dock-like. Your mirrored dock now behaves even more like the real macOS dock!</li>
+            <li><strong>Smarter Screen Recognition:</strong> This is one of the most complex features in ExtraDock, and your feedback has been invaluable! We've made significant improvements to how ExtraDock recognizes and handles different screen setups. Whether you're using multiple monitors, external displays, or unique configurations – your docks will now behave more consistently and reliably.</li>
+            <li><strong>NEW: Lock To Position:</strong> Take complete control of your dock placement! Right-click on any dock and select "Lock/Unlock To Position" to prevent it from moving. This powerful new feature lets you organize your docks exactly where you want them and keep them there – no more accidental repositioning!</li>
         </ul>
 
         <h3>🎯 Built from Your Feedback</h3>
-        <p>These improvements came directly from your reports and suggestions! Your feedback helps us squash bugs and polish the experience. Thank you for helping us make ExtraDock better every day!</p>
+        <p>Every improvement in this release came directly from your reports and suggestions! The screen recognition improvements, in particular, wouldn't have been possible without your detailed feedback about different monitor setups. Thank you for helping us tackle this complex challenge!</p>
 
         <h3>🚀 What's Next?</h3>
-        <p>We're always working on new features and improvements based on your feedback. Keep sharing your ideas – you're shaping the future of ExtraDock!</p>
+        <p>We're continuing to refine and perfect the ExtraDock experience based on your feedback. More features, more polish, and more ways to customize your workspace are on the way. Keep sharing your ideas – you're shaping the future of ExtraDock!</p>
 
-        <p>Thank you to the amazing ExtraDock community for your continued support. Together, we're making the ultimate dock customization experience!</p>
+        <p>Thank you to the amazing ExtraDock community for your continued support. Together, we're building the ultimate dock customization experience!</p>
 
         <p><em>Want even more control over your workspace? Check out <a href="https://dockflow.appitstudio.com/">DockFlow</a> to manage dock presets and create the perfect setup for every task!</em></p>
             ]]></description>
-            <enclosure
-                url="https://github.com/AppitStudio/extra-dock-updates/releases/download/prod/extraDock.dmg"
-                length="6891407" type="application/octet-stream"
-                sparkle:edSignature="ZCAxI7zZmjH648kXnjTtoxp5UeXKsyZvD5tGfm1g9PFnB/0SunS9VzSFmvVzO+BGCQHKZum+wFTcFWhbBaF9Ag==" />
+                <enclosure url="https://github.com/AppitStudio/extra-dock-updates/releases/download/prod/extraDock.dmg" length="6917360" type="application/octet-stream" sparkle:edSignature="3yupIyxciQ3GlHsC6D0Jl4WuwFWntT2P+6tjgSE68AYvd2zAi073k4QUfZA2AI68iuA2cD5DyXc4VZ9SUe0LAw=="/>
         </item>
     </channel>
 </rss>
