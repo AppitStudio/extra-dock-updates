@@ -3,37 +3,43 @@
     <channel>
         <title>ExtraDock</title>
         <item>
-            <title>4.1.0</title>
-            <pubDate>Fri, 09 Jan 2026 23:15:03 +0200</pubDate>
-            <sparkle:version>410</sparkle:version>
-            <sparkle:shortVersionString>4.1.0</sparkle:shortVersionString>
+            <title>4.1.1</title>
+            <pubDate>Sun, 18 Jan 2026 09:46:49 +0200</pubDate>
+            <sparkle:version>411</sparkle:version>
+            <sparkle:shortVersionString>4.1.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>11.5</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
                 https://appitstudio.github.io/extra-dock-updates/release-notes.html
             </sparkle:fullReleaseNotesLink>
             <description><![CDATA[
 
-        <h2>ExtraDock 4.1.0 – Notifications in Your Dock! 🔔</h2>
+        <h2>ExtraDock 4.1.1 – Automate Your Dock! 🤖</h2>
         <h3>✨ What's New & Improved</h3>
         <ul>
-            <li><strong>Dock Notifications:</strong> A highly requested feature is here! ExtraDock can now display notification badges directly on apps in your dock! See at a glance which apps need your attention – no more missing important messages or updates. Works seamlessly with both regular apps in your dock and the Live Dock widget!</li>
-            <li><strong>Hide Apps from Live Dock:</strong> Take control of your Live Dock widget! Right-click any app and select "Hide From This Live Dock" to remove apps you don't want to see. Easily manage your hidden apps list from the Live Dock settings – perfect for keeping your dock clean and focused on what matters!</li>
+            <li><strong>macOS Shortcuts Integration:</strong> Take control of your dock like never before! ExtraDock now integrates with the macOS Shortcuts app, bringing powerful automation to your fingertips. Use new intents – Show Dock, Hide Dock, and Toggle Dock – to control dock visibility from any shortcut!</li>
+            <li><strong>Focus Mode Automation:</strong> Combine ExtraDock with macOS Focus Modes to automatically show or hide your docks based on your current Focus! Working? Hide the dock. Gaming? Show your gaming dock. The possibilities are endless!</li>
+            <li><strong>Magnetic Snapping Toggle:</strong> New option in General Settings to disable magnetic snapping when dragging floating docks near screen edges. Perfect for users who want precise control over dock placement!</li>
         </ul>
 
-        <h3>🔐 A Note About Permissions</h3>
-        <p>To enable dock notifications, ExtraDock requires Accessibility permission. This permission allows ExtraDock to read notification badges from your apps. You can enable this feature from the app settings page – and as always, you're in complete control!</p>
+        <h3>🔧 Technical Improvements</h3>
+        <ul>
+            <li><strong>Enhanced Auto-Hide Responsiveness:</strong> Docks now reveal more reliably when your mouse approaches screen edges – especially useful for left/right edge-pinned docks!</li>
+            <li><strong>Smoother Animations:</strong> Improved show/hide animations with configurable durations for a more polished experience.</li>
+            <li><strong>Better Mouse Tracking:</strong> New backup polling mechanism ensures consistent mouse tracking when dock is auto-hidden, with improved responsiveness during application state changes.</li>
+            <li><strong>Improved Edge Detection:</strong> More intuitive auto-hide behavior with smarter edge detection across different usage scenarios.</li>
+        </ul>
 
         <h3>🎯 Built from Your Feedback</h3>
-        <p>Notification badges have been one of the most requested features from our community! You wanted to see your app notifications without constantly checking the main dock, and now you can. Thank you for helping us prioritize what matters most to you!</p>
+        <p>Shortcuts integration has been one of the most exciting requests from our power users! Now you can build custom automations that control your docks based on time of day, active apps, Focus modes, or any other trigger Shortcuts supports. Your workflow automation dreams are now possible!</p>
 
         <h3>🚀 What's Next?</h3>
-        <p>We're continuing to enhance the ExtraDock experience based on your feedback. More customization options, more widgets, and more ways to make your dock uniquely yours are on the way. Keep sharing your ideas – you're shaping the future of ExtraDock!</p>
+        <p>We're continuing to expand the automation capabilities and enhance the ExtraDock experience based on your feedback. More Shortcut actions, more customization options, and more ways to make your dock uniquely yours are on the way. Keep sharing your ideas – you're shaping the future of ExtraDock!</p>
 
         <p>Thank you to the amazing ExtraDock community for your continued support. Together, we're building the ultimate dock customization experience!</p>
 
         <p><em>Want even more control over your workspace? Check out <a href="https://dockflow.appitstudio.com/">DockFlow</a> to manage dock presets and create the perfect setup for every task!</em></p>
             ]]></description>
-                <enclosure url="https://github.com/AppitStudio/extra-dock-updates/releases/download/prod/extraDock.dmg" length="7088112" type="application/octet-stream" sparkle:edSignature="AHXiOpsPWv/Cmw+rb3KOojagUnKjmm81bjHru2ZxfZkGAXbDFZjaptEqapkkBnrdqPJsDvmylL2I+LJnvST2Aw=="/>
+                <enclosure url="https://github.com/AppitStudio/extra-dock-updates/releases/download/prod/extraDock.dmg" length="7175627" type="application/octet-stream" sparkle:edSignature="YDYV00fxrhM6fn+tZemouLX/Cv5FymBjDnsJOiRe/TWSUidwzONf2rE6K3BylMyY4Vwzgkxqs6H/MHF71VjeAw=="/>
         </item>
     </channel>
 </rss>

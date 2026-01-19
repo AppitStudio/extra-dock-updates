@@ -1,7 +1,27 @@
-VERSION: 4.1.0
+VERSION: 4.1.1
 DETAILS:
-Added support for showing notifications in the dock - requireed Accessibility permission to work.
-Works both for regular app in dock and for live dock widget.
-Access this feature from the app settings page.
 
-Added an option to hide apps from the live dock widget - right click "Hide From This Live Dock" and you can managed the hidden apps on the live dock settings.
+  New Features
+
+  macOS Focus Modes & Shortcuts Integration
+  - Control dock visibility through macOS Shortcuts app
+  - New intents: Show Dock, Hide Dock, Toggle Dock
+  - Automate dock behavior based on Focus Modes
+
+  Magnetic Snapping Toggle
+  - New option to disable magnetic snapping when dragging floating docks near screen edges
+  - Found in General Settings
+
+  Improvements
+
+  Enhanced Auto-Hide Responsiveness
+  - Docks now reveal when mouse approaches screen edges (especially useful for left/right edge-pinned docks)
+  - Smoother show/hide animations with configurable durations
+  - Improved edge detection for more intuitive auto-hide behavior
+
+  Better Mouse Tracking Reliability
+  - Backup polling mechanism ensures consistent mouse tracking when dock is auto-hidden
+  - Improved responsiveness during application state changes
+  - More reliable dock reveal behavior across different usage scenarios
+
+  ---
