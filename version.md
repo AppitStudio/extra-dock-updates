@@ -1,27 +1,30 @@
-VERSION: 4.1.1
+VERSION: 4.1.2
 DETAILS:
+Multi-Monitor Support Improvements
 
-  New Features
+  - Enhanced dock positioning on multiple monitors - Completely refactored dock position handling to ensure docks stay where you placed them when reopening the app. Docks no longer unexpectedly shift across displays.
+  - New screen resolution strategy - Implemented smarter screen identification with improved fallback strategies when monitor configurations change.
+  - Post-launch position validation - Added DockPositionValidationService that validates and corrects dock positions after app launch, ensuring accurate restoration based on your preferences.
+  - Deferred dock visibility - Docks now wait until position validation completes before appearing, eliminating visual jumps during app launch.
 
-  macOS Focus Modes & Shortcuts Integration
-  - Control dock visibility through macOS Shortcuts app
-  - New intents: Show Dock, Hide Dock, Toggle Dock
-  - Automate dock behavior based on Focus Modes
+  Fullscreen App Compatibility
 
-  Magnetic Snapping Toggle
-  - New option to disable magnetic snapping when dragging floating docks near screen edges
-  - Found in General Settings
+  - Fixed screen switching issue - Interacting with the dock while using fullscreen apps no longer causes unexpected space/screen switches. The dock window no longer becomes key or main, maintaining your current workspace.
 
-  Improvements
+  Auto-Hide Enhancements
 
-  Enhanced Auto-Hide Responsiveness
-  - Docks now reveal when mouse approaches screen edges (especially useful for left/right edge-pinned docks)
-  - Smoother show/hide animations with configurable durations
-  - Improved edge detection for more intuitive auto-hide behavior
+  - Edge-sensitive reveal - Auto-hidden docks now respond when your mouse approaches screen edges, making the feature more intuitive for docks fixed to left or right positions.
+  - Smoother animations - Configurable show/hide animation durations provide smoother transitions when the dock appears and disappears.
+  - Backup mouse tracking - Added a polling mechanism that ensures consistent mouse tracking behavior even when the dock is hidden, improving overall responsiveness.
 
-  Better Mouse Tracking Reliability
-  - Backup polling mechanism ensures consistent mouse tracking when dock is auto-hidden
-  - Improved responsiveness during application state changes
-  - More reliable dock reveal behavior across different usage scenarios
+  Widget Improvements
+
+  - Live configuration updates - Widget settings now apply immediately without requiring multiple selections or re-opening the configuration panel.
+  - LiveDock widget sizing - The LiveDock widget now automatically recalculates dock size when visible items change, with proper positioning adjustments.
+
+  General Improvements
+
+  - Enhanced collapse/expand settings for better user experience
+  - Improved dock state persistence and restoration logic
 
   ---
