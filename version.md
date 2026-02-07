@@ -1,30 +1,51 @@
-VERSION: 4.1.2
+VERSION: 4.1.3
 DETAILS:
-Multi-Monitor Support Improvements
+REMOVE TECHNICAL DETAILS AND KEEP ONLY THE USER FOCUSED DETAILS
+# ExtraDock V4.1.3 Release Notes
 
-  - Enhanced dock positioning on multiple monitors - Completely refactored dock position handling to ensure docks stay where you placed them when reopening the app. Docks no longer unexpectedly shift across displays.
-  - New screen resolution strategy - Implemented smarter screen identification with improved fallback strategies when monitor configurations change.
-  - Post-launch position validation - Added DockPositionValidationService that validates and corrects dock positions after app launch, ensuring accurate restoration based on your preferences.
-  - Deferred dock visibility - Docks now wait until position validation completes before appearing, eliminating visual jumps during app launch.
+**Release Date:** February 7, 2026
 
-  Fullscreen App Compatibility
+---
 
-  - Fixed screen switching issue - Interacting with the dock while using fullscreen apps no longer causes unexpected space/screen switches. The dock window no longer becomes key or main, maintaining your current workspace.
+## New Features
 
-  Auto-Hide Enhancements
+### Desktop Widget Mode
+- New per-dock "Act as Desktop Widget" toggle in dock properties
+- When enabled, the dock sits behind app windows like embedded desktop content
+- Smart interaction: dock temporarily elevates to the front on click, drag, or right-click, then automatically demotes back after 1.25 seconds of inactivity
+- Desktop widget docks auto-hide when a fullscreen app is detected on their screen
+- Persisted in V5 dock data with full backward-compatible Codable support
 
-  - Edge-sensitive reveal - Auto-hidden docks now respond when your mouse approaches screen edges, making the feature more intuitive for docks fixed to left or right positions.
-  - Smoother animations - Configurable show/hide animation durations provide smoother transitions when the dock appears and disappears.
-  - Backup mouse tracking - Added a polling mechanism that ensures consistent mouse tracking behavior even when the dock is hidden, improving overall responsiveness.
+### Hide Native macOS Dock
+- New global setting in General Settings: "Hide native macOS Dock"
+- Suppresses Apple's Dock by applying a deep autohide delay (1000s) via `defaults write`
+- Snapshots your current Dock preferences before hiding, restores them exactly when toggled off
+- Automatically re-applied on app launch if the setting is enabled
 
-  Widget Improvements
+---
 
-  - Live configuration updates - Widget settings now apply immediately without requiring multiple selections or re-opening the configuration panel.
-  - LiveDock widget sizing - The LiveDock widget now automatically recalculates dock size when visible items change, with proper positioning adjustments.
+## Bug Fixes
 
-  General Improvements
+### Safari Web App / Alias URL Resolution
+- Fixed adding Safari web apps and alias/symlink items to docks
+- Both drag-and-drop and the Add Item dialog now resolve aliases, symlinks, and bookmark-style URLs before checking file existence
+- Added fallback application search across `~/Applications`, `/Applications`, and `/System/Applications` when the raw URL doesn't point to an existing file
+- Refactored duplicated item-creation logic into shared `resolveItemURL()`, `makeDockItem()`, and `isApplicationBundle()` helpers in both `DragAndDropHandler` and `DockItemsTab`
+- Duplicate detection now uses the resolved path instead of the raw dropped URL
 
-  - Enhanced collapse/expand settings for better user experience
-  - Improved dock state persistence and restoration logic
+### V5 DockBehavior Codable Compatibility
+- Added explicit `init(from:)` decoder and `encode(to:)` encoder for `DockBehavior`
+- The new `desktopWidget` field decodes gracefully as `nil` from older saved data, preventing crashes on upgrade
 
-  ---
+### Swift 6 Actor Isolation Fix
+- Fixed actor isolation warning in desktop widget fullscreen detection by wrapping the screen check in a `Task { @MainActor in }` block
+
+---
+
+## Internal Improvements
+
+- `DragAndDropHandler`: Eliminated duplicated item-building code between drag-and-drop and add-dialog paths
+- `DockItemsTab`: Consolidated URL resolution and item building into reusable private methods
+- `CustomWindow`: Centralized window level and collection behavior assignment through `updateWindowLevelForMode()`
+- Removed stale `collectionBehavior` assignment in screen-move code path
+- Updated SearchBar SPM package pin

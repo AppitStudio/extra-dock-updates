@@ -3,57 +3,41 @@
     <channel>
         <title>ExtraDock</title>
         <item>
-            <title>4.1.2</title>
-            <pubDate>Wed, 21 Jan 2026 19:33:29 +0200</pubDate>
-            <sparkle:version>412</sparkle:version>
-            <sparkle:shortVersionString>4.1.2</sparkle:shortVersionString>
+            <title>4.1.3</title>
+            <pubDate>Sat, 07 Feb 2026 15:07:11 +0200</pubDate>
+            <sparkle:version>413</sparkle:version>
+            <sparkle:shortVersionString>4.1.3</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>11.5</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
                 https://appitstudio.github.io/extra-dock-updates/release-notes.html
             </sparkle:fullReleaseNotesLink>
             <description><![CDATA[
 
-        <h2>ExtraDock 4.1.2 – Multi-Monitor Perfection! 🖥️</h2>
+        <h2>ExtraDock 4.1.3 – Desktop Widget Mode & Dock Freedom! 🖥️</h2>
         <h3>✨ What's New & Improved</h3>
         <ul>
-            <li><strong>Rock-Solid Multi-Monitor Support:</strong> We've completely refactored dock position handling to ensure your docks stay exactly where you placed them! No more unexpected shifts across displays when reopening the app.</li>
-            <li><strong>Smarter Screen Recognition:</strong> New screen resolution strategy with improved fallback mechanisms ensures reliable dock positioning even when monitor configurations change.</li>
-            <li><strong>Post-Launch Position Validation:</strong> New DockPositionValidationService validates and corrects dock positions after app launch, ensuring accurate restoration based on your preferences.</li>
-            <li><strong>Seamless Dock Appearance:</strong> Docks now wait until position validation completes before appearing, eliminating visual jumps during app launch.</li>
+            <li><strong>Desktop Widget Mode:</strong> Turn any dock into a desktop widget! Enable the new "Act as Desktop Widget" toggle in dock properties and your dock will sit beautifully behind app windows like embedded desktop content. Click or drag to interact – the dock smartly elevates to the front, then gracefully settles back after you're done. It's like having a dock and a widget in one!</li>
+            <li><strong>Hide Native macOS Dock:</strong> Go all-in on ExtraDock! New global setting lets you hide Apple's native Dock completely. Your original Dock preferences are safely saved and restored when you toggle it back on. ExtraDock remembers your choice across launches – set it once and forget it!</li>
         </ul>
 
-        <h3>🎬 Fullscreen App Compatibility</h3>
+        <h3>🐛 Bug Fixes</h3>
         <ul>
-            <li><strong>Fixed Screen Switching Issue:</strong> Interacting with the dock while using fullscreen apps no longer causes unexpected space or screen switches. Your current workspace stays intact!</li>
-        </ul>
-
-        <h3>🔧 Auto-Hide Enhancements</h3>
-        <ul>
-            <li><strong>Edge-Sensitive Reveal:</strong> Auto-hidden docks now respond when your mouse approaches screen edges, making the feature more intuitive for docks fixed to left or right positions.</li>
-            <li><strong>Smoother Animations:</strong> Configurable show/hide animation durations provide smoother transitions when the dock appears and disappears.</li>
-            <li><strong>Improved Mouse Tracking:</strong> Added a backup polling mechanism that ensures consistent mouse tracking behavior even when the dock is hidden.</li>
-        </ul>
-
-        <h3>🎯 Widget Improvements</h3>
-        <ul>
-            <li><strong>Live Configuration Updates:</strong> Widget settings now apply immediately without requiring multiple selections or re-opening the configuration panel.</li>
-            <li><strong>Better LiveDock Widget Sizing:</strong> The LiveDock widget now automatically recalculates dock size when visible items change, with proper positioning adjustments.</li>
-        </ul>
-
-        <h3>🔧 General Improvements</h3>
-        <ul>
-            <li><strong>Enhanced Collapse/Expand Settings:</strong> Improved settings experience for a better user experience.</li>
-            <li><strong>Better State Persistence:</strong> Improved dock state persistence and restoration logic for more reliable behavior.</li>
+            <li><strong>Safari Web Apps & Aliases Fixed:</strong> Adding Safari web apps, aliases, and symlink items to your docks now works flawlessly! Both drag-and-drop and the Add Item dialog properly resolve all URL types, with smart fallback search across your Applications folders.</li>
+            <li><strong>Smoother Upgrades:</strong> Improved data compatibility ensures a seamless upgrade experience – no crashes when updating from older versions!</li>
         </ul>
 
         <h3>🚀 What's Next?</h3>
-        <p>We're continuing to enhance the ExtraDock experience based on your feedback. More features, more polish, and more ways to customize your workspace are on the way. Keep sharing your ideas – you're shaping the future of ExtraDock!</p>
+        <p>We're continuing to push the boundaries of what your dock can do! More customization, more ways to integrate your dock into your workflow, and more features shaped by your feedback. Keep sharing your ideas – you're shaping the future of ExtraDock!</p>
 
         <p>Thank you to the amazing ExtraDock community for your continued support. Together, we're building the ultimate dock customization experience!</p>
 
         <p><em>Want even more control over your workspace? Check out <a href="https://dockflow.appitstudio.com/">DockFlow</a> to manage dock presets and create the perfect setup for every task!</em></p>
+        <p><em>And <a href="https://extrabar.app/">ExtraBar</a> to create the ultimate menu bar that fits your workflow!</em></p>
             ]]></description>
-                <enclosure url="https://github.com/AppitStudio/extra-dock-updates/releases/download/v4.1.2/extraDock.dmg" length="7414884" type="application/octet-stream" sparkle:edSignature="OW28LLBGPq/S7MZNzFN0kPnTOpKJm78WfbihHxornIPiE0BlUUt4NniwUwID6/UYZjum9eNJzKm7Pcv9u/7IBg=="/>
+            <enclosure
+                url="https://github.com/AppitStudio/extra-dock-updates/releases/download/v4.1.3/extraDock.dmg"
+                length="7399927" type="application/octet-stream"
+                sparkle:edSignature="UuoQvM2JaFGP4K0OFl2MS05x8jpY+1jvyM+xGxh+M/+z8SyvcJBjCdmd7p8wzDeusLTiietvlW7xDQL8BwBTCQ==" />
         </item>
     </channel>
 </rss>
