@@ -1,62 +1,47 @@
-VERSION: 4.1.6
+VERSION: 4.1.7
 DETAILS:
 ExtraDock — What's New
 
-  Dock Space Reservation
+ExtraDock Release Notes
 
-  Your fixed docks now reserve their screen space — when you maximize or zoom a window, it stops at the dock
-   edge instead of hiding behind it. Works automatically with expand-style resizes, with an optional "Active
-   on Drag" mode for manual window moves too.
+  App Window Previews (Beta)
 
-  Native macOS Trash Integration
+  The headline feature of this release. Hover over any running app icon in your ExtraDock to see live window
+  previews - Optional in the settings
 
-  The Trash widget now offers a Native Trash mode that connects to your real macOS Trash. See a live item
-  count from your actual Trash folder and drag files to trash using Finder — no more virtual-only trash.
-  Switch between native and virtual mode anytime.
+  Preview Features:
+  - Live window thumbnail previews on icon hover with real-time screen captures
+  - Window action buttons (close, minimize, maximize) directly from the preview panel
+  - Click a preview thumbnail to activate that specific window
+  - Smart filtering of ghost/utility windows so only real windows are shown
+  - Support for minimized and hidden windows (configurable)
+  - Current-space-only filtering option
+  - Multiple sort orders: most recent, alphabetical, creation time, or screen position
+  - Background preview cache service for faster hover response
 
-  Hotkey Auto-Hide Timer
+  Preview Customization (Settings > App Previews):
+  - Preview panel size and thumbnail quality
+  - Window title visibility (on hover or always)
+  - Sort order and filtering options (hidden windows, minimized windows, current space only)
+  - Control button position (multiple layout options)
+  - Compact mode with configurable title format and item size
+  - Window capture quality (nominal vs best)
 
-  Show your dock with a hotkey and it auto-hides after a set delay (3–60 seconds). Moving your mouse over
-  the dock pauses the timer, so it stays visible while you're using it. Perfect for quick-glance workflows.
+  Permissions:
+  - Requires Screen Recording permission (opt-in, off by default)
+  - macOS Tahoe (26+) compatibility with extra permission validation
 
-  Left Click Behavior Options
+  Improved Click Behavior
 
-  Customize what happens when you click a dock icon:
-  - Normal — standard app activation
-  - Toggle Minimize — click to minimize, click again to restore
+  - Normal click on a running app now activates the app instead of relaunching it
 
-  Hide File Extensions
+  Bug Fixes
 
-  Non-app items (documents, scripts, files) can now hide their file extension for a cleaner dock appearance.
-   Configure per-item through the new item settings window.
-
-  Smarter Notification Badges
-
-  - Badges now display the full notification count instead of capping at 99+
-  - Dynamic badge sizing adapts to the number of digits
-  - Improved reliability with thread-safe polling and crash-safe preference saving
-  - Better badge detection on macOS Tahoe with deeper accessibility traversal and fallback mode
-
-  Drag Removal Confirmation
-
-  Accidentally dragging items off the dock is now protected — a confirmation dialog asks before removing an
-  item.
-
-  Automatic Folder Repair
-
-  Folders that were incorrectly detected as apps are now automatically repaired on load, with a manual
-  "Repair Folders" button available in dock management.
-
-  Improved Trash Widget Config
-
-  The Trash widget settings panel has been redesigned with clear toggle switches and a collapsible
-  permissions section — no more dense text walls.
-
-  Stability & Reliability
-
-  - Fixed vertical dock shifting when badge counts update on macOS Tahoe
-  - Hardened persistence during drag reorder and system sleep
-  - Fixed multi-add rollback in dock management
-  - Improved hotkey auto-hide timer pause on mouse interaction
-
-  ---
+  - Collapse/Expand positioning fix: Collapse button no longer drifts after toggling on macOS Tahoe. The resize now
+  uses a button-anchor approach that preserves the collapse button's screen position through expand/collapse
+  transitions
+  - Tahoe collapse timing: Increased animation settle delay from 50ms to 400ms to prevent capturing mid-animation
+  frames
+  - CustomWindow frame management: New syncFrameToCollapseState() method bypasses anchor-preservation logic during
+  collapse state transitions, fixing cases where the window would jump to incorrect positions
+  - Hidden dock fix: Fixed issue where dock could become hidden/invisible
