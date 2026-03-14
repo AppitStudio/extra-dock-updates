@@ -3,58 +3,54 @@
     <channel>
         <title>ExtraDock</title>
         <item>
-            <title>4.1.7</title>
-            <pubDate>Mon, 09 Mar 2026 16:18:55 +0200</pubDate>
-            <sparkle:version>417</sparkle:version>
-            <sparkle:shortVersionString>4.1.7</sparkle:shortVersionString>
+            <title>4.1.8</title>
+            <pubDate>Sat, 14 Mar 2026 20:44:12 +0200</pubDate>
+            <sparkle:version>418</sparkle:version>
+            <sparkle:shortVersionString>4.1.8</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>11.5</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
                 https://appitstudio.github.io/extra-dock-updates/release-notes.html
             </sparkle:fullReleaseNotesLink>
             <description><![CDATA[
 
-        <h2>ExtraDock 4.1.7 – Live Window Previews! 👀🪟</h2>
+        <h2>ExtraDock 4.1.8 – Crystal Clear Icons & Invisible Mode! 💎✨</h2>
         <h3>✨ What's New & Improved</h3>
         <ul>
-            <li><strong>App Window Previews (Beta):</strong> The headline feature is here! Hover over any running app icon in your ExtraDock to see live window previews with real-time screen captures. Click a thumbnail to jump straight to that window, or use the built-in action buttons to close, minimize, or maximize — all without leaving your dock!</li>
-            <li><strong>Smart Window Filtering:</strong> Ghost and utility windows are automatically filtered out so you only see real, meaningful windows. Plus, support for minimized and hidden windows keeps everything accessible.</li>
-            <li><strong>Current Space Filtering:</strong> Focus on what matters — enable current-space-only mode to see just the windows in your active desktop Space.</li>
-            <li><strong>Multiple Sort Orders:</strong> Organize your previews your way with sorting by most recent, alphabetical, creation time, or screen position.</li>
-            <li><strong>Background Preview Cache:</strong> A new background caching service ensures lightning-fast hover response times — previews appear instantly!</li>
+            <li><strong>High-Resolution App Icons:</strong> Dock icons are now rendered at 128pt logical size instead of 32pt, resulting in crisp, sharp icons on Retina displays. This also fixes the macOS Tahoe issue where icons appeared padded inside a square container — your icons now look exactly as they should!</li>
+            <li><strong>Invisible Dock Mode:</strong> Setting background opacity to 0 now produces a truly invisible dock with no lingering borders, gradients, shadows, or outlines. Icons float cleanly on the desktop for an ultra-minimalist experience!</li>
+            <li><strong>System Settings Badge:</strong> ExtraDock now detects pending macOS software updates and shows a red badge dot on the System Settings icon, matching native Dock behavior. Never miss an update again!</li>
+            <li><strong>App Launch Bounce Animation:</strong> Launching an app from the dock now triggers a macOS-style bounce animation, giving you satisfying visual feedback that the app is opening!</li>
+            <li><strong>URL Widget Duplicate Button:</strong> Quickly duplicate URL widgets to reuse styling. The duplicate copies colors and icon settings but clears the URL, opening the config sheet for the new link — perfect for building out a row of bookmarks!</li>
+            <li><strong>Shelf Widget:</strong> The completed shelf widget with drag-and-drop support, floating panel, and polished visual improvements is ready to use!</li>
         </ul>
 
-        <h3>🎛️ Preview Customization</h3>
+        <h3>🎨 UX Refinements</h3>
         <ul>
-            <li><strong>Full Control in Settings:</strong> Head to Settings > App Previews to customize panel size, thumbnail quality, window title visibility, sort order, filtering options, control button position, and more.</li>
-            <li><strong>Compact Mode:</strong> Enable compact mode with configurable title format and item size for a streamlined preview experience.</li>
-            <li><strong>Capture Quality Options:</strong> Choose between nominal and best window capture quality to balance performance and visual fidelity.</li>
-        </ul>
-
-        <h3>🖱️ Improved Click Behavior</h3>
-        <ul>
-            <li><strong>Smarter App Activation:</strong> Normal click on a running app now activates the app instead of relaunching it — just like the native macOS dock!</li>
+            <li><strong>Context Menu Cleanup:</strong> Removed app names from context menu buttons (just "Open" instead of "Open Chrome"). Reordered to match macOS Dock: Open → Reveal in Finder → Hide → Quit. Consistent across all locations!</li>
+            <li><strong>Collapse Button – 3-Character Limit:</strong> Text/emoji collapse buttons now support up to 3 characters with auto-sizing, up from 1. More room for creativity!</li>
+            <li><strong>Accent Color Picker Always Visible:</strong> The dock accent/tint color picker is now visible even when collapse mode is set to None, since it also affects the dock edge tint.</li>
+            <li><strong>Effects & Collapse Sections Expanded by Default:</strong> The Effects and Collapse Button settings sections now open expanded instead of collapsed, so you can see your options right away.</li>
+            <li><strong>URL Widget Identification:</strong> URL widgets now show their domain name in the management list instead of "Utility Widget", making it easy to tell them apart.</li>
+            <li><strong>Notification Badge Text:</strong> Badge numbers now use medium weight instead of bold for a cleaner, more refined look.</li>
+            <li><strong>Improved Drag-and-Drop:</strong> Better drag-and-drop into floating windows with dashed-line visual indicators for clarity.</li>
         </ul>
 
         <h3>🐛 Bug Fixes</h3>
         <ul>
-            <li><strong>Collapse/Expand Positioning Fix:</strong> The collapse button no longer drifts after toggling on macOS Tahoe. A new button-anchor approach preserves position through expand/collapse transitions.</li>
-            <li><strong>Tahoe Animation Timing:</strong> Increased animation settle delay to prevent capturing mid-animation frames during collapse.</li>
-            <li><strong>Window Frame Management:</strong> New method fixes cases where the window would jump to incorrect positions during state transitions.</li>
-            <li><strong>Hidden Dock Fix:</strong> Resolved an issue where the dock could become hidden or invisible.</li>
+            <li><strong>Notification Badges Crash on Multi-Monitor:</strong> Fixed a crash caused by a force-cast in the Accessibility API when reading window positions on multi-monitor configurations.</li>
+            <li><strong>Notification Badges Deadlock:</strong> Replaced a blocking main-thread dispatch with a thread-safe lock, preventing potential app freezes when reading badge counts.</li>
+            <li><strong>Live Dock Notification Badges:</strong> Notification badges now work independently on Live Dock and Space Awareness widgets. Previously, badges only appeared if the app was also added to a regular ExtraDock.</li>
         </ul>
 
-        <h3>🔐 A Note About Permissions</h3>
-        <p>Window Previews require Screen Recording permission (opt-in, off by default). ExtraDock includes full macOS Tahoe (26+) compatibility with extra permission validation to ensure a smooth experience.</p>
-
         <h3>🚀 What's Next?</h3>
-        <p>Window Previews are just the beginning of making your dock even more powerful! We're continuing to refine and expand this feature based on your feedback. More preview enhancements, more customization, and more ways to supercharge your workflow are on the way!</p>
+        <p>We're continuing to push the boundaries of dock customization with sharper visuals, smoother interactions, and more ways to make your dock truly yours! Keep sharing your feedback and ideas — you're shaping the future of ExtraDock!</p>
 
         <p>Thank you to the amazing ExtraDock community for your continued support. Together, we're building the ultimate dock customization experience!</p>
 
         <p><em>Want even more control over your workspace? Check out <a href="https://dockflow.appitstudio.com/">DockFlow</a> to manage dock presets and create the perfect setup for every task!</em></p>
         <p><em>And <a href="https://extrabar.app/">ExtraBar</a> to create the ultimate menu bar that fits your workflow!</em></p>
             ]]></description>
-            <enclosure url="https://github.com/AppitStudio/extra-dock-updates/releases/download/v4.1.7/extraDock.dmg" length="8115050" type="application/octet-stream" sparkle:edSignature="cFptKFwPTPRlI/1ZWhqLZVxHEFBjUFAeG9y+epuC6GyDeMfQtLVnBsuSJ3Du0bkgxl9fb3x3Pn/r1BSAoCaiCg=="/>
+            <enclosure url="https://github.com/AppitStudio/extra-dock-updates/releases/download/v4.1.8/extraDock.dmg" length="8156926" type="application/octet-stream" sparkle:edSignature="WwzEHuEkgHkvetXe69bXrsacKy1Wxp7iIdw68onLLx7ihnRTa/ycF6uJ3iKn/4A1ikHQbOAM2WA4m9xZKvR1DA=="/>
         </item>
     </channel>
 </rss>

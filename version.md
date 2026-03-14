@@ -1,47 +1,36 @@
-VERSION: 4.1.7
+VERSION: 4.1.8
 DETAILS:
-ExtraDock — What's New
+Improved: High-Resolution App Icons — Dock icons are now rendered at 128pt logical size instead of 32pt, resulting in crisp, sharp icons on Retina displays. Also fixes the macOS Tahoe issue where icons
+  appeared padded inside a square container.
 
-ExtraDock Release Notes
+  Added: Invisible Dock Mode — Setting background opacity to 0 now produces a truly invisible dock with no lingering borders, gradients, shadows, or outlines. Icons float cleanly on the desktop.
 
-  App Window Previews (Beta)
+  Bug Fix: Notification Badges Crash on Multi-Monitor Setups — Fixed a crash caused by a force-cast in the Accessibility API when reading window positions on multi-monitor configurations.
 
-  The headline feature of this release. Hover over any running app icon in your ExtraDock to see live window
-  previews - Optional in the settings
+  Bug Fix: Notification Badges Deadlock — Replaced a blocking main-thread dispatch with a thread-safe lock, preventing potential app freezes when reading badge counts.
 
-  Preview Features:
-  - Live window thumbnail previews on icon hover with real-time screen captures
-  - Window action buttons (close, minimize, maximize) directly from the preview panel
-  - Click a preview thumbnail to activate that specific window
-  - Smart filtering of ghost/utility windows so only real windows are shown
-  - Support for minimized and hidden windows (configurable)
-  - Current-space-only filtering option
-  - Multiple sort orders: most recent, alphabetical, creation time, or screen position
-  - Background preview cache service for faster hover response
+  Bug Fix: Live Dock Notification Badges — Notification badges now work independently on Live Dock and Space Awareness widgets. Previously, badges only appeared if the app was also added to a regular
+  ExtraDock.
 
-  Preview Customization (Settings > App Previews):
-  - Preview panel size and thumbnail quality
-  - Window title visibility (on hover or always)
-  - Sort order and filtering options (hidden windows, minimized windows, current space only)
-  - Control button position (multiple layout options)
-  - Compact mode with configurable title format and item size
-  - Window capture quality (nominal vs best)
+  Added: System Settings Badge — ExtraDock now detects pending macOS software updates and shows a red badge dot on the System Settings icon, matching native Dock behavior.
 
-  Permissions:
-  - Requires Screen Recording permission (opt-in, off by default)
-  - macOS Tahoe (26+) compatibility with extra permission validation
+  Added: App Launch Bounce Animation — Launching an app from the dock now triggers a macOS-style bounce animation, giving visual feedback that the app is opening.
 
-  Improved Click Behavior
+  Added: URL Widget Duplicate Button — Quickly duplicate URL widgets to reuse styling. The duplicate copies colors and icon settings but clears the URL, opening the config sheet for the new link.
 
-  - Normal click on a running app now activates the app instead of relaunching it
+  Improved: URL Widget Identification — URL widgets now show their domain name in the management list instead of "Utility Widget", making it easy to tell them apart.
 
-  Bug Fixes
+  UX: Context Menu Cleanup — Removed app names from context menu buttons (just "Open" instead of "Open Chrome"). Reordered to match macOS Dock: Open > Reveal in Finder > Hide > Quit. Consistent across all
+   locations (dock items, Live Dock, Space Awareness).
 
-  - Collapse/Expand positioning fix: Collapse button no longer drifts after toggling on macOS Tahoe. The resize now
-  uses a button-anchor approach that preserves the collapse button's screen position through expand/collapse
-  transitions
-  - Tahoe collapse timing: Increased animation settle delay from 50ms to 400ms to prevent capturing mid-animation
-  frames
-  - CustomWindow frame management: New syncFrameToCollapseState() method bypasses anchor-preservation logic during
-  collapse state transitions, fixing cases where the window would jump to incorrect positions
-  - Hidden dock fix: Fixed issue where dock could become hidden/invisible
+  UX: Collapse Button — 3-Character Limit — Text/emoji collapse buttons now support up to 3 characters with auto-sizing, up from 1.
+
+  UX: Accent Color Picker Always Visible — The dock accent/tint color picker is now visible even when collapse mode is set to None, since it also affects the dock edge tint.
+
+  UX: Effects & Collapse Sections Expanded by Default — The Effects and Collapse Button settings sections now open expanded instead of collapsed.
+
+  Improved: Notification Badge Text — Badge numbers now use medium weight instead of bold for a cleaner look.
+
+  Added: Shelf Widget — Completed shelf widget with drag-and-drop support, floating panel, and visual improvements.
+
+  Improved: Drag-and-Drop — Better drag-and-drop into floating windows with dashed-line visual indicators for clarity.
