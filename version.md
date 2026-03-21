@@ -1,36 +1,59 @@
-VERSION: 4.1.8
+VERSION: 4.1.9
 DETAILS:
-Improved: High-Resolution App Icons — Dock icons are now rendered at 128pt logical size instead of 32pt, resulting in crisp, sharp icons on Retina displays. Also fixes the macOS Tahoe issue where icons
-  appeared padded inside a square container.
+Hello ExtraDockers 👋🏻,
 
-  Added: Invisible Dock Mode — Setting background opacity to 0 now produces a truly invisible dock with no lingering borders, gradients, shadows, or outlines. Icons float cleanly on the desktop.
 
-  Bug Fix: Notification Badges Crash on Multi-Monitor Setups — Fixed a crash caused by a force-cast in the Accessibility API when reading window positions on multi-monitor configurations.
 
-  Bug Fix: Notification Badges Deadlock — Replaced a blocking main-thread dispatch with a thread-safe lock, preventing potential app freezes when reading badge counts.
+🖥️ Attach to Screen → Attach to Screen(s)
 
-  Bug Fix: Live Dock Notification Badges — Notification badges now work independently on Live Dock and Space Awareness widgets. Previously, badges only appeared if the app was also added to a regular
-  ExtraDock.
+Seems like a small change right?! Wrong!
 
-  Added: System Settings Badge — ExtraDock now detects pending macOS software updates and shows a red badge dot on the System Settings icon, matching native Dock behavior.
+Attach to Screen was one of those obvious features ExtraDock needed… If I connect at my Ultra wide screen → show this dock.
 
-  Added: App Launch Bounce Animation — Launching an app from the dock now triggers a macOS-style bounce animation, giving visual feedback that the app is opening.
+The issue? Well, there were 5 main bug reports with it, but 2 stood out.
 
-  Added: URL Widget Duplicate Button — Quickly duplicate URL widgets to reuse styling. The duplicate copies colors and icon settings but clears the URL, opening the config sheet for the new link.
 
-  Improved: URL Widget Identification — URL widgets now show their domain name in the management list instead of "Utility Widget", making it easy to tell them apart.
 
-  UX: Context Menu Cleanup — Removed app names from context menu buttons (just "Open" instead of "Open Chrome"). Reordered to match macOS Dock: Open > Reveal in Finder > Hide > Quit. Consistent across all
-   locations (dock items, Live Dock, Space Awareness).
 
-  UX: Collapse Button — 3-Character Limit — Text/emoji collapse buttons now support up to 3 characters with auto-sizing, up from 1.
 
-  UX: Accent Color Picker Always Visible — The dock accent/tint color picker is now visible even when collapse mode is set to None, since it also affects the dock edge tint.
+If I have two workstations like Home and Office, I can’t attach to both, only one works and the other breaks it. Annoying.
 
-  UX: Effects & Collapse Sections Expanded by Default — The Effects and Collapse Button settings sections now open expanded instead of collapsed.
 
-  Improved: Notification Badge Text — Badge numbers now use medium weight instead of bold for a cleaner look.
 
-  Added: Shelf Widget — Completed shelf widget with drag-and-drop support, floating panel, and visual improvements.
+Identical monitors… Same problem as someone else’s identical twins… ExtraDock just couldn’t tell them apart… (sorry parents with identical twins)
 
-  Improved: Drag-and-Drop — Better drag-and-drop into floating windows with dashed-line visual indicators for clarity.
+
+
+
+
+The solution? Rework that thing from the ground up, make it recognize screens by a unique ID on the hardware info, and finally, allow multiple attachments.
+
+This ties directly to the “Docks don’t save position/screen attachment after restart/sleep” bug that we’ve been dealing with, and after closing the lid of my Mac about a 100 times (it helped catching bugs by the way) and restarting my Mac 6 times (WHILE ACTIVELY DEVELOPING 💀) — there’s improvement. I don’t think it’s perfect yet, I’ll need your feedback and bug reports to make it completely consistent (please, and thank you 😘).
+
+📣 I need your help!
+
+I said so in previous newsletters, there are times to develop, and there are times to perfect. Now’s the time to perfect.
+
+Usually during big development phases with lots of changes in both UI and backend, we prefer to ship updates faster, in order to get user’s feedback and improve based on that feedback.
+
+Now, after massive development in the last couple of months, we’re going to fix some stuff, and for that, we need to know what’s broken for you.
+
+Screen assignments is the first wave of fixes to an annoying problem.
+
+If you got any more problems, or you feel like something is unclear or needs some attention — drop us an email. We absolutely want to fix stuff, but we can’t know what’s not working for you if you don’t tell us 😄
+
+
+
+🪵 Change log:
+
+⚡improvement: Docks can now be assigned to multiple monitors.
+⚡improvement: ExtraDock now recognizes monitor that have docks attached to them by utilizing hardware information every screen exposes to the OS.
+⚡improvement: All screens you connect to are automatically register, you can choose to Forget screens you don’t want to see. 
+
+💠 attention: macOS likes to add “Phantom Screens”, as I discover more cases where users suddenly see a random screen called “Primary Screen (1920×1080)” in their dropdown, I’ll find ways to block it. This is a bug that doesn’t affect you at all, out of 8 beta testers, only 2 had this issue (that I am aware of).
+
+🐞 bug fix: Fixed an issue where dock settings could get mixed up between docks when restoring connection.
+🐞 bug fix: Fixed a race condition bug that caused issues with auto-hide on full-width docks.
+🐞 bug fix: Fixed a bug where dragging docks that are attached to screen would cause the other screen to “adopt” that dock, and make it attached to itself (clingy much?)
+
+📋 user interface: Attach to Screen has been changed to Screen Assignment. You will find a dropdown menu showing all your known monitors with indicators whether they are connected (green) disconnected (white), and a V sign that indicates if the dock should appear when that screen is connected.
