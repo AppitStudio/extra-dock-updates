@@ -3,36 +3,48 @@
     <channel>
         <title>ExtraDock</title>
         <item>
-            <title>4.2.0</title>
-            <pubDate>Tue, 31 Mar 2026 13:14:29 +0300</pubDate>
-            <sparkle:version>420</sparkle:version>
-            <sparkle:shortVersionString>4.2.0</sparkle:shortVersionString>
+            <title>4.2.1</title>
+            <pubDate>Thu, 02 Apr 2026 19:25:52 +0300</pubDate>
+            <sparkle:version>421</sparkle:version>
+            <sparkle:shortVersionString>4.2.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>11.5</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
                 https://appitstudio.github.io/extra-dock-updates/release-notes.html
             </sparkle:fullReleaseNotesLink>
             <description><![CDATA[
 
-        <h2>ExtraDock 4.2.0 – Align, Label & Perfect Your Setup! 🎯✨</h2>
+        <h2>ExtraDock 4.2.1 – Smarter Clicks, Cleaner Menus & Total Visibility Control! 🎯🧹</h2>
 
         <h3>✨ What's New & Improved</h3>
         <ul>
-            <li><strong>Dock Alignment Control:</strong> Fixed-mode docks can now be aligned to the left, center, or right of their edge — or top, center, or bottom for side edges! Find the new Alignment picker in Dock Settings and place your dock exactly where it feels right.</li>
-            <li><strong>Custom Folder Labels:</strong> Folders with "always show name below icon" enabled can now use a separate custom label for the visible text under the icon, independent from the hover tooltip. Name it however you like!</li>
+            <li><strong>Match macOS Dock Size Preset:</strong> A brand-new "Match macOS Dock" size preset lets you set your dock's icon size to exactly match your macOS Dock in one click. Pixel-perfect consistency!</li>
+            <li><strong>Open Dock Settings Shortcut:</strong> Right-click any dock and choose "Open Dock Settings" to jump straight to that dock's settings panel — no more hunting through menus!</li>
         </ul>
 
         <h3>⚡ Performance & Reliability</h3>
         <ul>
-            <li><strong>Rewritten Fullscreen Detection:</strong> Fullscreen detection has been completely rewritten to work per-screen and react much faster, with fewer false positives and false negatives on Sequoia and Tahoe. Your docks now respond more accurately to fullscreen apps!</li>
-            <li><strong>Multi-Monitor Stability:</strong> Much better support for multiple identical monitors! ExtraDock now uses connection and port details to keep docks on the correct display after sleep, wake, and reconnects. No more dock shuffle!</li>
+            <li><strong>Smarter Window Recall:</strong> Clicking a dock icon with "Normal" behavior now remembers which window you last used and returns you to it, instead of activating the app generically. If the app has no open windows, it reopens automatically!</li>
+            <li><strong>Redesigned Right-Click Menu:</strong> The right-click menu on docks has been completely redesigned — it now shows just the essentials (show/hide, position mode, size, copy/paste settings, and a link to full settings) instead of a long list of every option.</li>
+            <li><strong>Simplified Menu Bar Menus:</strong> Dock menus in the menu bar have been streamlined too, with cleaner dock names and quicker access to the most important options.</li>
+            <li><strong>Reliable Show/Hide Toggle:</strong> The show/hide toggle now correctly accounts for auto-hide, fullscreen hiding, and screen availability, so toggling visibility works reliably in all states.</li>
+            <li><strong>Smarter Screen Identification:</strong> Screens that can't be reliably identified now show as "Identifying screen..." in the allowed-screens list and require confirmation before they can be assigned, preventing phantom screen entries.</li>
+            <li><strong>Multi-Screen Warning:</strong> When two or more allowed screens are connected at the same time, a warning explains that a dock can only appear on one screen at a time and suggests creating separate docks instead.</li>
+            <li><strong>Faster Dock List Refresh:</strong> The dock list in the management screen now refreshes shortly after launch so visibility indicators are accurate right away.</li>
+            <li><strong>Automatic Error Reporting:</strong> ExtraDock now automatically reports errors and crashes to help improve stability. You can opt out anytime in Settings > General > Privacy.</li>
         </ul>
 
         <h3>🐛 Bug Fixes</h3>
         <ul>
-            <li><strong>Smarter Dock Duplication:</strong> Duplicating a dock now copies widgets and their configuration, appearance settings, theme effects, collapse icon customization, and layout options much more completely. Your duplicated docks are true copies!</li>
-            <li><strong>Notification Badge Crash Fix:</strong> Fixed a crash that could occur when enabling notification badges, especially on Tahoe. Badges are now rock-solid!</li>
-            <li><strong>Sleep/Wake Screen Fix:</strong> Fixed docks sometimes not showing up on the correct screen after waking from sleep or reconnecting a display.</li>
-            <li><strong>Folder Name Persistence:</strong> Fixed folder custom names not being saved and restored correctly between sessions. Your labels stick around now!</li>
+            <li><strong>Space Switching Fix:</strong> Fixed clicking a dock icon not switching to the correct desktop Space when the app's window was on a different one.</li>
+            <li><strong>Screen Assignment Stability:</strong> Fixed an issue where docks assigned to a specific screen could briefly appear on the wrong screen during sleep/wake transitions.</li>
+            <li><strong>Show/Hide Sync Fix:</strong> Fixed the show/hide toggle sometimes getting out of sync when a dock was hidden due to its assigned screen being disconnected.</li>
+        </ul>
+
+        <h3>🏷️ UI & Naming Updates</h3>
+        <ul>
+            <li><strong>"Fixed Docks Only" Badge:</strong> The "Respect Dock Space" setting now displays a "Fixed docks only" badge to clarify it only applies to fixed-position docks.</li>
+            <li><strong>Allowed Screens Rename:</strong> "Screen Assignments" is now called "Allowed Screens" in dock settings for clearer language.</li>
+            <li><strong>Menu Cleanup:</strong> The "Create New Dock" and "Show Onboarding" options have been removed from the menu bar dropdown for a cleaner experience.</li>
         </ul>
 
         <h3>🚀 What's Next?</h3>
@@ -43,7 +55,7 @@
         <p><em>Want even more control over your workspace? Check out <a href="https://dockflow.appitstudio.com/">DockFlow</a> to manage dock presets and create the perfect setup for every task!</em></p>
         <p><em>And <a href="https://extrabar.app/">ExtraBar</a> to create the ultimate menu bar that fits your workflow!</em></p>
             ]]></description>
-            <enclosure url="https://github.com/AppitStudio/extra-dock-updates/releases/download/v4.2.0/extraDock.dmg" length="8323660" type="application/octet-stream" sparkle:edSignature="wrHCaO+E5rxUiXc0zgPkf5JDDRH4tgfs5ZiAmuS71HlSjIg2zVvxudBQPiAiFAlFYxxArS8aUvdQxVNatOcGBw=="/>
+            <enclosure url="https://github.com/AppitStudio/extra-dock-updates/releases/download/v4.2.1/extraDock.dmg" length="9743821" type="application/octet-stream" sparkle:edSignature="KL58uZ7HMmw7y1oQGESyyJm4N+AkxwwCxaJr8rZ/scRXv6FJmmfeNpytNNRbWh3KcCbaXSI6ROf6VIMxertqBA=="/>
         </item>
     </channel>
 </rss>
