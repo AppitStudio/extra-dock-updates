@@ -3,48 +3,29 @@
     <channel>
         <title>ExtraDock</title>
         <item>
-            <title>4.2.1</title>
-            <pubDate>Thu, 02 Apr 2026 19:25:52 +0300</pubDate>
-            <sparkle:version>421</sparkle:version>
-            <sparkle:shortVersionString>4.2.1</sparkle:shortVersionString>
+            <title>4.2.2</title>
+            <pubDate>Sat, 04 Apr 2026 18:42:09 +0300</pubDate>
+            <sparkle:version>422</sparkle:version>
+            <sparkle:shortVersionString>4.2.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>11.5</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
                 https://appitstudio.github.io/extra-dock-updates/release-notes.html
             </sparkle:fullReleaseNotesLink>
             <description><![CDATA[
 
-        <h2>ExtraDock 4.2.1 – Smarter Clicks, Cleaner Menus & Total Visibility Control! 🎯🧹</h2>
-
-        <h3>✨ What's New & Improved</h3>
-        <ul>
-            <li><strong>Match macOS Dock Size Preset:</strong> A brand-new "Match macOS Dock" size preset lets you set your dock's icon size to exactly match your macOS Dock in one click. Pixel-perfect consistency!</li>
-            <li><strong>Open Dock Settings Shortcut:</strong> Right-click any dock and choose "Open Dock Settings" to jump straight to that dock's settings panel — no more hunting through menus!</li>
-        </ul>
-
-        <h3>⚡ Performance & Reliability</h3>
-        <ul>
-            <li><strong>Smarter Window Recall:</strong> Clicking a dock icon with "Normal" behavior now remembers which window you last used and returns you to it, instead of activating the app generically. If the app has no open windows, it reopens automatically!</li>
-            <li><strong>Redesigned Right-Click Menu:</strong> The right-click menu on docks has been completely redesigned — it now shows just the essentials (show/hide, position mode, size, copy/paste settings, and a link to full settings) instead of a long list of every option.</li>
-            <li><strong>Simplified Menu Bar Menus:</strong> Dock menus in the menu bar have been streamlined too, with cleaner dock names and quicker access to the most important options.</li>
-            <li><strong>Reliable Show/Hide Toggle:</strong> The show/hide toggle now correctly accounts for auto-hide, fullscreen hiding, and screen availability, so toggling visibility works reliably in all states.</li>
-            <li><strong>Smarter Screen Identification:</strong> Screens that can't be reliably identified now show as "Identifying screen..." in the allowed-screens list and require confirmation before they can be assigned, preventing phantom screen entries.</li>
-            <li><strong>Multi-Screen Warning:</strong> When two or more allowed screens are connected at the same time, a warning explains that a dock can only appear on one screen at a time and suggests creating separate docks instead.</li>
-            <li><strong>Faster Dock List Refresh:</strong> The dock list in the management screen now refreshes shortly after launch so visibility indicators are accurate right away.</li>
-            <li><strong>Automatic Error Reporting:</strong> ExtraDock now automatically reports errors and crashes to help improve stability. You can opt out anytime in Settings > General > Privacy.</li>
-        </ul>
+        <h2>ExtraDock 4.2.2 – Rock-Solid Menus & Smarter Spaces! 🛠️✨</h2>
 
         <h3>🐛 Bug Fixes</h3>
         <ul>
-            <li><strong>Space Switching Fix:</strong> Fixed clicking a dock icon not switching to the correct desktop Space when the app's window was on a different one.</li>
-            <li><strong>Screen Assignment Stability:</strong> Fixed an issue where docks assigned to a specific screen could briefly appear on the wrong screen during sleep/wake transitions.</li>
-            <li><strong>Show/Hide Sync Fix:</strong> Fixed the show/hide toggle sometimes getting out of sync when a dock was hidden due to its assigned screen being disconnected.</li>
+            <li><strong>Lock Position Restored:</strong> The "Lock Position" option for floating docks is back in the right-click menu — it was accidentally removed during the previous UI redesign. Your docks stay exactly where you put them!</li>
+            <li><strong>Menu Icons Restored:</strong> Right-click menu items now display their icons again — another casualty of the UI redesign that's been fully restored. Your menus look sharp and complete once more!</li>
+            <li><strong>Smarter Respect Dock Area:</strong> The "Respect Dock Area" feature now properly reacts to switching Spaces, activating apps, and restoring minimized windows. Previously these scenarios were missed — now your windows respect your dock boundaries in every situation!</li>
+            <li><strong>ExtraDock Respects Itself:</strong> ExtraDock's own screens (Main UI and Settings) now properly respect ExtraDock dock areas, so they no longer overlap your docks.</li>
         </ul>
 
-        <h3>🏷️ UI & Naming Updates</h3>
+        <h3>⚡ What's Improved</h3>
         <ul>
-            <li><strong>"Fixed Docks Only" Badge:</strong> The "Respect Dock Space" setting now displays a "Fixed docks only" badge to clarify it only applies to fixed-position docks.</li>
-            <li><strong>Allowed Screens Rename:</strong> "Screen Assignments" is now called "Allowed Screens" in dock settings for clearer language.</li>
-            <li><strong>Menu Cleanup:</strong> The "Create New Dock" and "Show Onboarding" options have been removed from the menu bar dropdown for a cleaner experience.</li>
+            <li><strong>Seamless DockFlow Sync:</strong> DockFlow integration now automatically stays in sync when you add, remove, show, hide, or reconfigure docks — no manual refresh needed. Everything just works!</li>
         </ul>
 
         <h3>🚀 What's Next?</h3>
@@ -55,7 +36,7 @@
         <p><em>Want even more control over your workspace? Check out <a href="https://dockflow.appitstudio.com/">DockFlow</a> to manage dock presets and create the perfect setup for every task!</em></p>
         <p><em>And <a href="https://extrabar.app/">ExtraBar</a> to create the ultimate menu bar that fits your workflow!</em></p>
             ]]></description>
-            <enclosure url="https://github.com/AppitStudio/extra-dock-updates/releases/download/v4.2.1/extraDock.dmg" length="9743821" type="application/octet-stream" sparkle:edSignature="KL58uZ7HMmw7y1oQGESyyJm4N+AkxwwCxaJr8rZ/scRXv6FJmmfeNpytNNRbWh3KcCbaXSI6ROf6VIMxertqBA=="/>
+            <enclosure url="https://github.com/AppitStudio/extra-dock-updates/releases/download/v4.2.2/extraDock.dmg" length="9770123" type="application/octet-stream" sparkle:edSignature="Ti2Bhgzekk27WxhprisV5+HpblVsvs0VAZtg+z5lRspsRy6rC27+7PRiWfghI0EqhxAWsBeLBriHhjfJwZpLCw=="/>
         </item>
     </channel>
 </rss>
