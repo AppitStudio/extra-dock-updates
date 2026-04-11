@@ -1,12 +1,20 @@
-VERSION: 4.2.2
+VERSION: 4.2.3
 DETAILS:
 
-🐞 Bug fix: The "Lock Position" option for floating docks is back in the right-click menu — it was lost during the previous UI redesign.
 
-🐞 Bug fix: Right-click menu items now display their icons again — lost during the previous UI redesign.
+✨ new: Folder Stack widget — browse a folder of folders from a single dock icon. You can customize the name, tint color, and choose which app opens the folders.
 
-🐞 Bug fix: The "Respect Dock Area" feature now properly reacts to switching spaces, activating apps, and restoring minimized windows — previously these scenarios were missed.
+⚡ improved: Add Widget screen is now a proper gallery so you can see what each widget does before adding it.
+⚡ improved: Live Dock changes apply instantly.
+⚡ improved: Auto-reveal (Auto-hide) improved to work when your cursor is near the dock itself, not the entire screen edge.
+⚡ improved: Hover-to-expand has been completely reworked, it now works flawlessly.
 
-🐞 Bug fix: ExtraDock screens (Main UI and Settings) now respect ExtraDock areas.
+⚙️  settings: Reworked settings — everything now has it’s own correct category/section.
 
-⚡ Improved: DockFlow integration now automatically stays in sync when you add, remove, show, hide, or reconfigure docks — no manual refresh needed.
+🐞 bug fix: Fixed docks that are assigned to left/right (horizontal) or top/bottom (vertical) no longer appear on the middle.
+🐞 bug fix: Empty Trash action has been fixed for the Trash widget.
+🐞 bug fix: Auto-hidden docks no longer get stuck hidden after switching displays.
+🐞 bug fix: Fixed a hang caused by Respect Dock Space.
+🐞 bug fix: Live Dock no longer starts on Running Apps mode, but then changes to Full Dock after you quit and re-open the app. It now defaults to Full Dock, and it stays that way, unless you change it.
+
+🗑️  removed: "Repair Folders" button has been removed. ExtraDock now does that automatically in order to show folders correctly.
