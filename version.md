@@ -1,20 +1,23 @@
-VERSION: 4.2.3
+VERSION: 4.2.4
 DETAILS:
 
 
-✨ new: Folder Stack widget — browse a folder of folders from a single dock icon. You can customize the name, tint color, and choose which app opens the folders.
+ExtraDock v4.2.4
 
-⚡ improved: Add Widget screen is now a proper gallery so you can see what each widget does before adding it.
-⚡ improved: Live Dock changes apply instantly.
-⚡ improved: Auto-reveal (Auto-hide) improved to work when your cursor is near the dock itself, not the entire screen edge.
-⚡ improved: Hover-to-expand has been completely reworked, it now works flawlessly.
+✨ Space Awareness 2.0 — Completely reworked Space Awareness widget (betav2), now requires Accessibility permissions.
+✨ License renewal — Remaining time is shown on the main screen and menu bar, with a dismissible renewal nudge.
+✨ Support email diagnostics — Copy a dock's debug info, or attach it directly from the Support button.
 
-⚙️  settings: Reworked settings — everything now has it’s own correct category/section.
+Improved
 
-🐞 bug fix: Fixed docks that are assigned to left/right (horizontal) or top/bottom (vertical) no longer appear on the middle.
-🐞 bug fix: Empty Trash action has been fixed for the Trash widget.
-🐞 bug fix: Auto-hidden docks no longer get stuck hidden after switching displays.
-🐞 bug fix: Fixed a hang caused by Respect Dock Space.
-🐞 bug fix: Live Dock no longer starts on Running Apps mode, but then changes to Full Dock after you quit and re-open the app. It now defaults to Full Dock, and it stays that way, unless you change it.
+⚡ Full timezone picker in the Clock widget — Every IANA zone, grouped by region with GMT offsets.
+⚡ Folder Stack wraps long names
 
-🗑️  removed: "Repair Folders" button has been removed. ExtraDock now does that automatically in order to show folders correctly.
+Fixed
+
+🐞 Folder Stack arrow on side and top docks
+
+Removed
+
+🗑️ Running-indicator dots — Replaced by the new minimized overlay.
+🗑️ "Hide from This Widget" menu item — Pin to your dock instead.
