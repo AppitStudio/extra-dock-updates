@@ -1,23 +1,8 @@
-VERSION: 4.2.4
+VERSION: 4.2.5
 DETAILS:
 
-
-ExtraDock v4.2.4
-
-✨ Space Awareness 2.0 — Completely reworked Space Awareness widget (betav2), now requires Accessibility permissions.
-✨ License renewal — Remaining time is shown on the main screen and menu bar, with a dismissible renewal nudge.
-✨ Support email diagnostics — Copy a dock's debug info, or attach it directly from the Support button.
-
-Improved
-
-⚡ Full timezone picker in the Clock widget — Every IANA zone, grouped by region with GMT offsets.
-⚡ Folder Stack wraps long names
-
-Fixed
-
-🐞 Folder Stack arrow on side and top docks
-
-Removed
-
-🗑️ Running-indicator dots — Replaced by the new minimized overlay.
-🗑️ "Hide from This Widget" menu item — Pin to your dock instead.
+new: Full-width dock alignment — move apps to the left, center, or right when the dock is in full width mode
+new: Edge padding for fixed docks
+new: New Rays Effect
+improved: Item spacing presets — Default, Roomy, or Spacious
+bug fix: Improved CPU and Memory usage when using Effects
