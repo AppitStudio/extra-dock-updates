@@ -3,34 +3,48 @@
     <channel>
         <title>ExtraDock</title>
         <item>
-            <title>4.2.6</title>
-            <pubDate>Tue, 13 May 2026 19:59:47 +0300</pubDate>
-            <sparkle:version>426</sparkle:version>
-            <sparkle:shortVersionString>4.2.6</sparkle:shortVersionString>
+            <title>4.2.7</title>
+            <pubDate>Fri, 23 May 2026 19:11:15 +0300</pubDate>
+            <sparkle:version>427</sparkle:version>
+            <sparkle:shortVersionString>4.2.7</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>11.5</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
                 https://appitstudio.github.io/extra-dock-updates/release-notes.html</sparkle:fullReleaseNotesLink>
             <description><![CDATA[
 
-        <h2>ExtraDock 4.2.6 – Share, Backup & Rock Solid! 🚀🔒</h2>
+        <h2>ExtraDock 4.2.7 – Smarter, Smoother & Fully Backed Up! 🛡️✨</h2>
 
         <h3>✨ What's New</h3>
         <ul>
-            <li><strong>One-Click Share to DockShare.io:</strong> A share button on each dock's detail view uploads it directly to the community gallery — show off your dock setup with one tap!</li>
-            <li><strong>Full Backup Export & Import:</strong> New Import / Export settings tab writes a .extradockbackup of your whole setup that you can restore anywhere — never lose your perfect dock again!</li>
+            <li><strong>Accessibility Banner:</strong> A friendly banner at the top of the settings window makes enabling Accessibility a breeze!</li>
+            <li><strong>Window Switching:</strong> Right-click any app to switch between its open windows — with context for multi-window apps!</li>
+            <li><strong>Custom Folder Stack Icons:</strong> Folder Stacks now support custom icons — personalize every corner of your dock!</li>
+            <li><strong>Automatic Configuration Backups:</strong> ExtraDock now keeps backup copies of your dock setup and lets you restore or reveal them from Settings!</li>
+        </ul>
+
+        <h3>⚙️ Settings</h3>
+        <ul>
+            <li><strong>Auto-Hide Reveal Delay:</strong> Choose how long you have to hover at the edge before a hidden dock pops out!</li>
         </ul>
 
         <h3>⚡ Improvements</h3>
         <ul>
-            <li><strong>Widget Picker Close Button:</strong> The widget picker now has a close button for easier dismissal!</li>
+            <li><strong>Smarter Auto-Hide:</strong> Auto-hidden docks now only appear when you touch the edge of the screen, with a customizable delay!</li>
+            <li><strong>Spacer Widget:</strong> Now supports custom spacing configuration that goes up to 3000 pixels!</li>
+            <li><strong>Divider Widget Spacing:</strong> The Divider widget now has a built-in spacing option — no more need for extra Spacer widgets!</li>
+            <li><strong>Space Awareness:</strong> Now uses deeper macOS Space information, making it more reliable across displays and Spaces!</li>
         </ul>
 
         <h3>🐛 Bug Fixes</h3>
         <ul>
-            <li><strong>LiveDock Icon Fix:</strong> Fixed wrong icons for apps with duplicate bundle IDs or after reinstalling to a different location — now identifies apps by path first!</li>
-            <li><strong>Screen Assignment Stability:</strong> Screen assignments no longer break when a monitor briefly disconnects or Mac goes to sleep!</li>
-            <li><strong>Space Awareness Deduplication:</strong> The widget now suppresses apps you've already pinned to your dock manually — no more duplicates!</li>
-            <li><strong>Space Awareness Permission Handling:</strong> The widget now clears itself when Accessibility permission is missing — no more stale or partial data!</li>
+            <li><strong>Spacer Widget Cleanup:</strong> Removed a stray divider-like pixel line from the Spacer widget!</li>
+            <li><strong>Launch Animation:</strong> Fixed to be more consistent across all dock positions!</li>
+            <li><strong>Dock Size Controls:</strong> Reverted to the previous style — fixes a bug where icons randomly changed size!</li>
+            <li><strong>Live Dock Wake-Up:</strong> Clicking an app now properly brings it front or minimizes it, depending on your settings!</li>
+            <li><strong>Backup Export:</strong> Exporting configuration backups now uses the proper default save behavior!</li>
+            <li><strong>Respect Dock Space:</strong> Now waits until startup positioning is finished before kicking in — no more launch-time window pushing!</li>
+            <li><strong>Live Dock Deduplication:</strong> Collapses duplicate app icons when the same app is already manually added to the same dock!</li>
+            <li><strong>Smarter App Clicks:</strong> Apps with no real open window now open a new window instead of getting stuck on invisible ghost windows!</li>
         </ul>
 
         <h3>🚀 What's Next?</h3>
@@ -38,7 +52,7 @@
 
         <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraDock community! Your feedback drives every improvement we make.</em></p>
             ]]></description>
-            <enclosure url="https://github.com/AppitStudio/extra-dock-updates/releases/download/v4.2.6/extraDock.dmg" length="11340942" type="application/octet-stream" sparkle:edSignature="8peFkrUlfkzR7BZMso7OCJM17nG8AXx1iFy2ZmCqU2Um1DuUsRHFoXJMRt3diXF9rYsXJUze1SA1HwT9eKlCDg=="/>
+            <enclosure url="https://github.com/AppitStudio/extra-dock-updates/releases/download/v4.2.7/extraDock.dmg" length="11468916" type="application/octet-stream" sparkle:edSignature="oGj9WN8DEeNYgOpdrpt6LN3PLn1u3trebdDdBVkfd5ptloPHV/sSHLioJtyiaIn3SDQTZVv9Iwnoj1rB0jGbDw=="/>
         </item>
     </channel>
 </rss>
