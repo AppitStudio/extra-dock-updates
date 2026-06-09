@@ -3,48 +3,58 @@
     <channel>
         <title>ExtraDock</title>
         <item>
-            <title>4.2.7</title>
-            <pubDate>Fri, 23 May 2026 19:11:15 +0300</pubDate>
-            <sparkle:version>427</sparkle:version>
-            <sparkle:shortVersionString>4.2.7</sparkle:shortVersionString>
+            <title>4.2.8</title>
+            <pubDate>Tue, 09 Jun 2026 14:25:13 +0300</pubDate>
+            <sparkle:version>428</sparkle:version>
+            <sparkle:shortVersionString>4.2.8</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>11.5</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
                 https://appitstudio.github.io/extra-dock-updates/release-notes.html</sparkle:fullReleaseNotesLink>
             <description><![CDATA[
 
-        <h2>ExtraDock 4.2.7 – Smarter, Smoother & Fully Backed Up! 🛡️✨</h2>
+        <h2>ExtraDock 4.2.8 – Every Screen, Every Window, Perfectly in Focus! 🖥️🪟</h2>
 
-        <h3>✨ What's New</h3>
+        <h3>🖥️ Multi-Screen &amp; Display</h3>
         <ul>
-            <li><strong>Accessibility Banner:</strong> A friendly banner at the top of the settings window makes enabling Accessibility a breeze!</li>
-            <li><strong>Window Switching:</strong> Right-click any app to switch between its open windows — with context for multi-window apps!</li>
-            <li><strong>Custom Folder Stack Icons:</strong> Folder Stacks now support custom icons — personalize every corner of your dock!</li>
-            <li><strong>Automatic Configuration Backups:</strong> ExtraDock now keeps backup copies of your dock setup and lets you restore or reveal them from Settings!</li>
+            <li><strong>Show on All Screens:</strong> A new per-dock toggle mirrors a single dock onto every connected display at once — it appears, repositions, and cleans up automatically as screens come and go, all while staying one managed dock!</li>
+            <li><strong>More Reliable Monitor Identity:</strong> Docks now recognize your physical monitors far more accurately, so they reappear on the correct screen even after you unplug, replug, or rearrange displays!</li>
+            <li><strong>Improved Screen Settings UI:</strong> A clearer, refreshed interface for assigning docks to specific monitors!</li>
         </ul>
 
-        <h3>⚙️ Settings</h3>
+        <h3>🪟 Dock Click → Window Focus (macOS 14 &amp; 15)</h3>
         <ul>
-            <li><strong>Auto-Hide Reveal Delay:</strong> Choose how long you have to hover at the edge before a hidden dock pops out!</li>
+            <li><strong>Fixed the "Half-Focus" Bug:</strong> Clicking a dock icon now properly brings the app's window to the front, not just its menu bar — fixing a long-standing issue on macOS Sonoma and Sequoia!</li>
+            <li><strong>Cross-Space &amp; Multi-Monitor Windows:</strong> Clicking an app whose window lives on another Space or display — including Electron/Chromium apps like Claude, Chrome, and VS Code — now reliably raises the real window!</li>
+            <li><strong>Snappier Clicks:</strong> Reduced the time between clicking an icon and the window appearing!</li>
         </ul>
 
-        <h3>⚡ Improvements</h3>
+        <h3>🧩 Widgets</h3>
         <ul>
-            <li><strong>Smarter Auto-Hide:</strong> Auto-hidden docks now only appear when you touch the edge of the screen, with a customizable delay!</li>
-            <li><strong>Spacer Widget:</strong> Now supports custom spacing configuration that goes up to 3000 pixels!</li>
-            <li><strong>Divider Widget Spacing:</strong> The Divider widget now has a built-in spacing option — no more need for extra Spacer widgets!</li>
-            <li><strong>Space Awareness:</strong> Now uses deeper macOS Space information, making it more reliable across displays and Spaces!</li>
+            <li><strong>Space Awareness Context Menu:</strong> Right-click a window in the Space Awareness widget to act on it directly!</li>
+            <li><strong>Live Dock — No More Duplicates:</strong> Live Dock apps that are also pinned manually are no longer shown twice!</li>
+            <li><strong>Live Dock — Lighter &amp; More Accurate:</strong> Lower-overhead refreshing of running apps and their windows, plus a lifecycle fix that keeps the Live Dock in sync as apps launch and quit!</li>
+            <li><strong>Desktop Widget Mode:</strong> A new per-dock setting that keeps the dock on the desktop, behind your app windows!</li>
         </ul>
 
-        <h3>🐛 Bug Fixes</h3>
+        <h3>💾 Backup &amp; Restore</h3>
         <ul>
-            <li><strong>Spacer Widget Cleanup:</strong> Removed a stray divider-like pixel line from the Spacer widget!</li>
-            <li><strong>Launch Animation:</strong> Fixed to be more consistent across all dock positions!</li>
-            <li><strong>Dock Size Controls:</strong> Reverted to the previous style — fixes a bug where icons randomly changed size!</li>
-            <li><strong>Live Dock Wake-Up:</strong> Clicking an app now properly brings it front or minimizes it, depending on your settings!</li>
-            <li><strong>Backup Export:</strong> Exporting configuration backups now uses the proper default save behavior!</li>
-            <li><strong>Respect Dock Space:</strong> Now waits until startup positioning is finished before kicking in — no more launch-time window pushing!</li>
-            <li><strong>Live Dock Deduplication:</strong> Collapses duplicate app icons when the same app is already manually added to the same dock!</li>
-            <li><strong>Smarter App Clicks:</strong> Apps with no real open window now open a new window instead of getting stuck on invisible ghost windows!</li>
+            <li><strong>Automatic Configuration Backups:</strong> ExtraDock now automatically saves backups of your dock configuration — a new Automatic Backups section in Settings lets you view, refresh, reveal in Finder, and restore any previous backup, complete with timestamps and item counts!</li>
+            <li><strong>Better Backup Export/Import:</strong> Full backup export/import improvements, including fixed export save defaults!</li>
+        </ul>
+
+        <h3>🪄 Onboarding &amp; Permissions</h3>
+        <ul>
+            <li><strong>Accessibility Permission Reminder:</strong> ExtraDock now prompts you to grant Accessibility access, which is required for window focusing and switching to work correctly!</li>
+            <li><strong>Smoother First Run:</strong> Onboarding fixes make the first-run setup experience more reliable!</li>
+        </ul>
+
+        <h3>⚡ Performance &amp; Stability</h3>
+        <ul>
+            <li><strong>Faster Activation:</strong> More efficient dock-icon activation and window detection!</li>
+            <li><strong>Smarter Respect Dock Space:</strong> Improved handling for newly opened windows!</li>
+            <li><strong>Lower Background CPU:</strong> Lower-frequency mouse polling, throttled notification-badge reads, and deduplicated window-tracking registrations all reduce background CPU usage!</li>
+            <li><strong>Auto-Hide Reliability Fix:</strong> Prevents a dock from incorrectly hiding when it should stay visible!</li>
+            <li><strong>Larger Custom Spacers:</strong> The spacer size limit is now up to 3000!</li>
         </ul>
 
         <h3>🚀 What's Next?</h3>
@@ -52,7 +62,7 @@
 
         <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraDock community! Your feedback drives every improvement we make.</em></p>
             ]]></description>
-            <enclosure url="https://github.com/AppitStudio/extra-dock-updates/releases/download/v4.2.7/extraDock.dmg" length="11468916" type="application/octet-stream" sparkle:edSignature="oGj9WN8DEeNYgOpdrpt6LN3PLn1u3trebdDdBVkfd5ptloPHV/sSHLioJtyiaIn3SDQTZVv9Iwnoj1rB0jGbDw=="/>
+            <enclosure url="https://github.com/AppitStudio/extra-dock-updates/releases/download/v4.2.8/extraDock.dmg" length="11842557" type="application/octet-stream" sparkle:edSignature="iysOvWW/WhlD4OaE748zfk/+Cj9XWPIefFfpjTxAFXGZ2+y9pehNXW12PAmbbNbhBIrZ23susPCtyTD2c75VCg=="/>
         </item>
     </channel>
 </rss>
