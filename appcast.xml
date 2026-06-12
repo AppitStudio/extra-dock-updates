@@ -3,58 +3,28 @@
     <channel>
         <title>ExtraDock</title>
         <item>
-            <title>4.2.8</title>
-            <pubDate>Tue, 09 Jun 2026 14:25:13 +0300</pubDate>
-            <sparkle:version>428</sparkle:version>
-            <sparkle:shortVersionString>4.2.8</sparkle:shortVersionString>
+            <title>4.2.9</title>
+            <pubDate>Fri, 12 Jun 2026 15:50:00 +0300</pubDate>
+            <sparkle:version>429</sparkle:version>
+            <sparkle:shortVersionString>4.2.9</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>11.5</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
                 https://appitstudio.github.io/extra-dock-updates/release-notes.html</sparkle:fullReleaseNotesLink>
             <description><![CDATA[
 
-        <h2>ExtraDock 4.2.8 – Every Screen, Every Window, Perfectly in Focus! 🖥️🪟</h2>
+        <h2>ExtraDock 4.2.9 – Smoother, Steadier, Rock Solid! 🛠️✨</h2>
 
-        <h3>🖥️ Multi-Screen &amp; Display</h3>
+        <h3>🖥️ Spaces &amp; Docks</h3>
         <ul>
-            <li><strong>Show on All Screens:</strong> A new per-dock toggle mirrors a single dock onto every connected display at once — it appears, repositions, and cleans up automatically as screens come and go, all while staying one managed dock!</li>
-            <li><strong>More Reliable Monitor Identity:</strong> Docks now recognize your physical monitors far more accurately, so they reappear on the correct screen even after you unplug, replug, or rearrange displays!</li>
-            <li><strong>Improved Screen Settings UI:</strong> A clearer, refreshed interface for assigning docks to specific monitors!</li>
+            <li><strong>Docks Stay Put Across Spaces:</strong> Fixed docks flickering or disappearing when switching Spaces — always-visible docks no longer go missing on new desktops until a restart!</li>
+            <li><strong>Smoother Fullscreen Transitions:</strong> Improved dock hide/show behavior when entering and leaving fullscreen apps!</li>
         </ul>
 
-        <h3>🪟 Dock Click → Window Focus (macOS 14 &amp; 15)</h3>
+        <h3>⚡ Stability &amp; Performance</h3>
         <ul>
-            <li><strong>Fixed the "Half-Focus" Bug:</strong> Clicking a dock icon now properly brings the app's window to the front, not just its menu bar — fixing a long-standing issue on macOS Sonoma and Sequoia!</li>
-            <li><strong>Cross-Space &amp; Multi-Monitor Windows:</strong> Clicking an app whose window lives on another Space or display — including Electron/Chromium apps like Claude, Chrome, and VS Code — now reliably raises the real window!</li>
-            <li><strong>Snappier Clicks:</strong> Reduced the time between clicking an icon and the window appearing!</li>
-        </ul>
-
-        <h3>🧩 Widgets</h3>
-        <ul>
-            <li><strong>Space Awareness Context Menu:</strong> Right-click a window in the Space Awareness widget to act on it directly!</li>
-            <li><strong>Live Dock — No More Duplicates:</strong> Live Dock apps that are also pinned manually are no longer shown twice!</li>
-            <li><strong>Live Dock — Lighter &amp; More Accurate:</strong> Lower-overhead refreshing of running apps and their windows, plus a lifecycle fix that keeps the Live Dock in sync as apps launch and quit!</li>
-            <li><strong>Desktop Widget Mode:</strong> A new per-dock setting that keeps the dock on the desktop, behind your app windows!</li>
-        </ul>
-
-        <h3>💾 Backup &amp; Restore</h3>
-        <ul>
-            <li><strong>Automatic Configuration Backups:</strong> ExtraDock now automatically saves backups of your dock configuration — a new Automatic Backups section in Settings lets you view, refresh, reveal in Finder, and restore any previous backup, complete with timestamps and item counts!</li>
-            <li><strong>Better Backup Export/Import:</strong> Full backup export/import improvements, including fixed export save defaults!</li>
-        </ul>
-
-        <h3>🪄 Onboarding &amp; Permissions</h3>
-        <ul>
-            <li><strong>Accessibility Permission Reminder:</strong> ExtraDock now prompts you to grant Accessibility access, which is required for window focusing and switching to work correctly!</li>
-            <li><strong>Smoother First Run:</strong> Onboarding fixes make the first-run setup experience more reliable!</li>
-        </ul>
-
-        <h3>⚡ Performance &amp; Stability</h3>
-        <ul>
-            <li><strong>Faster Activation:</strong> More efficient dock-icon activation and window detection!</li>
-            <li><strong>Smarter Respect Dock Space:</strong> Improved handling for newly opened windows!</li>
-            <li><strong>Lower Background CPU:</strong> Lower-frequency mouse polling, throttled notification-badge reads, and deduplicated window-tracking registrations all reduce background CPU usage!</li>
-            <li><strong>Auto-Hide Reliability Fix:</strong> Prevents a dock from incorrectly hiding when it should stay visible!</li>
-            <li><strong>Larger Custom Spacers:</strong> The spacer size limit is now up to 3000!</li>
+            <li><strong>No More UI Freezes:</strong> Fixed hangs that could freeze ExtraDock while other apps were launching or activating!</li>
+            <li><strong>Trash Widget Crash Fix:</strong> Fixed a crash in the Trash widget's Finder integration!</li>
+            <li><strong>macOS 26 Crash Fix:</strong> Fixed a window-resize crash in the management and widget settings windows on macOS 26!</li>
         </ul>
 
         <h3>🚀 What's Next?</h3>
@@ -62,7 +32,7 @@
 
         <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraDock community! Your feedback drives every improvement we make.</em></p>
             ]]></description>
-            <enclosure url="https://github.com/AppitStudio/extra-dock-updates/releases/download/v4.2.8/extraDock.dmg" length="11842557" type="application/octet-stream" sparkle:edSignature="iysOvWW/WhlD4OaE748zfk/+Cj9XWPIefFfpjTxAFXGZ2+y9pehNXW12PAmbbNbhBIrZ23susPCtyTD2c75VCg=="/>
+            <enclosure url="https://github.com/AppitStudio/extra-dock-updates/releases/download/v4.2.9/extraDock.dmg" length="11870540" type="application/octet-stream" sparkle:edSignature="YaW/LJ7I+r/6hErQ4+2LpGtNM4Wm+hjfku7QyOrddmkbWcxI3XezNPDMih8IxNUlLBf5+KMI0jPs4Xv2u5kiDw=="/>
         </item>
     </channel>
 </rss>
