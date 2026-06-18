@@ -33,7 +33,7 @@ This repository manages the Sparkle auto-update feed for ExtraDock, a macOS dock
 ## Sparkle Integration Details
 - **Update URL:** Points to GitHub Pages hosting (`https://appitstudio.github.io/extra-dock-updates/appcast.xml`)
 - **EdDSA Signatures:** Uses `sparkle:edSignature` for secure update verification
-- **Minimum System:** Currently requires macOS 11.5+
+- **Minimum System:** Currently requires macOS 12.0+
 - **File Hosting:** DMG files hosted on GitHub Releases (`/releases/download/prod/extraDock.dmg`)
 
 ## Content Patterns

@@ -24,7 +24,7 @@ This repository manages the Sparkle auto-update feed for ExtraDock, a macOS dock
 - **`appcast-example.xml`** - Reference template from a different app (DockFlow), kept for structural reference
 
 ### Sparkle Integration
-- **Minimum System Version:** macOS 11.5+
+- **Minimum System Version:** macOS 12.0+
 - **Security:** Uses EdDSA signatures (`sparkle:edSignature`) for secure update verification
 - **File Hosting:** DMG files hosted on GitHub Releases at `/releases/download/prod/extraDock.dmg`
 - **Distribution:** GitHub Pages serves the static XML/HTML files
