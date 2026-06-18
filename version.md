@@ -1,8 +1,8 @@
-VERSION: 4.2.9
+VERSION: 4.3.0
 DETAILS:
 
-bug fix: Docks no longer flicker or go missing when switching Spaces — always-visible docks now reliably re-attach on new desktops
-bug fix: App hangs/UI freezes while other apps were launching or activating (Accessibility observer registration moved off the main thread)
-bug fix: Crash in the Trash widget's Finder AppleScript fallback
-bug fix: Window-resize crash in the management and widget-config windows on macOS 26
-improved: Smoother dock hide/show behavior when entering and leaving fullscreen apps
+new: World Cup 2026 widget — live in-play scores, a per-second countdown to your favorite team's next match, upcoming fixtures, and recent results, with team flags, a spinning-ball motif, and a confetti burst on goals
+new: Pick a favorite team to track right in the widget settings
+new: Schedule and results work offline out of the box; optional live scores can be enabled separately
+new: Clean, neutral placeholders for matches whose teams aren't decided yet (e.g. "Group A runner-up")
+new: Drag to reorder docks in the dock list — your most-used docks sit exactly where you want them, and the new order is saved automatically
