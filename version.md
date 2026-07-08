@@ -1,8 +1,13 @@
-VERSION: 4.3.0
+VERSION: 4.3.1
 DETAILS:
 
-new: World Cup 2026 widget — live in-play scores, a per-second countdown to your favorite team's next match, upcoming fixtures, and recent results, with team flags, a spinning-ball motif, and a confetti burst on goals
-new: Pick a favorite team to track right in the widget settings
-new: Schedule and results work offline out of the box; optional live scores can be enabled separately
-new: Clean, neutral placeholders for matches whose teams aren't decided yet (e.g. "Group A runner-up")
-new: Drag to reorder docks in the dock list — your most-used docks sit exactly where you want them, and the new order is saved automatically
+new: App Stack widget — group a set of apps or folders into a single expandable stack in your dock; add items by drag & drop and launch them straight from the stack
+new: Metronome widget — a dockable metronome with adjustable BPM and an audible click
+new: Clicker widget — a simple tap counter that remembers your count between launches
+new: Reorder your docks — drag docks into the order you want in the management window; the arrangement is saved automatically
+improved: Setting a custom icon is now discoverable directly from the dock items list
+improved: Click anywhere on an item's row to open its settings
+bug fix: Docks no longer disappear when switching Spaces — fixed cases (especially on macOS 26.5) where a dock could blink out when changing desktops or stay missing until restart
+bug fix: Fixed a crash when enabling notification badges on macOS 26 (Tahoe)
+bug fix: Fixed blank window when reopening WeChat / WhatsApp after closing with the red "X" — now reopens a proper window, matching the native Dock
+bug fix: Fixed desktop widget layering so desktop widgets sit at the correct level relative to your docks

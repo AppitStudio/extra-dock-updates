@@ -3,28 +3,33 @@
     <channel>
         <title>ExtraDock</title>
         <item>
-            <title>4.3.0</title>
-            <pubDate>Thu, 18 Jun 2026 13:24:33 +0300</pubDate>
-            <sparkle:version>430</sparkle:version>
-            <sparkle:shortVersionString>4.3.0</sparkle:shortVersionString>
+            <title>4.3.1</title>
+            <pubDate>Wed, 08 Jul 2026 16:22:28 +0300</pubDate>
+            <sparkle:version>431</sparkle:version>
+            <sparkle:shortVersionString>4.3.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
                 https://appitstudio.github.io/extra-dock-updates/release-notes.html</sparkle:fullReleaseNotesLink>
             <description><![CDATA[
 
-        <h2>ExtraDock 4.3.0 – Game On, Docks On! ⚽↕️</h2>
+        <h2>ExtraDock 4.3.1 – Stack 'Em, Tap 'Em, Time 'Em! 🗂️🥁</h2>
 
-        <h3>⚽ New: World Cup 2026 Widget</h3>
-        <p>Bring the tournament to your dock! The new World Cup widget shows live in-play scores, a per-second countdown to your favorite team's next match, upcoming fixtures, and recent results — complete with team flags, a spinning-ball motif, and a confetti burst when a goal goes in!</p>
+        <h3>✨ New Widgets &amp; Features</h3>
         <ul>
-            <li><strong>Pick Your Team:</strong> Choose a favorite team to track right in the widget settings!</li>
-            <li><strong>Works Offline:</strong> Schedule and results work offline out of the box — optional live scores can be enabled separately!</li>
-            <li><strong>Smart Placeholders:</strong> Clean, neutral placeholders for matches whose teams aren't decided yet (e.g. "Group A runner-up")!</li>
+            <li><strong>App Stack Widget:</strong> Group a set of apps or folders into a single expandable stack right in your dock — add items by drag &amp; drop and launch them straight from the stack!</li>
+            <li><strong>Metronome Widget:</strong> A dockable metronome with adjustable BPM and an audible click, perfect for keeping time without leaving what you're doing!</li>
+            <li><strong>Clicker Widget:</strong> A simple tap counter that remembers your count between launches — handy for tallying reps, people, or anything else!</li>
+            <li><strong>Reorder Your Docks:</strong> Drag docks into the order you want in the management window, and your arrangement is saved automatically!</li>
+            <li><strong>Easier Custom Icons:</strong> Setting a custom icon is now discoverable directly from the dock items list!</li>
+            <li><strong>Quicker Settings Access:</strong> Click anywhere on an item's row to open its settings!</li>
         </ul>
 
-        <h3>↕️ New: Reorder Your Docks</h3>
+        <h3>🐞 Bug Fixes &amp; Improvements</h3>
         <ul>
-            <li><strong>Drag to Reorder:</strong> You can now drag to reorder docks in the dock list, so your most-used docks sit exactly where you want them — the new order is saved automatically!</li>
+            <li><strong>Docks Stay Put When Switching Spaces:</strong> Fixed several cases (especially on macOS 26.5) where a dock could briefly blink out when changing desktops, or stay missing on some Spaces until you restarted the app!</li>
+            <li><strong>Fixed Notification Badge Crash on macOS 26 (Tahoe):</strong> Turning on notification badges no longer causes the app to quit unexpectedly!</li>
+            <li><strong>Fixed Blank Window on Reopen:</strong> Clicking an app's dock icon after closing WeChat or WhatsApp with the red "X" now reopens a proper window instead of an empty one, matching the native Dock — focus behavior for apps like Claude, Chrome, and VS Code is unchanged!</li>
+            <li><strong>Fixed Desktop Widget Layering:</strong> Desktop widgets now sit at the correct level relative to your docks!</li>
         </ul>
 
         <h3>🚀 What's Next?</h3>
@@ -32,7 +37,7 @@
 
         <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraDock community! Your feedback drives every improvement we make.</em></p>
             ]]></description>
-            <enclosure url="https://github.com/AppitStudio/extra-dock-updates/releases/download/v4.3.0/extraDock.dmg" length="12520146" type="application/octet-stream" sparkle:edSignature="/Dw62VgoeDVUv2X6I0ZXa+EMGn0JnGXfa5jb/XdqLU5knTAm8rDBY20g+0BXtijgkEZu0aoaUOkGkk6XR2A9Dw=="/>
+            <enclosure url="https://github.com/AppitStudio/extra-dock-updates/releases/download/v4.3.1/extraDock.dmg" length="13063837" type="application/octet-stream" sparkle:edSignature="aS2qScgbM6Bi8TD9B6Ras+GGbrGLA+NHhkCPCnYmN/cKLVglAFRowgT0cJ8sBs6C5a5Bbyg2ZTrFYpUbXuX3Cg=="/>
         </item>
     </channel>
 </rss>
