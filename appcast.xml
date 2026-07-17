@@ -3,33 +3,34 @@
     <channel>
         <title>ExtraDock</title>
         <item>
-            <title>4.3.1</title>
-            <pubDate>Wed, 08 Jul 2026 16:22:28 +0300</pubDate>
-            <sparkle:version>431</sparkle:version>
-            <sparkle:shortVersionString>4.3.1</sparkle:shortVersionString>
+            <title>4.3.2</title>
+            <pubDate>Fri, 17 Jul 2026 14:25:26 +0300</pubDate>
+            <sparkle:version>432</sparkle:version>
+            <sparkle:shortVersionString>4.3.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
                 https://appitstudio.github.io/extra-dock-updates/release-notes.html</sparkle:fullReleaseNotesLink>
             <description><![CDATA[
 
-        <h2>ExtraDock 4.3.1 – Stack 'Em, Tap 'Em, Time 'Em! 🗂️🥁</h2>
+        <h2>ExtraDock 4.3.2 – Watch Your GPU &amp; Know Your Days! 📊📅</h2>
 
         <h3>✨ New Widgets &amp; Features</h3>
         <ul>
-            <li><strong>App Stack Widget:</strong> Group a set of apps or folders into a single expandable stack right in your dock — add items by drag &amp; drop and launch them straight from the stack!</li>
-            <li><strong>Metronome Widget:</strong> A dockable metronome with adjustable BPM and an audible click, perfect for keeping time without leaving what you're doing!</li>
-            <li><strong>Clicker Widget:</strong> A simple tap counter that remembers your count between launches — handy for tallying reps, people, or anything else!</li>
-            <li><strong>Reorder Your Docks:</strong> Drag docks into the order you want in the management window, and your arrangement is saved automatically!</li>
-            <li><strong>Easier Custom Icons:</strong> Setting a custom icon is now discoverable directly from the dock items list!</li>
-            <li><strong>Quicker Settings Access:</strong> Click anywhere on an item's row to open its settings!</li>
+            <li><strong>GPU Usage Widget:</strong> A new System Stats widget joins CPU, Memory, and Battery — watch your live graphics load as a gauge ring that climbs from green to amber to red under gaming, rendering, or ML workloads, on both Apple Silicon and Intel Macs!</li>
+            <li><strong>Clock — Day of Week:</strong> The Clock widget can now show the weekday (Mon, Tue, …), on its own or right alongside the date — enable it under the Clock's Custom layout, and it's included in the Full preset!</li>
         </ul>
 
         <h3>🐞 Bug Fixes &amp; Improvements</h3>
         <ul>
-            <li><strong>Docks Stay Put When Switching Spaces:</strong> Fixed several cases (especially on macOS 26.5) where a dock could briefly blink out when changing desktops, or stay missing on some Spaces until you restarted the app!</li>
-            <li><strong>Fixed Notification Badge Crash on macOS 26 (Tahoe):</strong> Turning on notification badges no longer causes the app to quit unexpectedly!</li>
-            <li><strong>Fixed Blank Window on Reopen:</strong> Clicking an app's dock icon after closing WeChat or WhatsApp with the red "X" now reopens a proper window instead of an empty one, matching the native Dock — focus behavior for apps like Claude, Chrome, and VS Code is unchanged!</li>
-            <li><strong>Fixed Desktop Widget Layering:</strong> Desktop widgets now sit at the correct level relative to your docks!</li>
+            <li><strong>Collapsed Docks Expand Back On-Screen:</strong> Drag a collapsed floating dock near a screen edge and reopen it — ExtraDock now expands it in the direction that keeps it fully on your display, anchored to where you dropped it, instead of partly off the edge!</li>
+            <li><strong>Clock Seconds Now Show on Small Docks:</strong> "Show Seconds" (and the date/timezone) were being hidden at smaller dock icon sizes even when enabled — they now honor your setting at every size!</li>
+            <li><strong>Timer Widget Updates Instantly:</strong> Changes to a Timer's duration, color, label, or text size now apply to the dock immediately, instead of waiting for a restart!</li>
+            <li><strong>Respect Dock Space on Every Screen:</strong> With "Show dock on all screens" turned on, ExtraDock now reserves space on all your displays, so app windows no longer slide underneath the dock on secondary screens!</li>
+        </ul>
+
+        <h3>🛠️ Under the Hood</h3>
+        <ul>
+            <li><strong>Accessibility &amp; Modernization:</strong> Improved accessibility labeling for the collapse button, plus modernized icon and file-picker handling by cleaning up several deprecated system calls for better forward compatibility!</li>
         </ul>
 
         <h3>🚀 What's Next?</h3>
@@ -37,7 +38,7 @@
 
         <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraDock community! Your feedback drives every improvement we make.</em></p>
             ]]></description>
-            <enclosure url="https://github.com/AppitStudio/extra-dock-updates/releases/download/v4.3.1/extraDock.dmg" length="13063837" type="application/octet-stream" sparkle:edSignature="aS2qScgbM6Bi8TD9B6Ras+GGbrGLA+NHhkCPCnYmN/cKLVglAFRowgT0cJ8sBs6C5a5Bbyg2ZTrFYpUbXuX3Cg=="/>
+            <enclosure url="https://github.com/AppitStudio/extra-dock-updates/releases/download/v4.3.2/extraDock.dmg" length="13261532" type="application/octet-stream" sparkle:edSignature="xOswGmgtk11GMLbRVgpxwKpR2apC9aXPH5VIuXX97tI++TteOY2t5Noz6IOYzZup5uc5DQvNwkxwRnSzx4RJBw=="/>
         </item>
     </channel>
 </rss>

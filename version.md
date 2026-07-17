@@ -1,13 +1,10 @@
-VERSION: 4.3.1
+VERSION: 4.3.2
 DETAILS:
 
-new: App Stack widget — group a set of apps or folders into a single expandable stack in your dock; add items by drag & drop and launch them straight from the stack
-new: Metronome widget — a dockable metronome with adjustable BPM and an audible click
-new: Clicker widget — a simple tap counter that remembers your count between launches
-new: Reorder your docks — drag docks into the order you want in the management window; the arrangement is saved automatically
-improved: Setting a custom icon is now discoverable directly from the dock items list
-improved: Click anywhere on an item's row to open its settings
-bug fix: Docks no longer disappear when switching Spaces — fixed cases (especially on macOS 26.5) where a dock could blink out when changing desktops or stay missing until restart
-bug fix: Fixed a crash when enabling notification badges on macOS 26 (Tahoe)
-bug fix: Fixed blank window when reopening WeChat / WhatsApp after closing with the red "X" — now reopens a proper window, matching the native Dock
-bug fix: Fixed desktop widget layering so desktop widgets sit at the correct level relative to your docks
+new: GPU Usage widget — a new System Stats widget alongside CPU, Memory, and Battery that shows your live graphics load as a gauge ring climbing from green to amber to red under gaming, rendering, or ML workloads; works on Apple Silicon and Intel Macs
+new: Clock — Day of Week — the Clock widget can now show the weekday (Mon, Tue, …) on its own or alongside the date; enable it under the Clock's Custom layout, and it's included in the Full preset
+bug fix: Collapsed docks now expand back on-screen — a collapsed floating dock dropped near a screen edge now expands in the direction that keeps it fully on your display, anchored to where you dropped it
+bug fix: Clock seconds (and the date/timezone) now show on small docks — "Show Seconds" is honored at every dock icon size instead of being hidden at smaller sizes
+bug fix: Timer widget updates instantly — changes to a Timer's duration, color, label, or text size now apply to the dock immediately instead of waiting for a restart
+bug fix: Respect Dock Space now works on every screen — with "Show dock on all screens" on, ExtraDock reserves space on all displays so app windows no longer slide under the dock on secondary screens
+improved: Improved accessibility labeling for the collapse button, and modernized icon and file-picker handling by cleaning up several deprecated system calls for better forward compatibility
