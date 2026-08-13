@@ -3,36 +3,23 @@
     <channel>
         <title>ExtraDock</title>
         <item>
-            <title>4.3.3</title>
-            <pubDate>Tue, 28 Jul 2026 12:57:35 +0300</pubDate>
-            <sparkle:version>433</sparkle:version>
-            <sparkle:shortVersionString>4.3.3</sparkle:shortVersionString>
+            <title>4.3.4</title>
+            <pubDate>Thu, 13 Aug 2026 15:24:00 +0300</pubDate>
+            <sparkle:version>434</sparkle:version>
+            <sparkle:shortVersionString>4.3.4</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
                 https://appitstudio.github.io/extra-dock-updates/release-notes.html</sparkle:fullReleaseNotesLink>
             <description><![CDATA[
 
-        <h2>ExtraDock 4.3.3 – Move Widgets Anywhere &amp; Fine-Tune Every Gauge! 🔀🎨</h2>
-
-        <h3>✨ New Features</h3>
-        <ul>
-            <li><strong>Copy or Move Items Between Docks:</strong> Right-click any dock item or widget in the Management window and use the new <em>Copy to Dock ▸</em> and <em>Move to Dock ▸</em> menus to send it to another preset — or to all docks at once. Build a Folder Stack once and reuse it everywhere! Widget rows now have a full context menu too (Configure, Duplicate, Copy, Move, Remove)!</li>
-            <li><strong>GPU Usage Widget:</strong> A fourth System Stats gauge joins CPU, Memory, and Battery — read live GPU utilization from IOKit on both Apple Silicon and Intel Macs, with the same gauge ring, color thresholds, and configuration as the others. If no GPU reports a figure, it tells you instead of showing a misleading 0%!</li>
-            <li><strong>Text Color for System Stats:</strong> CPU, GPU, RAM, and Battery gauges now have a Text Color setting — Automatic, White, Black, or a custom color — covering the number, the metric label, and the battery percentage. Automatic stays the default, so existing docks look unchanged!</li>
-            <li><strong>Clock — Show Day of Week:</strong> The Clock's Custom layout gained a "Show Day of Week" option, rendering short weekday names on their own ("Mon") or combined with the date ("Mon, Oct 23") — and it's included in the Full preset!</li>
-        </ul>
+        <h2>ExtraDock 4.3.4 – Smooth, Snappy, No More Freezes! ⚡️🧊</h2>
 
         <h3>🐞 Bug Fixes</h3>
         <ul>
-            <li><strong>Empty Trash Even With Full Disk Access:</strong> Emptying the trash could fail with a raw permission error even when Full Disk Access was granted — the Finder fallback now engages correctly, verifies the trash is actually empty afterwards, and the alert distinguishes a genuine permission denial (with guidance toward Full Disk Access and Automation) from an unrelated failure!</li>
-            <li><strong>Respect Dock Space on Every Screen:</strong> With "Show dock on all screens" enabled, each per-screen dock now reserves its own space, so app windows no longer expand underneath the dock on secondary displays!</li>
-            <li><strong>Clock Seconds on Small Docks:</strong> "Show Seconds" (and the date and timezone) were silently ignored on docks under 40px — visibility is now driven purely by your settings, at every size!</li>
-            <li><strong>Timer Widget Settings Apply Instantly:</strong> Editing a timer's duration, label, accent color, or font size now takes effect immediately — an idle timer shows its new duration and styling without being recreated!</li>
-        </ul>
-
-        <h3>🛠️ Under the Hood</h3>
-        <ul>
-            <li><strong>Modernization &amp; Testing:</strong> Replaced deprecated APIs (kIOMasterPortDefault, NSOpenPanel.allowedFileTypes, icon(forFileType:)), cleared assorted compiler warnings, and added new test coverage for trash error classification, GPU utilization parsing, Timer configuration sync, and clock layout options!</li>
+            <li><strong>No More 10–15 Second Freezes on Multi-Display Macs:</strong> If you use two or more displays, resizing the Management window or changing dock settings could lock up the whole app for 10–15 seconds — ExtraDock was re-reading every display's hardware identity hundreds of times per resize. Display info is now remembered and refreshed only when you actually plug in or unplug a screen, so those actions are instant again!</li>
+            <li><strong>Right-Click Window List Is Back:</strong> The list of open windows in an app icon's right-click menu had quietly stopped appearing for nearly everyone — it only worked while App Previews (off by default) was enabled. It now loads the moment you hover an icon, whatever your settings, and it shows for single-window apps too, just like the native Dock!</li>
+            <li><strong>Dock Clicks No Longer Beachball:</strong> Clicking a dock icon could stall ExtraDock for seconds while it waited on the system for the full window list. Window info is now refreshed quietly in the background so clicks respond instantly — and app reopening, notification badges, and app icons all got the same treatment!</li>
+            <li><strong>Chrome Web Apps Stop Relaunching:</strong> Restoring a minimized Chrome web app window could immediately trigger a second, heavy relaunch of the app. A restored window now gets a light, Dock-style activation and is never reopened twice — while windows genuinely on another Space still get the full treatment they need!</li>
         </ul>
 
         <h3>🚀 What's Next?</h3>
@@ -40,7 +27,8 @@
 
         <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraDock community! Your feedback drives every improvement we make.</em></p>
             ]]></description>
-            <enclosure url="https://github.com/AppitStudio/extra-dock-updates/releases/download/v4.3.3/extraDock.dmg" length="13301784" type="application/octet-stream" sparkle:edSignature="Pf2A5fjDrjCXk7IRRlW5Bl4C5ENypt0/aZpOtBHkHN1wIUcE/dTqwru3Tt89rdLcjuYkZ/VZvHXYp/4LcPHYBQ=="/>
+
+            <enclosure url="https://github.com/AppitStudio/extra-dock-updates/releases/download/v4.3.4/extraDock.dmg" length="13262083" type="application/octet-stream" sparkle:edSignature="VaIzxDdfg+jpsKiLBkPDBvNkBtKDY9QhB7aPkTBCVfj/WNxqQu2V8BNhJlywau/NBVdIyl1CiLRqecfRMUY4BQ=="/>
         </item>
     </channel>
 </rss>
