@@ -3,23 +3,21 @@
     <channel>
         <title>ExtraDock</title>
         <item>
-            <title>4.3.4</title>
-            <pubDate>Thu, 13 Aug 2026 15:24:00 +0300</pubDate>
-            <sparkle:version>434</sparkle:version>
-            <sparkle:shortVersionString>4.3.4</sparkle:shortVersionString>
+            <title>4.3.5</title>
+            <pubDate>Sat, 15 Aug 2026 16:35:14 +0300</pubDate>
+            <sparkle:version>435</sparkle:version>
+            <sparkle:shortVersionString>4.3.5</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
                 https://appitstudio.github.io/extra-dock-updates/release-notes.html</sparkle:fullReleaseNotesLink>
             <description><![CDATA[
 
-        <h2>ExtraDock 4.3.4 – Smooth, Snappy, No More Freezes! ⚡️🧊</h2>
+        <h2>ExtraDock 4.3.5 – Microsoft Teams Plays Nice Now! 💬🛠️</h2>
 
         <h3>🐞 Bug Fixes</h3>
         <ul>
-            <li><strong>No More 10–15 Second Freezes on Multi-Display Macs:</strong> If you use two or more displays, resizing the Management window or changing dock settings could lock up the whole app for 10–15 seconds — ExtraDock was re-reading every display's hardware identity hundreds of times per resize. Display info is now remembered and refreshed only when you actually plug in or unplug a screen, so those actions are instant again!</li>
-            <li><strong>Right-Click Window List Is Back:</strong> The list of open windows in an app icon's right-click menu had quietly stopped appearing for nearly everyone — it only worked while App Previews (off by default) was enabled. It now loads the moment you hover an icon, whatever your settings, and it shows for single-window apps too, just like the native Dock!</li>
-            <li><strong>Dock Clicks No Longer Beachball:</strong> Clicking a dock icon could stall ExtraDock for seconds while it waited on the system for the full window list. Window info is now refreshed quietly in the background so clicks respond instantly — and app reopening, notification badges, and app icons all got the same treatment!</li>
-            <li><strong>Chrome Web Apps Stop Relaunching:</strong> Restoring a minimized Chrome web app window could immediately trigger a second, heavy relaunch of the app. A restored window now gets a light, Dock-style activation and is never reopened twice — while windows genuinely on another Space still get the full treatment they need!</li>
+            <li><strong>Microsoft Teams No Longer Quits and Relaunches:</strong> Clicking the new Microsoft Teams in an ExtraDock dock could make the whole Teams app quietly quit and relaunch itself 15–20 seconds later, losing your session. Teams is now brought forward through the exact same public activation path the native Dock uses, so a dock click simply focuses Teams — no more surprise restarts!</li>
+            <li><strong>Add Your Own Apps to the Fix:</strong> If another app misbehaves the same way, you can give it the same treatment without waiting for an update — run <code>defaults write dignicy.extraDock ExtraDockPublicActivationOnlyBundleIDs -array "com.example.app"</code> in Terminal! Note: for these apps, dock clicks focus the app as a whole, so per-window cycling and minimize-toggle from the dock are unavailable.</li>
         </ul>
 
         <h3>🚀 What's Next?</h3>
@@ -28,7 +26,7 @@
         <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraDock community! Your feedback drives every improvement we make.</em></p>
             ]]></description>
 
-            <enclosure url="https://github.com/AppitStudio/extra-dock-updates/releases/download/v4.3.4/extraDock.dmg" length="13262083" type="application/octet-stream" sparkle:edSignature="VaIzxDdfg+jpsKiLBkPDBvNkBtKDY9QhB7aPkTBCVfj/WNxqQu2V8BNhJlywau/NBVdIyl1CiLRqecfRMUY4BQ=="/>
+            <enclosure url="https://github.com/AppitStudio/extra-dock-updates/releases/download/v4.3.5/extraDock.dmg" length="13264202" type="application/octet-stream" sparkle:edSignature="L3/SJyHfBwRr/5fNdWrErhfV3RdlJvrhTFKxlkcT2qSoiCGJiOtxq4kG/egHPwwUBqK52jLe95OzRRCHX1BQCQ=="/>
         </item>
     </channel>
 </rss>
