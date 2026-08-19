@@ -1,4 +1,9 @@
-VERSION: 4.3.5
+VERSION: 4.3.7
 DETAILS:
 
-bug fix: Microsoft Teams no longer quits and relaunches when clicked in a dock — new Microsoft Teams (com.microsoft.teams2) is a multi-process WebView2 app whose process group can't survive ExtraDock's window-raise sequence (Accessibility writes + private window-server calls), so clicking it could make the whole group cleanly quit and relaunch ~15–20 seconds later, losing session state; Teams is now activated exclusively through the public NSWorkspace/LaunchServices activation path the native Dock uses, and other affected apps can be quirked without an update via the ExtraDockPublicActivationOnlyBundleIDs defaults array (trade-off for quirked apps: dock clicks focus the app as a whole, so per-window cycling and minimize-toggle from the dock are unavailable)
+new: Bluetooth Battery widget — shows charge level and connection state for AirPods (per-bud and case), Magic Keyboard/Mouse/Trackpad, controllers and other Bluetooth accessories; merges system_profiler and IORegistry data, and reads third-party BLE keyboards/mice directly over the standard GATT Battery Service
+new: Collapse button text/emoji icon now accepts up to 5 characters, with a Normal/Big text size setting
+new: ExtraDock 5 upgrade nudge on macOS 26+ — closable banner on the management screen plus a permanent ExtraDock 5 section in Settings > General; free with the existing license and imports all docks and settings
+bug fix: Dock no longer renders left-justified after undocking a laptop or waking from sleep — screen-geometry changes now re-pin docks even when the dock stays on the same screen whose frame moved
+bug fix: Clicking Steam (and other self-updating apps that re-exec from a private bundle directory) activates the app instead of opening a Finder window; a launchable URL is now resolved at every launch surface
+bug fix: Live Dock now picks up apps that appear late after launching
