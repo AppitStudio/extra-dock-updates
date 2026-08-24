@@ -1,0 +1,50 @@
+name: Validate and register appcast
+
+on:
+  pull_request:
+    paths:
+      - appcast.xml
+      - scripts/**
+      - .github/workflows/validate-and-register-appcast.yml
+  push:
+    branches: [main]
+    paths:
+      - appcast.xml
+      - scripts/**
+      - .github/workflows/validate-and-register-appcast.yml
+
+permissions:
+  contents: read
+
+concurrency:
+  group: extra-dock-v4-appcast-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          fetch-depth: 0
+
+      - name: Validate XML and append-only release metadata
+        env:
+          BASELINE_REF: ${{ github.event_name == 'pull_request' && github.event.pull_request.base.sha || github.event.before }}
+        run: python3 scripts/validate_appcast.py appcast.xml --baseline-git-ref "$BASELINE_REF"
+
+  register-keyper:
+    if: github.event_name == 'push'
+    needs: validate
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+
+      - name: Register retained v4-stable releases after GitHub Pages publishes
+        env:
+          KEYPER_RELEASE_TOKEN: ${{ secrets.KEYPER_RELEASE_TOKEN }}
+        run: >-
+          python3 scripts/register_keyper_releases.py appcast.xml
+          --feed-url https://appitstudio.github.io/extra-dock-updates/appcast.xml

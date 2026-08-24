@@ -9,8 +9,8 @@ This repository manages the Sparkle auto-update feed for ExtraDock, a macOS dock
 ## Architecture
 
 ### Core Files
-- **`appcast.xml`** - Production Sparkle update feed in RSS format
-  - Contains a single `<item>` element with the latest version information
+- **`appcast.xml`** - Append-only production Sparkle update feed in RSS format
+  - Contains the latest item first followed by retained immutable releases
   - Critical fields: `sparkle:version` (build number), `sparkle:shortVersionString` (display version), `enclosure url` (DMG download link), `sparkle:edSignature` (EdDSA security signature)
   - Links to `release-notes.html` via `sparkle:fullReleaseNotesLink`
   - Hosted URL: `https://appitstudio.github.io/extra-dock-updates/appcast.xml`
@@ -35,7 +35,7 @@ This repository manages the Sparkle auto-update feed for ExtraDock, a macOS dock
 
 When publishing a new version of ExtraDock:
 
-1. **Update `appcast.xml`:**
+1. **Prepend to `appcast.xml`:**
    - Increment `sparkle:version` (integer build number, e.g., 390 → 391)
    - Update `sparkle:shortVersionString` (semantic version, e.g., "3.9" → "3.9.1")
    - Update `pubDate` to current timestamp in RFC 2822 format
@@ -50,7 +50,10 @@ When publishing a new version of ExtraDock:
    - Use emojis in headings for visual appeal (following existing pattern)
    - Keep content user-focused and enthusiastic in tone
 
-3. **Commit:**
+3. **Validate and commit:**
+   - Run `python3 scripts/validate_appcast.py appcast.xml`
+   - Never remove or rewrite a published item's metadata and never backdate `pubDate`
+   - The GitHub Action registers releases with Keyper using the dedicated `KEYPER_RELEASE_TOKEN`; never substitute the app's client validation key
    - Use simple commit messages following repository patterns: "bump v3.9", "V3.8", "version bump"
    - Single commit per version bump
 
