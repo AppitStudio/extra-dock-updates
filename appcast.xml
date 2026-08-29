@@ -3,29 +3,28 @@
     <channel>
         <title>ExtraDock</title>
         <item>
-            <title>4.3.7</title>
-            <pubDate>Wed, 19 Aug 2026 19:00:07 +0300</pubDate>
-            <sparkle:version>437</sparkle:version>
-            <sparkle:shortVersionString>4.3.7</sparkle:shortVersionString>
+            <title>4.3.8</title>
+            <pubDate>Sat, 29 Aug 2026 15:26:00 +0300</pubDate>
+            <sparkle:version>438</sparkle:version>
+            <sparkle:shortVersionString>4.3.8</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
             <sparkle:fullReleaseNotesLink>
                 https://appitstudio.github.io/extra-dock-updates/release-notes.html</sparkle:fullReleaseNotesLink>
             <description><![CDATA[
 
-        <h2>ExtraDock 4.3.7 – Battery Widget & Dock Fixes! 🔋🛠️</h2>
-
-        <h3>✨ What's New</h3>
-        <ul>
-            <li><strong>Bluetooth Battery Widget:</strong> See the charge level of your AirPods, Magic Keyboard, Mouse, Trackpad and other Bluetooth accessories right in your dock!</li>
-            <li><strong>Bigger Collapse Button Text:</strong> Use up to 5 characters or emoji on the collapse button, with a new Big text size option!</li>
-            <li><strong>ExtraDock 5 Is Here:</strong> On macOS 26 and later you can upgrade to ExtraDock 5 for free with your existing license — it imports all your docks and settings!</li>
-        </ul>
+        <h2>ExtraDock 4.3.8 – Two Monitors, Two Minds! 🖥️🖥️</h2>
 
         <h3>🐞 Bug Fixes</h3>
         <ul>
-            <li><strong>Dock Stays Centered:</strong> Undocking a laptop or waking from sleep no longer leaves your dock stuck to the left edge!</li>
-            <li><strong>Steam Opens Properly:</strong> Clicking Steam (and other self-updating apps) now activates the app instead of opening a Finder window!</li>
-            <li><strong>Live Dock Catches Up:</strong> Apps that take a while to launch now show up in Live Dock instead of going missing!</li>
+            <li><strong>Two identical monitors are finally told apart:</strong> If you use two displays of the same make and model, ExtraDock treated them as one screen — turning off a dock on one would turn it off on the other!</li>
+            <li><strong>Docks stay on the right screen:</strong> Each monitor now keeps its own dock assignment, so nothing jumps to the neighbouring display after sleep, wake, or unplugging a cable!</li>
+            <li><strong>A cleaner screen list:</strong> Screen Sharing, AirPlay, Sidecar and mirrored displays no longer clutter the screen picker — only real monitors you can actually put a dock on!</li>
+        </ul>
+
+        <h3>✨ What's New</h3>
+        <ul>
+            <li><strong>Diagnostics panel:</strong> A new Diagnostics section in Settings lets you save your dock setup, screen layout, and recent activity to a file!</li>
+            <li><strong>Faster support:</strong> Attach that file to an email and we can see exactly what happened, instead of asking you twenty questions!</li>
         </ul>
 
         <h3>🚀 What's Next?</h3>
@@ -34,7 +33,7 @@
         <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraDock community! Your feedback drives every improvement we make.</em></p>
             ]]></description>
 
-            <enclosure url="https://github.com/AppitStudio/extra-dock-updates/releases/download/v4.3.7/extraDock.dmg" length="13534931" type="application/octet-stream" sparkle:edSignature="upJIhbDpiP6q/AQFvqrUnpBAmYd7uPt3PlOmfI7sJwOLTTbuyVGT361I9pO5TzQqS6/zuUrp/7eCDYvfLHwUCA=="/>
+            <enclosure url="https://github.com/AppitStudio/extra-dock-updates/releases/download/v4.3.8/extraDock.dmg" length="13654870" type="application/octet-stream" sparkle:edSignature="C1tpSGN3Q9judpYHeQ3lIuYaX8SaiYnYZ4Zd6cLE6j1eZJqLgYEbGqYRR6YLCaDTAn262vH3B7yb0STDDtGmDw=="/>
         </item>
     </channel>
 </rss>
