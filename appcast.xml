@@ -35,5 +35,255 @@
 
             <enclosure url="https://github.com/AppitStudio/extra-dock-updates/releases/download/v4.3.8/extraDock.dmg" length="13654870" type="application/octet-stream" sparkle:edSignature="C1tpSGN3Q9judpYHeQ3lIuYaX8SaiYnYZ4Zd6cLE6j1eZJqLgYEbGqYRR6YLCaDTAn262vH3B7yb0STDDtGmDw=="/>
         </item>
+        <item>
+            <title>4.3.7</title>
+            <pubDate>Wed, 19 Aug 2026 19:00:07 +0300</pubDate>
+            <sparkle:version>437</sparkle:version>
+            <sparkle:shortVersionString>4.3.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>
+                https://appitstudio.github.io/extra-dock-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <description><![CDATA[
+
+        <h2>ExtraDock 4.3.7 – Battery Widget & Dock Fixes! 🔋🛠️</h2>
+
+        <h3>✨ What's New</h3>
+        <ul>
+            <li><strong>Bluetooth Battery Widget:</strong> See the charge level of your AirPods, Magic Keyboard, Mouse, Trackpad and other Bluetooth accessories right in your dock!</li>
+            <li><strong>Bigger Collapse Button Text:</strong> Use up to 5 characters or emoji on the collapse button, with a new Big text size option!</li>
+            <li><strong>ExtraDock 5 Is Here:</strong> On macOS 26 and later you can upgrade to ExtraDock 5 for free with your existing license — it imports all your docks and settings!</li>
+        </ul>
+
+        <h3>🐞 Bug Fixes</h3>
+        <ul>
+            <li><strong>Dock Stays Centered:</strong> Undocking a laptop or waking from sleep no longer leaves your dock stuck to the left edge!</li>
+            <li><strong>Steam Opens Properly:</strong> Clicking Steam (and other self-updating apps) now activates the app instead of opening a Finder window!</li>
+            <li><strong>Live Dock Catches Up:</strong> Apps that take a while to launch now show up in Live Dock instead of going missing!</li>
+        </ul>
+
+        <h3>🚀 What's Next?</h3>
+        <p>We're always working on making ExtraDock more powerful and intuitive! More features and improvements are on the way based on your feedback!</p>
+
+        <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraDock community! Your feedback drives every improvement we make.</em></p>
+            ]]></description>
+
+            <enclosure url="https://github.com/AppitStudio/extra-dock-updates/releases/download/v4.3.7/extraDock.dmg" length="13534931" type="application/octet-stream" sparkle:edSignature="upJIhbDpiP6q/AQFvqrUnpBAmYd7uPt3PlOmfI7sJwOLTTbuyVGT361I9pO5TzQqS6/zuUrp/7eCDYvfLHwUCA=="/>
+        </item>
+        <item>
+            <title>4.3.5</title>
+            <pubDate>Sat, 15 Aug 2026 16:35:14 +0300</pubDate>
+            <sparkle:version>435</sparkle:version>
+            <sparkle:shortVersionString>4.3.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>https://appitstudio.github.io/extra-dock-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <enclosure url="https://github.com/AppitStudio/extra-dock-updates/releases/download/v4.3.5/extraDock.dmg" length="13264202" type="application/octet-stream" sparkle:edSignature="L3/SJyHfBwRr/5fNdWrErhfV3RdlJvrhTFKxlkcT2qSoiCGJiOtxq4kG/egHPwwUBqK52jLe95OzRRCHX1BQCQ=="/>
+        </item>
+        <item>
+            <title>4.3.4</title>
+            <pubDate>Thu, 13 Aug 2026 15:24:00 +0300</pubDate>
+            <sparkle:version>434</sparkle:version>
+            <sparkle:shortVersionString>4.3.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>https://appitstudio.github.io/extra-dock-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <enclosure url="https://github.com/AppitStudio/extra-dock-updates/releases/download/v4.3.4/extraDock.dmg" length="13262083" type="application/octet-stream" sparkle:edSignature="VaIzxDdfg+jpsKiLBkPDBvNkBtKDY9QhB7aPkTBCVfj/WNxqQu2V8BNhJlywau/NBVdIyl1CiLRqecfRMUY4BQ=="/>
+        </item>
+        <item>
+            <title>4.3.3</title>
+            <pubDate>Tue, 28 Jul 2026 12:57:35 +0300</pubDate>
+            <sparkle:version>433</sparkle:version>
+            <sparkle:shortVersionString>4.3.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>https://appitstudio.github.io/extra-dock-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <enclosure url="https://github.com/AppitStudio/extra-dock-updates/releases/download/v4.3.3/extraDock.dmg" length="13301784" type="application/octet-stream" sparkle:edSignature="Pf2A5fjDrjCXk7IRRlW5Bl4C5ENypt0/aZpOtBHkHN1wIUcE/dTqwru3Tt89rdLcjuYkZ/VZvHXYp/4LcPHYBQ=="/>
+        </item>
+        <item>
+            <title>4.3.2</title>
+            <pubDate>Fri, 17 Jul 2026 14:25:26 +0300</pubDate>
+            <sparkle:version>432</sparkle:version>
+            <sparkle:shortVersionString>4.3.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>https://appitstudio.github.io/extra-dock-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <enclosure url="https://github.com/AppitStudio/extra-dock-updates/releases/download/v4.3.2/extraDock.dmg" length="13261532" type="application/octet-stream" sparkle:edSignature="xOswGmgtk11GMLbRVgpxwKpR2apC9aXPH5VIuXX97tI++TteOY2t5Noz6IOYzZup5uc5DQvNwkxwRnSzx4RJBw=="/>
+        </item>
+        <item>
+            <title>4.3.1</title>
+            <pubDate>Wed, 08 Jul 2026 16:22:28 +0300</pubDate>
+            <sparkle:version>431</sparkle:version>
+            <sparkle:shortVersionString>4.3.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>https://appitstudio.github.io/extra-dock-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <enclosure url="https://github.com/AppitStudio/extra-dock-updates/releases/download/v4.3.1/extraDock.dmg" length="13063837" type="application/octet-stream" sparkle:edSignature="aS2qScgbM6Bi8TD9B6Ras+GGbrGLA+NHhkCPCnYmN/cKLVglAFRowgT0cJ8sBs6C5a5Bbyg2ZTrFYpUbXuX3Cg=="/>
+        </item>
+        <item>
+            <title>4.3.0</title>
+            <pubDate>Thu, 18 Jun 2026 13:24:33 +0300</pubDate>
+            <sparkle:version>430</sparkle:version>
+            <sparkle:shortVersionString>4.3.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>https://appitstudio.github.io/extra-dock-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <enclosure url="https://github.com/AppitStudio/extra-dock-updates/releases/download/v4.3.0/extraDock.dmg" length="12520146" type="application/octet-stream" sparkle:edSignature="/Dw62VgoeDVUv2X6I0ZXa+EMGn0JnGXfa5jb/XdqLU5knTAm8rDBY20g+0BXtijgkEZu0aoaUOkGkk6XR2A9Dw=="/>
+        </item>
+        <item>
+            <title>4.2.9</title>
+            <pubDate>Fri, 12 Jun 2026 15:50:00 +0300</pubDate>
+            <sparkle:version>429</sparkle:version>
+            <sparkle:shortVersionString>4.2.9</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>11.5</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>https://appitstudio.github.io/extra-dock-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <enclosure url="https://github.com/AppitStudio/extra-dock-updates/releases/download/v4.2.9/extraDock.dmg" length="11870540" type="application/octet-stream" sparkle:edSignature="YaW/LJ7I+r/6hErQ4+2LpGtNM4Wm+hjfku7QyOrddmkbWcxI3XezNPDMih8IxNUlLBf5+KMI0jPs4Xv2u5kiDw=="/>
+        </item>
+        <item>
+            <title>4.2.8</title>
+            <pubDate>Tue, 09 Jun 2026 14:25:13 +0300</pubDate>
+            <sparkle:version>428</sparkle:version>
+            <sparkle:shortVersionString>4.2.8</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>11.5</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>https://appitstudio.github.io/extra-dock-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <enclosure url="https://github.com/AppitStudio/extra-dock-updates/releases/download/v4.2.8/extraDock.dmg" length="11842557" type="application/octet-stream" sparkle:edSignature="iysOvWW/WhlD4OaE748zfk/+Cj9XWPIefFfpjTxAFXGZ2+y9pehNXW12PAmbbNbhBIrZ23susPCtyTD2c75VCg=="/>
+        </item>
+        <item>
+            <title>4.2.7</title>
+            <pubDate>Sat, 23 May 2026 19:11:15 +0300</pubDate>
+            <sparkle:version>427</sparkle:version>
+            <sparkle:shortVersionString>4.2.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>11.5</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>https://appitstudio.github.io/extra-dock-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <enclosure url="https://github.com/AppitStudio/extra-dock-updates/releases/download/v4.2.7/extraDock.dmg" length="11468916" type="application/octet-stream" sparkle:edSignature="oGj9WN8DEeNYgOpdrpt6LN3PLn1u3trebdDdBVkfd5ptloPHV/sSHLioJtyiaIn3SDQTZVv9Iwnoj1rB0jGbDw=="/>
+        </item>
+        <item>
+            <title>4.2.6</title>
+            <pubDate>Wed, 13 May 2026 19:59:47 +0300</pubDate>
+            <sparkle:version>426</sparkle:version>
+            <sparkle:shortVersionString>4.2.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>11.5</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>https://appitstudio.github.io/extra-dock-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <enclosure url="https://github.com/AppitStudio/extra-dock-updates/releases/download/v4.2.6/extraDock.dmg" length="11340942" type="application/octet-stream" sparkle:edSignature="8peFkrUlfkzR7BZMso7OCJM17nG8AXx1iFy2ZmCqU2Um1DuUsRHFoXJMRt3diXF9rYsXJUze1SA1HwT9eKlCDg=="/>
+        </item>
+        <item>
+            <title>4.2.5</title>
+            <pubDate>Wed, 06 May 2026 18:14:03 +0300</pubDate>
+            <sparkle:version>425</sparkle:version>
+            <sparkle:shortVersionString>4.2.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>11.5</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>https://appitstudio.github.io/extra-dock-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <enclosure url="https://github.com/AppitStudio/extra-dock-updates/releases/download/v4.2.5/extraDock.dmg" length="10300230" type="application/octet-stream" sparkle:edSignature="NlykBJX5SR2m39fShRH5UpHOx2vG8Mt+06FmiExMhO5rBd7aiyXfdP3Do/YZAh02CbONglBsRyMFKon9JNz+BA=="/>
+        </item>
+        <item>
+            <title>4.2.4</title>
+            <pubDate>Tue, 21 Apr 2026 18:55:00 +0300</pubDate>
+            <sparkle:version>424</sparkle:version>
+            <sparkle:shortVersionString>4.2.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>11.5</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>https://appitstudio.github.io/extra-dock-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <enclosure url="https://github.com/AppitStudio/extra-dock-updates/releases/download/v4.2.4/extraDock.dmg" length="10195350" type="application/octet-stream" sparkle:edSignature="mHkqEaU5VFa4DKyKaSW9/r/vbnEtX6gQ4eUwRBKQd1ABc35NrjEl2cfMtyiH2mmougxAqq1HJtM0g0d3wykwDw=="/>
+        </item>
+        <item>
+            <title>4.2.3</title>
+            <pubDate>Fri, 10 Apr 2026 15:16:17 +0300</pubDate>
+            <sparkle:version>423</sparkle:version>
+            <sparkle:shortVersionString>4.2.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>11.5</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>https://appitstudio.github.io/extra-dock-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <enclosure url="https://github.com/AppitStudio/extra-dock-updates/releases/download/v4.2.3/extraDock.dmg" length="10016884" type="application/octet-stream" sparkle:edSignature="3LDcA/o322ZHScEaQzKGiTD3UwpmgCrjnbNO1mocRzkGMvI2e0ufTVKUdGdD3jqYTPK0mHA27nZLeC86r2ElDw=="/>
+        </item>
+        <item>
+            <title>4.2.2</title>
+            <pubDate>Sat, 04 Apr 2026 18:42:09 +0300</pubDate>
+            <sparkle:version>422</sparkle:version>
+            <sparkle:shortVersionString>4.2.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>11.5</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>https://appitstudio.github.io/extra-dock-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <enclosure url="https://github.com/AppitStudio/extra-dock-updates/releases/download/v4.2.2/extraDock.dmg" length="9770123" type="application/octet-stream" sparkle:edSignature="Ti2Bhgzekk27WxhprisV5+HpblVsvs0VAZtg+z5lRspsRy6rC27+7PRiWfghI0EqhxAWsBeLBriHhjfJwZpLCw=="/>
+        </item>
+        <item>
+            <title>4.2.1</title>
+            <pubDate>Thu, 02 Apr 2026 19:25:52 +0300</pubDate>
+            <sparkle:version>421</sparkle:version>
+            <sparkle:shortVersionString>4.2.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>11.5</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>https://appitstudio.github.io/extra-dock-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <enclosure url="https://github.com/AppitStudio/extra-dock-updates/releases/download/v4.2.1/extraDock.dmg" length="9743821" type="application/octet-stream" sparkle:edSignature="KL58uZ7HMmw7y1oQGESyyJm4N+AkxwwCxaJr8rZ/scRXv6FJmmfeNpytNNRbWh3KcCbaXSI6ROf6VIMxertqBA=="/>
+        </item>
+        <item>
+            <title>4.2.0</title>
+            <pubDate>Tue, 31 Mar 2026 13:14:29 +0300</pubDate>
+            <sparkle:version>420</sparkle:version>
+            <sparkle:shortVersionString>4.2.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>11.5</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>https://appitstudio.github.io/extra-dock-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <enclosure url="https://github.com/AppitStudio/extra-dock-updates/releases/download/v4.2.0/extraDock.dmg" length="8323660" type="application/octet-stream" sparkle:edSignature="wrHCaO+E5rxUiXc0zgPkf5JDDRH4tgfs5ZiAmuS71HlSjIg2zVvxudBQPiAiFAlFYxxArS8aUvdQxVNatOcGBw=="/>
+        </item>
+        <item>
+            <title>4.1.9</title>
+            <pubDate>Sat, 21 Mar 2026 15:19:43 +0200</pubDate>
+            <sparkle:version>419</sparkle:version>
+            <sparkle:shortVersionString>4.1.9</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>11.5</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>https://appitstudio.github.io/extra-dock-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <enclosure url="https://github.com/AppitStudio/extra-dock-updates/releases/download/v4.1.9/extraDock.dmg" length="8237676" type="application/octet-stream" sparkle:edSignature="nEw0P+Dwi1BjesI6RrqgxiRdfK29e0eKog19+pd/0mk3nZhDZCoUZV3kOkUvz/3afc9/ARgnt42/rr5re6MnBQ=="/>
+        </item>
+        <item>
+            <title>4.1.8</title>
+            <pubDate>Sat, 14 Mar 2026 20:44:12 +0200</pubDate>
+            <sparkle:version>418</sparkle:version>
+            <sparkle:shortVersionString>4.1.8</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>11.5</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>https://appitstudio.github.io/extra-dock-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <enclosure url="https://github.com/AppitStudio/extra-dock-updates/releases/download/v4.1.8/extraDock.dmg" length="8156926" type="application/octet-stream" sparkle:edSignature="WwzEHuEkgHkvetXe69bXrsacKy1Wxp7iIdw68onLLx7ihnRTa/ycF6uJ3iKn/4A1ikHQbOAM2WA4m9xZKvR1DA=="/>
+        </item>
+        <item>
+            <title>4.1.7</title>
+            <pubDate>Mon, 09 Mar 2026 16:18:55 +0200</pubDate>
+            <sparkle:version>417</sparkle:version>
+            <sparkle:shortVersionString>4.1.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>11.5</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>https://appitstudio.github.io/extra-dock-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <enclosure url="https://github.com/AppitStudio/extra-dock-updates/releases/download/v4.1.7/extraDock.dmg" length="8115050" type="application/octet-stream" sparkle:edSignature="cFptKFwPTPRlI/1ZWhqLZVxHEFBjUFAeG9y+epuC6GyDeMfQtLVnBsuSJ3Du0bkgxl9fb3x3Pn/r1BSAoCaiCg=="/>
+        </item>
+        <item>
+            <title>4.1.6</title>
+            <pubDate>Sun, 22 Feb 2026 22:01:05 +0200</pubDate>
+            <sparkle:version>416</sparkle:version>
+            <sparkle:shortVersionString>4.1.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>11.5</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>https://appitstudio.github.io/extra-dock-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <enclosure url="https://github.com/AppitStudio/extra-dock-updates/releases/download/v4.1.6/extraDock.dmg" length="7749360" type="application/octet-stream" sparkle:edSignature="VZ3N6PSeS6gDL2+JtwuQ9mLTVLWS6RSQfA/Glao8hsyy6MJtsVFNQL+iMBQWPUfRNc1vtQmybcJL7JjaNvjiBA=="/>
+        </item>
+        <item>
+            <title>4.1.5</title>
+            <pubDate>Sun, 08 Feb 2026 22:04:50 +0200</pubDate>
+            <sparkle:version>415</sparkle:version>
+            <sparkle:shortVersionString>4.1.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>11.5</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>https://appitstudio.github.io/extra-dock-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <enclosure url="https://github.com/AppitStudio/extra-dock-updates/releases/download/v4.1.5/extraDock.dmg" length="7538978" type="application/octet-stream" sparkle:edSignature="D9OTd9GKcsB1zkNSG8KoHv9LvFibFIEgbn8sJS0CpngxMyOTJtOSog87LWzNLDtwDRBUlipZzb0hv7pJAF9kAQ=="/>
+        </item>
+        <item>
+            <title>4.1.4</title>
+            <pubDate>Sun, 08 Feb 2026 01:17:02 +0200</pubDate>
+            <sparkle:version>414</sparkle:version>
+            <sparkle:shortVersionString>4.1.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>11.5</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>https://appitstudio.github.io/extra-dock-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <enclosure url="https://github.com/AppitStudio/extra-dock-updates/releases/download/v4.1.4/extraDock.dmg" length="7401757" type="application/octet-stream" sparkle:edSignature="8kQhGE0PWw6JOBJK05L66J5l/Gghd0SG94lGeQR/nSUKXMgjgcogNeXmxpvclB3mNlr86KlISZzzOwzYv8p5Dw=="/>
+        </item>
+        <item>
+            <title>4.1.3</title>
+            <pubDate>Sat, 07 Feb 2026 15:07:11 +0200</pubDate>
+            <sparkle:version>413</sparkle:version>
+            <sparkle:shortVersionString>4.1.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>11.5</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>https://appitstudio.github.io/extra-dock-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <enclosure url="https://github.com/AppitStudio/extra-dock-updates/releases/download/v4.1.3/extraDock.dmg" length="7399927" type="application/octet-stream" sparkle:edSignature="UuoQvM2JaFGP4K0OFl2MS05x8jpY+1jvyM+xGxh+M/+z8SyvcJBjCdmd7p8wzDeusLTiietvlW7xDQL8BwBTCQ=="/>
+        </item>
+        <item>
+            <title>4.1.2</title>
+            <pubDate>Wed, 21 Jan 2026 19:33:29 +0200</pubDate>
+            <sparkle:version>412</sparkle:version>
+            <sparkle:shortVersionString>4.1.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>11.5</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>https://appitstudio.github.io/extra-dock-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <enclosure url="https://github.com/AppitStudio/extra-dock-updates/releases/download/v4.1.2/extraDock.dmg" length="7414884" type="application/octet-stream" sparkle:edSignature="OW28LLBGPq/S7MZNzFN0kPnTOpKJm78WfbihHxornIPiE0BlUUt4NniwUwID6/UYZjum9eNJzKm7Pcv9u/7IBg=="/>
+        </item>
     </channel>
 </rss>
