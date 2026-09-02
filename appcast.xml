@@ -3,6 +3,33 @@
     <channel>
         <title>ExtraDock</title>
         <item>
+            <title>4.3.12</title>
+            <pubDate>Wed, 02 Sep 2026 18:36:14 +0300</pubDate>
+            <sparkle:version>4312</sparkle:version>
+            <sparkle:shortVersionString>4.3.12</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>
+                https://appitstudio.github.io/extra-dock-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <description><![CDATA[
+
+        <h2>ExtraDock 4.3.12 - Your Docks Are Back! 🔧✨</h2>
+
+        <h3>🐞 Bug Fixes</h3>
+        <ul>
+            <li><strong>Your docks are back:</strong> A license check added in 4.3.11 could hide your menu bar icon, windows and every dock until it finished - and sometimes it never did. It now fails safely, so your docks stay right where they belong!</li>
+            <li><strong>Settings always reachable:</strong> The menu bar icon and management window stay available even when license verification is slow, offline, or unavailable!</li>
+            <li><strong>No more launch freezes:</strong> License checks no longer stall the app on startup, fixing multi-second hangs!</li>
+        </ul>
+
+        <h3>🚀 What's Next?</h3>
+        <p>We're always working on making ExtraDock more powerful and intuitive! More features and improvements are on the way based on your feedback!</p>
+
+        <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraDock community! Your feedback drives every improvement we make.</em></p>
+            ]]></description>
+
+            <enclosure url="https://github.com/AppitStudio/extra-dock-updates/releases/download/v4.3.12/extraDock.dmg" length="14338211" type="application/octet-stream" sparkle:edSignature="wZrfOEayZX/zBg/1ytj4C8mO/CLcWX1rEfmr07IysZ6XdTgAkLbpvdfEwvUCm6P3CFkiUNiCy6e22FwXkZYyCQ=="/>
+        </item>
+        <item>
             <title>4.3.11</title>
             <pubDate>Tue, 01 Sep 2026 07:14:37 +0300</pubDate>
             <sparkle:version>4311</sparkle:version>
