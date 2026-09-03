@@ -1,6 +1,8 @@
-VERSION: 4.3.12
+VERSION: 4.3.13
 DETAILS:
 
-bug fix: Docks, windows and the menu bar icon no longer stay hidden when the 4.3.11 license check does not complete
-bug fix: Menu bar icon and management window stay reachable when license verification is slow, offline, or unavailable
-bug fix: License checks no longer stall the app on launch
+bug fix: Docks are no longer hidden when a license cannot be confirmed - only an explicit version block still withholds them
+bug fix: The eye icon, menu bar toggle and hotkeys always act on a show request instead of being silently dropped
+bug fix: Clicking the menu bar icon with a missing or denied license opens Settings > License
+bug fix: Docks are restored immediately when a version block is lifted mid-session
+improved: Settings summary export gains a Licensing section and per-dock hidden reasons for faster support
