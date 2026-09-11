@@ -1,9 +1,11 @@
-VERSION: 4.3.14
+VERSION: 4.3.16
 DETAILS:
 
-new: Notch layout mode - a per-dock Layout switch (Dock | Notch) renders the dock as a pure-black notch welded to the top, left or right screen edge (bottom when the native Dock is hidden), always pinned and centered
-new: The notch folds to a small pill at rest and unfolds on hover, with idle modes Show, Pill or Hidden and adjustable hover delays
-new: A top notch welds to the physical top of the screen and merges with a MacBook's hardware notch
-new: Dock Manager gains Layout and Notch sections with an edge picker constrained to edges a notch can use
-bug fix: The menu bar menu (Quit, Manager, Check for Updates) stays available when licensing cannot be configured; the licensing state is shown in the menu header
-bug fix: Check for Updates falls back to the cached license instead of returning an empty update when the licensing token is unavailable
+new: Smooth native-style icon magnification - icons swell as the pointer moves along the dock and settle back as it leaves; Live Dock and Space Awareness apps magnify too, other widgets and controls slide aside; on by default at 1.5x with Maximum size and Falloff radius controls in Dock Properties
+new: Live Clock and Calendar icons - a Clock item shows the current time (refreshed every second) and a Calendar item shows today's date (flips at local midnight); a custom icon still takes precedence
+new: Drag handle placement setting per dock - Automatic, Screen edge, Inward, Left/Top or Right/Bottom
+improved: Sharper icons at every size - icons keep vector/IconServices representations and are rendered at full hover size so magnification never enlarges base-size pixels
+improved: Notification badges are attached to the icon artwork and follow hover magnification, drop-target enlargement and the launch bounce
+improved: Hovering across a Live Dock no longer re-scans every running app or rebuilds context menus on every pointer move
+bug fix: Docks, item labels and hover previews stay on screen through Hide Others and Cmd+H
+bug fix: Widgets inside a Notch layout dock follow the notch surface color and stay readable in Light appearance
