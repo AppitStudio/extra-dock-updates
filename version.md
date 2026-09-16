@@ -1,11 +1,9 @@
-VERSION: 4.3.16
+VERSION: 4.3.18
 DETAILS:
 
-new: Smooth native-style icon magnification - icons swell as the pointer moves along the dock and settle back as it leaves; Live Dock and Space Awareness apps magnify too, other widgets and controls slide aside; on by default at 1.5x with Maximum size and Falloff radius controls in Dock Properties
-new: Live Clock and Calendar icons - a Clock item shows the current time (refreshed every second) and a Calendar item shows today's date (flips at local midnight); a custom icon still takes precedence
-new: Drag handle placement setting per dock - Automatic, Screen edge, Inward, Left/Top or Right/Bottom
-improved: Sharper icons at every size - icons keep vector/IconServices representations and are rendered at full hover size so magnification never enlarges base-size pixels
-improved: Notification badges are attached to the icon artwork and follow hover magnification, drop-target enlargement and the launch bounce
-improved: Hovering across a Live Dock no longer re-scans every running app or rebuilds context menus on every pointer move
-bug fix: Docks, item labels and hover previews stay on screen through Hide Others and Cmd+H
-bug fix: Widgets inside a Notch layout dock follow the notch surface color and stay readable in Light appearance
+new: Browse pinned folders beside the dock in Grid, List or Fan with per-folder view options (icon size, columns, labels, hidden files, sort order) saved with the folder; browser drags copy and never overwrite; "On click" can still open the folder in Finder
+new: Native Finder-style App Stack browser with click/Cmd/Shift selection, arrow keys, Back into sub-folders, Quick Look, drag and drop and a full context menu (Open, Reveal in Finder, Get Info, Copy, Cut, Paste, Rename, Tags, Duplicate, Compress, Move to Trash); per-stack grid size from 3x3 to 8x8; file operations are checked up front and never overwrite
+new: IP widget shows public and/or local addresses per adapter with an adapter picker; an unplugged adapter reads Disconnected; local-only mode never contacts the internet; click copies all addresses, the context menu copies one
+new: App Connections (Settings > Integrations) lets DockFlow read, show, hide and follow your docks through the Talk SDK after an explicit, code-verified pairing; DockFlow can open the request with permissions pre-ticked; access can be reviewed, changed or removed at any time
+improved: Live Dock mirrors the native Dock's regular and small spacers at the right positions across refreshes and reorders
+improved: Minimum macOS is now 12.4 (Talk SDK requirement); Macs on 12.0 to 12.3 keep their current version
