@@ -5,6 +5,7 @@ on:
     paths:
       - appcast.xml
       - scripts/sync_keyper_releases.py
+      - scripts/register_keyper_beta.py
       - .github/workflows/register-keyper-releases.yml
   push:
     branches:
@@ -12,6 +13,9 @@ on:
     paths:
       - appcast.xml
   workflow_dispatch:
+  release:
+    types:
+      - published
 
 permissions:
   contents: read
@@ -22,6 +26,7 @@ concurrency:
 
 jobs:
   validate-and-register:
+    if: github.event_name != 'release'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
@@ -35,3 +40,14 @@ jobs:
           KEYPER_RELEASE_TOKEN: ${{ secrets.KEYPER_RELEASE_TOKEN }}
           KEYPER_RELEASE_ENDPOINT: ${{ vars.KEYPER_RELEASE_ENDPOINT }}
         run: python3 scripts/sync_keyper_releases.py --appcast appcast.xml
+
+  register-v4-beta:
+    if: github.event_name == 'release' && github.event.release.prerelease && github.event.release.tag_name == 'beta'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - name: Register published beta with Keyper
+        env:
+          KEYPER_RELEASE_TOKEN: ${{ secrets.KEYPER_RELEASE_TOKEN }}
+          KEYPER_RELEASE_ENDPOINT: ${{ vars.KEYPER_RELEASE_ENDPOINT }}
+        run: python3 scripts/register_keyper_beta.py
