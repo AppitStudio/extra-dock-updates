@@ -1,12 +1,9 @@
-VERSION: 4.3.23
+VERSION: 4.4.2
 DETAILS:
 
-new: Notch-style docks keep the leading, center or trailing position you choose on any edge, so one edge can hold up to three notch docks
-new: Settings and the dock menu offer a per-edge alignment and mark positions another notch dock already uses
-new: Changing a notch dock's position animates (fold, fade, move, unfold); instant with Reduce Motion
-improved: Only a top-center notch dock merges with the camera notch; top-left and top-right notch docks sit just below the menu bar
-improved: Magnification is now opt-in (off by default, per dock in the Manager under Appearance); docks with adjusted magnification keep their setting
-bug fix: Docks are no longer cut off after collapsing/expanding or after adding, removing or resizing items and widgets
-bug fix: Collapsed docks no longer block clicks on macOS 15 and earlier
-bug fix: Top-pinned docks stay at the top and stay clickable with magnification on
-bug fix: A top notch dock no longer lands under the menu bar after a display change
+new: Liquid Glass dock background (Clear or Frosted) on macOS 26+, drawn with the system Dock glass and unaffected by app focus
+new: Hide on Window Hover — per-dock option that fades the dock out while another app's window overlaps it, with click-through while hidden
+new: AI assistant control (MCP) in Settings → Integrations → AI Assistants, with a bundled ExtraDock Assistant skill for Claude Code and Codex
+new: Approval prompts for destructive AI changes, Allow for This Session, and an opt-in YOLO mode
+new: Talk Integrations library — ExtraDock, ExtraBar and DockFlow discover each other without pairing codes and reconnect after restarts
+new: Apps with access list to review permissions or remove a connected app's access
