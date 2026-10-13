@@ -1,9 +1,14 @@
-VERSION: 4.4.2
+VERSION: 4.4.4
 DETAILS:
 
-new: Liquid Glass dock background (Clear or Frosted) on macOS 26+, drawn with the system Dock glass and unaffected by app focus
-new: Hide on Window Hover — per-dock option that fades the dock out while another app's window overlaps it, with click-through while hidden
-new: AI assistant control (MCP) in Settings → Integrations → AI Assistants, with a bundled ExtraDock Assistant skill for Claude Code and Codex
-new: Approval prompts for destructive AI changes, Allow for This Session, and an opt-in YOLO mode
-new: Talk Integrations library — ExtraDock, ExtraBar and DockFlow discover each other without pairing codes and reconnect after restarts
-new: Apps with access list to review permissions or remove a connected app's access
+new: Dock Edit Mode — docks are locked by default; right-click › Edit Dock to reorder, remove or pin items, finish with the floating Save button, Done Editing, Escape or Return; drops on Trash, Shelf, folders and apps always go to that target
+new: New Window with Profile in the right-click menu of Chrome, Brave, Edge, Vivaldi and Chromium (incl. Beta/Dev/Canary)
+new: Liquid Glass dock background before macOS 26, drawn with ExtraDock's own glass
+improved: Smoother notch fold/unfold
+improved: Far fewer idle wakeups; background checks pause while the Mac or displays sleep
+improved: Diagnostics → Export Logs includes a Software updates section (personal details removed) that pinpoints where an update stopped
+bug fix: No phantom badges from iPhone Mirroring/Handoff; word badges show; "99+" and "1,234" read correctly; Dock icons, Live Dock and Space Awareness badges agree
+bug fix: Reserve Dock Space no longer moves or resizes a window while that app's menu is open
+bug fix: Dock that drew its icons but ignored clicks after being hidden (macOS 15, two docks)
+bug fix: Crash when a "Show on all screens" dock copy closed or when importing docks from a backup
+bug fix: Folded notch pill no longer opens over browser tabs on displays without a camera notch
