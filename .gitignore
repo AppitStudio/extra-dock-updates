@@ -2,3 +2,5 @@
 .idea
 .claude/
 *.dmg
+dmg/appcast.xml
+.DS_Store
