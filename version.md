@@ -1,6 +1,7 @@
-VERSION: 4.4.7
+VERSION: 4.4.8
 DETAILS:
 
+bug fix: Quick Look from a pinned folder takes Space (close) and the arrows instead of the app in front
 new: Pinned folder popup with file previews, Space for Quick Look, optional close after dragging a file out
 new: AI Assistants: Claude Desktop and ChatGPT (Codex)
 improved: A declined Keychain dialog is no longer asked again every launch (license and Appit account)
