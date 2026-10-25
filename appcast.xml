@@ -3,6 +3,48 @@
     <channel>
         <title>ExtraDock</title>
         <item>
+            <title>4.4.7</title>
+            <pubDate>Sun, 25 Oct 2026 22:25:08 +0200</pubDate>
+            <sparkle:version>4470</sparkle:version>
+            <sparkle:shortVersionString>4.4.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.4</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>
+                https://appitstudio.github.io/extra-dock-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <description><![CDATA[
+
+        <h2>ExtraDock 4.4.7 - Steadier, Quieter &amp; Smarter Folders! 🛠️📂✨</h2>
+
+        <h3>✨ What's New</h3>
+        <ul>
+            <li><strong>Folder popup previews:</strong> Pinned folders show file previews, press Space for Quick Look, and can optionally close after you drag a file out!</li>
+            <li><strong>AI Assistants:</strong> Add ExtraDock to Claude Desktop and ChatGPT (Codex) right from Settings!</li>
+        </ul>
+
+        <h3>🚀 Improvements</h3>
+        <ul>
+            <li><strong>No repeated Keychain prompts:</strong> If you decline a Keychain dialog, ExtraDock no longer asks again on every launch, for your license and your Appit account sign-in alike!</li>
+            <li><strong>Choosers open smoothly:</strong> Picking folders, apps, icons and files opens without freezing the dock!</li>
+            <li><strong>Faster popovers:</strong> The folder View Options popover opens faster!</li>
+            <li><strong>Lighter:</strong> File Shelf cloud sync writes its log with less work!</li>
+        </ul>
+
+        <h3>🐛 Bug Fixes</h3>
+        <ul>
+            <li><strong>Quit means quit:</strong> The AI assistant helper no longer launches ExtraDock every time a Claude session starts!</li>
+            <li><strong>Reserve Dock Space:</strong> It no longer gets stuck or freezes the dock when an app is slow to answer!</li>
+            <li><strong>More stable:</strong> Fixed crashes in fullscreen detection and in background checks of running apps, with extra safety for macOS 27!</li>
+        </ul>
+
+        <h3>🚀 What's Next?</h3>
+        <p>We're always working on making ExtraDock more powerful and intuitive! More features and improvements are on the way based on your feedback!</p>
+
+        <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraDock community! Your feedback drives every improvement we make.</em></p>
+
+]]></description>
+
+            <enclosure url="https://github.com/AppitStudio/extra-dock-updates/releases/download/v4.4.7/extraDock.dmg" length="19382023" type="application/octet-stream" sparkle:edSignature="wNk+Pw1bixqy6/79hKHlc6ftmjvV25OT8L2w4WtV7cjotyScVQvUPEFi9UGTwCHYElkJYDKb4CqZWN9Jh4fcBw=="/>
+        </item>
+        <item>
             <title>4.4.6</title>
             <pubDate>Fri, 23 Oct 2026 14:08:13 +0300</pubDate>
             <sparkle:version>4460</sparkle:version>
