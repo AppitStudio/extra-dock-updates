@@ -1,13 +1,11 @@
-VERSION: 4.4.8
+VERSION: 4.4.11
 DETAILS:
 
-bug fix: Quick Look from a pinned folder takes Space (close) and the arrows instead of the app in front
-new: Pinned folder popup with file previews, Space for Quick Look, optional close after dragging a file out
-new: AI Assistants: Claude Desktop and ChatGPT (Codex)
-improved: A declined Keychain dialog is no longer asked again every launch (license and Appit account)
-improved: Folder, app, icon and file choosers open without freezing the dock
-improved: Faster folder View Options popover
-improved: Lighter File Shelf cloud sync log
-bug fix: The AI assistant helper no longer launches ExtraDock every time a Claude session starts
-bug fix: Reserve Dock Space no longer gets stuck or freezes the dock
-bug fix: Crash fixes in fullscreen detection and background running-app checks, macOS 27 hardening
+new: Show at Screen Edge While Hidden: rest the pointer on the screen edge to bring back a dock hidden by a fullscreen app or maximized window
+new: Right-click New App Stack with / Add to App Stack, anytime
+new: Settings → License → Manage Devices… opens your licenses page in Appit Services
+improved: Dock menus open beside the item instead of at the pointer (macOS 14.4+)
+bug fix: Dock menus open right away even when another app is slow to hand over the clipboard
+bug fix: Two copies of the same app (e.g. Photoshop 2025 and 2026) each show their own running dot and open the right copy
+bug fix: Trash count keeps updating when macOS stops answering the Automation check
+bug fix: Settings windows no longer save an old copy over changes made while they were open
