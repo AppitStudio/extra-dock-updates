@@ -3,6 +3,30 @@
     <channel>
         <title>ExtraDock</title>
         <item>
+            <title>4.4.17</title>
+            <pubDate>Thu, 19 Nov 2026 16:15:12 +0200</pubDate>
+            <sparkle:version>44170</sparkle:version>
+            <sparkle:shortVersionString>4.4.17</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.4</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>
+                https://appitstudio.github.io/extra-dock-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <description><![CDATA[
+        <h2>ExtraDock 4.4.17 - Important Fixes! 🔑🛠️</h2>
+
+        <p>An important fix update. We recommend it for everyone on 4.4.16.</p>
+
+        <h3>🐛 Bug Fixes</h3>
+        <ul>
+            <li><strong>Your license works right away:</strong> With a valid license, clicking, scrolling or dropping files on your docks no longer opens the "Activate ExtraDock" window. ExtraDock 4.4.16 could mistake an active license for a missing one when it started, and Refresh License only helped until the next launch. This is fixed!</li>
+            <li><strong>No more crash with text widgets:</strong> Setting the IP, Stripe or another text widget to the Monospace font could make ExtraDock quit unexpectedly on some Macs. These widgets now always find a font to use!</li>
+        </ul>
+
+        <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraDock community! Your feedback drives every improvement we make.</em></p>
+            ]]></description>
+
+            <enclosure url="https://github.com/AppitStudio/extra-dock-updates/releases/download/v4.4.17/extraDock.dmg" length="21383366" type="application/octet-stream" sparkle:edSignature="erRAm1+xYn+eY8dEkk7RPUvWbjnfbWzbzAsN+M2TgxnMEfvMDgqXc/3yk0ebiOeXJyuWYItX/eUXQ9gAsMwMCg=="/>
+        </item>
+        <item>
             <title>4.4.16</title>
             <pubDate>Tue, 17 Nov 2026 16:56:47 +0200</pubDate>
             <sparkle:version>44160</sparkle:version>
