@@ -1,5 +1,18 @@
-VERSION: 4.4.17
+VERSION: 4.4.20
 DETAILS:
 
-bug fix: Your license works right away: With a valid license, clicking, scrolling or dropping files on your docks no longer opens the "Activate ExtraDock" window. ExtraDock 4.4.16 could mistake an active license for a missing one when it started, and Refresh License only helped until the next launch
-bug fix: No more crash with text widgets: Setting the IP, Stripe or another text widget to the Monospace font could make ExtraDock quit unexpectedly on some Macs. These widgets now always find a font to use
+new: Show Windows Separately: Right-click an app on your dock (or open Manager › Items) and turn on "Show Windows Separately". Each open window of that app gets its own dock item right after the app, up to 10 windows, including windows on other desktops. Click one to bring that exact window to the front, and minimized windows show dimmed. It's off by default, works per app, and also works for app icons in a Live Dock widget
+new: Close Window from the dock: A window item's right-click menu has Close Window. The app still asks you to save unsaved changes, so nothing is ever force-closed
+new: Search in Settings: A search field at the top of the Settings sidebar finds any setting by name or description. Pick a result and Settings jumps straight to it and highlights it. Dock settings open the Manager on that dock
+new: Docks go back to normal when a Focus ends: ExtraDock's Focus filter can show or hide docks when a macOS Focus turns on. Now you can also have those docks put back the way they were when the Focus ends. Docks you showed or hid yourself during the Focus stay as you set them. Turn it on in Settings › Behavior › Focus with "Restore Docks When Focus Ends" (off by default). The "Open Focus Settings…" button there takes you straight to where you add the ExtraDock Focus filter. Needs macOS 13 or later
+new: Liquid Glass tones: Liquid Glass now comes in Clear, Light, Dark and Automatic. Dark is a new deeper look, and Automatic follows your Mac's Light or Dark appearance as it changes. New docks start on Automatic, and your existing docks keep exactly the look they have today (Frosted is now called Light)
+new: Bluetooth Battery shows charging: A device that's charging shows a green bolt, and its tooltip says "Charging"
+new: Drag files onto a running app: Hold a dragged file over a running app's icon for a moment and the app comes to the front, just like the macOS Dock, so you can drop straight into its windows
+improved: Faster Settings: Switching pages and opening search results is instant, and changing a setting or dragging a slider stays smooth
+improved: TamaDocky uses almost no CPU: Your pet animates just as before, but now rests while the dock is covered, the screen is locked or the display sleeps
+improved: Fewer small pauses: Launching or quitting apps, switching to ExtraDock, or opening the Talk Integration page no longer makes ExtraDock pause for a moment
+improved: Trash updates right away, even for iCloud Drive: After you empty the Trash, the Trash widget updates within a few seconds, also for files deleted from iCloud Drive or other cloud folders, with no new permission prompts
+bug fix: Reserve Dock Space leaves a window you're dragging alone: With "Active on Drag" off, a window you held with the mouse could jump away from the pointer, for example while dragging it to another screen. ExtraDock now waits until you let go
+bug fix: Settings and the Manager open on the desktop you're using: Opening them from a dock on another desktop no longer switches you back to the desktop where they were first opened. The same goes for About and the Trash browser
+bug fix: Each copy of an app gets its own Live Dock icon: Apps that run more than one copy of themselves (like Wormhole's Remote Window) used to share one icon and one menu. Each now has its own
+bug fix: Shift-click stays on your desktop: When an app's window is on a desktop you can't see, Shift-clicking its icon used to switch you to that desktop. Shift-click now stays put and plays a short beep instead, since macOS doesn't let ExtraDock bring that window over. A normal click still takes you to the window

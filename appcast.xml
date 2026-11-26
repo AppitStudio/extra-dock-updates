@@ -3,6 +3,52 @@
     <channel>
         <title>ExtraDock</title>
         <item>
+            <title>4.4.20</title>
+            <pubDate>Thu, 26 Nov 2026 11:38:42 +0200</pubDate>
+            <sparkle:version>44200</sparkle:version>
+            <sparkle:shortVersionString>4.4.20</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.4</sparkle:minimumSystemVersion>
+            <sparkle:fullReleaseNotesLink>
+                https://appitstudio.github.io/extra-dock-updates/release-notes.html</sparkle:fullReleaseNotesLink>
+            <description><![CDATA[
+        <h2>ExtraDock 4.4.20 - Window Items, Settings Search &amp; Focus Restore! 🪟🔍</h2>
+
+        <h3>🆕 What's New</h3>
+        <ul>
+            <li><strong>Show Windows Separately:</strong> Right-click an app on your dock (or open Manager › Items) and turn on "Show Windows Separately". Each open window of that app gets its own dock item right after the app, up to 10 windows, including windows on other desktops. Click one to bring that exact window to the front, and minimized windows show dimmed. It's off by default, works per app, and also works for app icons in a Live Dock widget!</li>
+            <li><strong>Close Window from the dock:</strong> A window item's right-click menu has Close Window. The app still asks you to save unsaved changes, so nothing is ever force-closed!</li>
+            <li><strong>Search in Settings:</strong> A search field at the top of the Settings sidebar finds any setting by name or description. Pick a result and Settings jumps straight to it and highlights it. Dock settings open the Manager on that dock!</li>
+            <li><strong>Docks go back to normal when a Focus ends:</strong> ExtraDock's Focus filter can show or hide docks when a macOS Focus turns on. Now you can also have those docks put back the way they were when the Focus ends. Docks you showed or hid yourself during the Focus stay as you set them. Turn it on in Settings › Behavior › Focus with "Restore Docks When Focus Ends" (off by default). The "Open Focus Settings…" button there takes you straight to where you add the ExtraDock Focus filter. Needs macOS 13 or later!</li>
+            <li><strong>Liquid Glass tones:</strong> Liquid Glass now comes in Clear, Light, Dark and Automatic. Dark is a new deeper look, and Automatic follows your Mac's Light or Dark appearance as it changes. New docks start on Automatic, and your existing docks keep exactly the look they have today (Frosted is now called Light)!</li>
+            <li><strong>Bluetooth Battery shows charging:</strong> A device that's charging shows a green bolt, and its tooltip says "Charging"!</li>
+            <li><strong>Drag files onto a running app:</strong> Hold a dragged file over a running app's icon for a moment and the app comes to the front, just like the macOS Dock, so you can drop straight into its windows!</li>
+        </ul>
+
+        <h3>✨ Improvements</h3>
+        <ul>
+            <li><strong>Faster Settings:</strong> Switching pages and opening search results is instant, and changing a setting or dragging a slider stays smooth!</li>
+            <li><strong>TamaDocky uses almost no CPU:</strong> Your pet animates just as before, but now rests while the dock is covered, the screen is locked or the display sleeps!</li>
+            <li><strong>Fewer small pauses:</strong> Launching or quitting apps, switching to ExtraDock, or opening the Talk Integration page no longer makes ExtraDock pause for a moment!</li>
+            <li><strong>Trash updates right away, even for iCloud Drive:</strong> After you empty the Trash, the Trash widget updates within a few seconds, also for files deleted from iCloud Drive or other cloud folders, with no new permission prompts!</li>
+        </ul>
+
+        <h3>🐛 Bug Fixes</h3>
+        <ul>
+            <li><strong>Reserve Dock Space leaves a window you're dragging alone:</strong> With "Active on Drag" off, a window you held with the mouse could jump away from the pointer, for example while dragging it to another screen. ExtraDock now waits until you let go!</li>
+            <li><strong>Settings and the Manager open on the desktop you're using:</strong> Opening them from a dock on another desktop no longer switches you back to the desktop where they were first opened. The same goes for About and the Trash browser!</li>
+            <li><strong>Each copy of an app gets its own Live Dock icon:</strong> Apps that run more than one copy of themselves (like Wormhole's Remote Window) used to share one icon and one menu. Each now has its own!</li>
+            <li><strong>Shift-click stays on your desktop:</strong> When an app's window is on a desktop you can't see, Shift-clicking its icon used to switch you to that desktop. Shift-click now stays put and plays a short beep instead, since macOS doesn't let ExtraDock bring that window over. A normal click still takes you to the window!</li>
+        </ul>
+
+        <h3>What's Next?</h3>
+        <p>We're always working on making ExtraDock more powerful and intuitive! More features and improvements are on the way based on your feedback!</p>
+
+        <p style="margin-top: 20px;"><em>Thank you for being part of the ExtraDock community! Your feedback drives every improvement we make.</em></p>
+            ]]></description>
+
+            <enclosure url="https://github.com/AppitStudio/extra-dock-updates/releases/download/v4.4.20/extraDock.dmg" length="21884245" type="application/octet-stream" sparkle:edSignature="iMQdTVzFuJrs0vHPJxQnXDLrl3VqFfQEHZpjUa7HNG9z2H896fPdOw5xgW9f8MD408ZlqI06sNCnHWBU1H/uCA=="/>
+        </item>
+        <item>
             <title>4.4.17</title>
             <pubDate>Thu, 19 Nov 2026 16:15:12 +0200</pubDate>
             <sparkle:version>44170</sparkle:version>
